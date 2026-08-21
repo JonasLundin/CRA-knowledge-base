@@ -4,7 +4,7 @@ An English-language [Open Knowledge Format (OKF)](https://github.com/GoogleCloud
 
 The bundle contains concise original summaries with provision-level citations to primary sources. It does not reproduce full legal instruments, guidance documents, or standards.
 
-Current release: **v0.1.0**
+Current release: **v0.1.1**
 
 > **Draft public preview:** the planned corpus has been populated, but every ingested concept remains `draft` and unverified pending human source review.
 

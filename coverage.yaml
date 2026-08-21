@@ -1,5 +1,5 @@
 version: 1
-release: 0.1.0
+release: 0.1.1
 baseline: '2026-08-21'
 coverage_status: complete
 review_status: unverified
