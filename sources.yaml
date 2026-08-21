@@ -1,0 +1,2629 @@
+version: 1
+checked_at: '2026-08-21T00:00:00Z'
+total_sources: 264
+sources:
+  cra-art-3:
+    id: cra-art-3
+    title: Regulation (EU) 2024/2847, Article 3
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_3
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - glossary/actively-exploited-vulnerability
+    - glossary/authorised-representative
+    - glossary/ce-marking
+    - glossary/common-specification
+    - glossary/component
+    - glossary/conformity-assessment
+    - glossary/distributor
+    - glossary/economic-operator
+    - glossary/hardware
+    - glossary/harmonised-standard
+    - glossary/importer
+    - glossary/making-available-on-the-market
+    - glossary/manufacturer
+    - glossary/notified-body
+    - glossary/open-source-software-steward
+    - glossary/placing-on-the-market
+    - glossary/product-with-digital-elements
+    - glossary/remote-data-processing
+    - glossary/severe-incident
+    - glossary/software-bill-of-materials
+    - glossary/software
+    - glossary/substantial-modification
+    - glossary/support-period
+    - law/eu/cra/articles/article-3
+    - obligations/importers-and-distributors/distributor
+    - obligations/importers-and-distributors/importer
+    - obligations/manufacturers/authorised-representative
+    - obligations/manufacturers/manufacturer
+    - obligations/manufacturers/support-period
+    - obligations/open-source/open-source-software-steward
+    - obligations/scope/remote-data-processing
+    - obligations/scope/substantial-modification
+    - obligations/vulnerability-handling/software-bill-of-materials
+  cra-art-29:
+    id: cra-art-29
+    title: Regulation (EU) 2024/2847, Article 29
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_29
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - glossary/ce-marking
+    - law/eu/cra/articles/article-29
+    - obligations/manufacturers/ce-marking
+  cra-art-27:
+    id: cra-art-27
+    title: Regulation (EU) 2024/2847, Article 27
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_27
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - glossary/common-specification
+    - glossary/harmonised-standard
+    - law/eu/cra/articles/article-27
+    - law/eu/related-legislation/reg-1025-2012-standardisation
+    - law/eu/related-legislation/reg-2019-881-cybersecurity-act
+    - law/eu/related-legislation/reg-2024-482-eucc
+    - standards/process/how-cra-standards-are-built
+    - timeline/transitional-support-and-certificate-expiry
+  cra-art-32:
+    id: cra-art-32
+    title: Regulation (EU) 2024/2847, Article 32
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_32
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - glossary/conformity-assessment
+    - law/eu/cra/articles/article-32
+    - law/eu/related-legislation/decision-768-2008-ec-conformity-modules
+    - law/eu/related-legislation/reg-2019-881-cybersecurity-act
+    - law/eu/related-legislation/reg-2024-1689-ai-act
+    - law/eu/related-legislation/reg-2024-482-eucc
+    - obligations/conformity-assessment/conformity-routes
+    - obligations/conformity-assessment/module-a-internal-control
+    - obligations/conformity-assessment/module-b-and-c-type-examination
+    - obligations/conformity-assessment/module-h-full-quality-assurance
+    - products/critical/hardware-devices-with-security-boxes
+    - products/critical/smart-meter-gateways-critical
+    - products/critical/smartcards-and-secure-elements
+    - products/default/default-products
+    - products/important-class-i/anti-malware-software
+    - products/important-class-i/boot-managers
+    - products/important-class-i/firewalls-and-idps-class-i
+    - products/important-class-i/identity-management-systems
+    - products/important-class-i/internet-connected-toys
+    - products/important-class-i/microprocessors-and-microcontrollers
+    - products/important-class-i/network-management-systems
+    - products/important-class-i/operating-systems
+    - products/important-class-i/password-managers
+    - products/important-class-i/personal-wearables
+    - products/important-class-i/physical-and-virtual-network-interfaces
+    - products/important-class-i/pki-and-certificate-software
+    - products/important-class-i/routers-modems-switches
+    - products/important-class-i/siem-systems
+    - products/important-class-i/smart-home-general-purpose-assistants
+    - products/important-class-i/smart-home-security-products
+    - products/important-class-i/standalone-browsers
+    - products/important-class-i/tamper-resistant-hardware
+    - products/important-class-i/vpn-products
+    - products/important-class-ii/firewalls-and-idps
+    - products/important-class-ii/hardware-security-modules
+    - products/important-class-ii/industrial-automation-control-systems
+    - products/important-class-ii/industrial-iot-devices
+    - products/important-class-ii/operating-systems-class-ii
+    - products/important-class-ii/routers-modems-switches-class-ii
+    - products/important-class-ii/smart-meter-gateways
+    - products/important-class-ii/tamper-evident-microprocessors
+  reg-1025-2012:
+    id: reg-1025-2012
+    title: Regulation (EU) No 1025/2012 on European Standardisation
+    resource: http://data.europa.eu/eli/reg/2012/1025/oj/eng
+    author: European Parliament and Council
+    last_modified: '2012-10-25 00:00:00+00:00'
+    used_by:
+    - glossary/harmonised-standard
+    - law/eu/related-legislation/reg-1025-2012-standardisation
+    - standards/process/how-cra-standards-are-built
+  cra-art-35:
+    id: cra-art-35
+    title: Regulation (EU) 2024/2847, Article 35
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_35
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - glossary/notified-body
+    - law/eu/cra/articles/article-35
+    - obligations/conformity-assessment/notified-bodies
+    - timeline/notified-bodies-application
+  cra-art-14:
+    id: cra-art-14
+    title: Regulation (EU) 2024/2847, Article 14
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_14
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - glossary/single-reporting-platform
+    - law/eu/cra/articles/article-14
+    - law/eu/related-legislation/dir-2022-2555-nis2
+    - law/eu/related-legislation/reg-2019-881-cybersecurity-act
+    - obligations/reporting/article-14-reporting
+    - obligations/reporting/early-warning-24h
+    - obligations/reporting/final-report-one-month
+    - obligations/reporting/intermediate-report-14d
+    - obligations/reporting/severe-incident-notification-72h
+    - obligations/reporting/srp-routing-and-dissemination
+    - obligations/reporting/user-notifications
+    - obligations/reporting/vulnerability-notification-72h
+    - timeline/article-14-reporting-application
+  enisa-srp-docs:
+    id: enisa-srp-docs
+    title: ENISA Single Reporting Platform Documentation
+    resource: https://www.enisa.europa.eu/topics/product-security/single-reporting-platform-srp
+    author: ENISA
+    last_modified: '2026-03-01 00:00:00+00:00'
+    used_by:
+    - glossary/single-reporting-platform
+    - obligations/reporting/article-14-reporting
+    - obligations/reporting/early-warning-24h
+    - obligations/reporting/final-report-one-month
+    - obligations/reporting/intermediate-report-14d
+    - obligations/reporting/severe-incident-notification-72h
+    - obligations/reporting/srp-routing-and-dissemination
+    - obligations/reporting/vulnerability-notification-72h
+    - timeline/article-14-reporting-application
+  enisa-cra-factsheet:
+    id: enisa-cra-factsheet
+    title: ENISA Factsheet - The Cyber Resilience Act
+    resource: https://www.enisa.europa.eu/publications/cyber-resilience-act-factsheet
+    author: European Union Agency for Cybersecurity (ENISA)
+    last_modified: '2025-04-10 00:00:00+00:00'
+    used_by:
+    - guidance/enisa/cra-factsheet
+  enisa-standards-mapping:
+    id: enisa-standards-mapping
+    title: Cyber Resilience Act Requirements - Standards Mapping Study
+    resource: https://www.enisa.europa.eu/publications/cyber-resilience-act-requirements-standards-mapping
+    author: European Union Agency for Cybersecurity (ENISA)
+    last_modified: '2024-11-25 00:00:00+00:00'
+    used_by:
+    - guidance/enisa/cra-standards-mapping
+  enisa-notified-bodies:
+    id: enisa-notified-bodies
+    title: Competence Criteria and Assessment Framework for Notified Bodies under
+      the Cyber Resilience Act
+    resource: https://www.enisa.europa.eu/topics/product-security/notified-bodies-competence
+    author: European Union Agency for Cybersecurity (ENISA)
+    last_modified: '2026-04-12 00:00:00+00:00'
+    used_by:
+    - guidance/enisa/notified-body-competence
+  enisa-sbd-guidance:
+    id: enisa-sbd-guidance
+    title: Engineering Cybersecurity by Design and by Default for the Cyber Resilience
+      Act
+    resource: https://www.enisa.europa.eu/publications/cybersecurity-by-design-in-cyber-resilience-act
+    author: European Union Agency for Cybersecurity (ENISA)
+    last_modified: '2025-10-28 00:00:00+00:00'
+    used_by:
+    - guidance/enisa/secure-by-design-guidance
+  enisa-srp-hub:
+    id: enisa-srp-hub
+    title: Single Reporting Platform (SRP) for the Cyber Resilience Act
+    resource: https://www.enisa.europa.eu/topics/product-security/single-reporting-platform-srp
+    author: European Union Agency for Cybersecurity (ENISA)
+    last_modified: '2026-07-01 00:00:00+00:00'
+    used_by:
+    - guidance/enisa/single-reporting-platform
+  enisa-srp-registration:
+    id: enisa-srp-registration
+    title: Single Reporting Platform - Entity Onboarding and User Registration Guidance
+    resource: https://www.enisa.europa.eu/topics/product-security/single-reporting-platform-srp/user-registration-guidance
+    author: European Union Agency for Cybersecurity (ENISA)
+    last_modified: '2026-06-20 00:00:00+00:00'
+    used_by:
+    - guidance/enisa/srp-assigned-representative-registration
+  enisa-srp-faq:
+    id: enisa-srp-faq
+    title: Single Reporting Platform - Frequently Asked Questions
+    resource: https://www.enisa.europa.eu/topics/product-security/single-reporting-platform-srp/faq
+    author: European Union Agency for Cybersecurity (ENISA)
+    last_modified: '2026-07-15 00:00:00+00:00'
+    used_by:
+    - guidance/enisa/srp-faq
+  enisa-srp-api-guide:
+    id: enisa-srp-api-guide
+    title: Single Reporting Platform - Technical Interface and API Integration Specifications
+    resource: https://www.enisa.europa.eu/topics/product-security/single-reporting-platform-srp/interface-guidance
+    author: European Union Agency for Cybersecurity (ENISA)
+    last_modified: '2026-07-22 00:00:00+00:00'
+    used_by:
+    - guidance/enisa/srp-interface-guidance
+  enisa-srp-notification:
+    id: enisa-srp-notification
+    title: Single Reporting Platform - Notification Submission and Lifecycle Management
+      Guidance
+    resource: https://www.enisa.europa.eu/topics/product-security/single-reporting-platform-srp/notification-guidance
+    author: European Union Agency for Cybersecurity (ENISA)
+    last_modified: '2026-07-08 00:00:00+00:00'
+    used_by:
+    - guidance/enisa/srp-notification-submission-and-updates
+  ec-c-2026-5252:
+    id: ec-c-2026-5252
+    title: Commission Communication C(2026) 5252 final - Guidelines on the application
+      of Regulation (EU) 2024/2847
+    resource: https://digital-strategy.ec.europa.eu/en/library/commission-publishes-new-guidance-support-timely-cyber-resilience-act-implementation
+    author: European Commission
+    last_modified: '2026-06-18 00:00:00+00:00'
+    used_by:
+    - guidance/european-commission/c-2026-5252-cra-guidance
+  ec-cra-conformity:
+    id: ec-cra-conformity
+    title: Cyber Resilience Act - Conformity Assessment Procedures and Notified Bodies
+    resource: https://digital-strategy.ec.europa.eu/en/policies/cra-conformity-assessment
+    author: European Commission
+    last_modified: '2026-05-30 00:00:00+00:00'
+    used_by:
+    - guidance/european-commission/conformity-assessment-guidance
+  ec-cra-faq:
+    id: ec-cra-faq
+    title: Cyber Resilience Act Implementation - Frequently Asked Questions
+    resource: https://digital-strategy.ec.europa.eu/en/library/cyber-resilience-act-implementation-frequently-asked-questions
+    author: European Commission
+    last_modified: '2026-07-10 00:00:00+00:00'
+    used_by:
+    - guidance/european-commission/implementation-faq
+    - obligations/open-source/non-commercial-foss-developers
+    - obligations/open-source/open-source-software-steward
+    - obligations/reporting/user-notifications
+    - obligations/scope/commercial-activity
+    - obligations/scope/product-scope
+    - obligations/scope/remote-data-processing
+  ec-cra-hub:
+    id: ec-cra-hub
+    title: Cyber Resilience Act Implementation Factpage
+    resource: https://digital-strategy.ec.europa.eu/en/factpages/cyber-resilience-act-implementation
+    author: European Commission
+    last_modified: '2026-08-01 00:00:00+00:00'
+    used_by:
+    - guidance/european-commission/implementation-hub
+  eurlex-cra-summary:
+    id: eurlex-cra-summary
+    title: Summary of Regulation (EU) 2024/2847 on horizontal cybersecurity requirements
+      for products with digital elements
+    resource: https://eur-lex.europa.eu/EN/legal-content/summary/cyber-resilience-act.html
+    author: Publications Office of the European Union
+    last_modified: '2024-12-15 00:00:00+00:00'
+    used_by:
+    - guidance/european-commission/legislative-summary
+  ec-cra-manufacturers:
+    id: ec-cra-manufacturers
+    title: Cyber Resilience Act - Guidance for Manufacturers
+    resource: https://digital-strategy.ec.europa.eu/en/policies/cra-manufacturers
+    author: European Commission
+    last_modified: '2026-05-14 00:00:00+00:00'
+    used_by:
+    - guidance/european-commission/manufacturers-guidance
+  ec-cra-member-states:
+    id: ec-cra-member-states
+    title: Cyber Resilience Act - Guidance for Member States and National Authorities
+    resource: https://digital-strategy.ec.europa.eu/en/policies/cra-member-states
+    author: European Commission
+    last_modified: '2026-04-20 00:00:00+00:00'
+    used_by:
+    - guidance/european-commission/member-states-guidance
+  ec-cra-open-source:
+    id: ec-cra-open-source
+    title: Cyber Resilience Act - Open Source Software Guidance and Stewardship
+    resource: https://digital-strategy.ec.europa.eu/en/policies/cra-open-source
+    author: European Commission
+    last_modified: '2026-06-18 00:00:00+00:00'
+    used_by:
+    - guidance/european-commission/open-source-guidance
+  ec-cra-reporting:
+    id: ec-cra-reporting
+    title: Cyber Resilience Act - Vulnerability and Incident Reporting Overview
+    resource: https://digital-strategy.ec.europa.eu/en/policies/cra-reporting
+    author: European Commission
+    last_modified: '2026-06-25 00:00:00+00:00'
+    used_by:
+    - guidance/european-commission/reporting-guidance
+  ec-cra-smes:
+    id: ec-cra-smes
+    title: Cyber Resilience Act - Dedicated Support and Guidance for SMEs and Start-ups
+    resource: https://digital-strategy.ec.europa.eu/en/policies/cra-smes
+    author: European Commission
+    last_modified: '2026-05-18 00:00:00+00:00'
+    used_by:
+    - guidance/european-commission/smes-guidance
+  ec-cra-standardisation:
+    id: ec-cra-standardisation
+    title: Cyber Resilience Act - Standardisation and Harmonised Standards
+    resource: https://digital-strategy.ec.europa.eu/en/policies/cra-standardisation
+    author: European Commission
+    last_modified: '2026-06-05 00:00:00+00:00'
+    used_by:
+    - guidance/european-commission/standardisation-guidance
+  anssi-cra-guide:
+    id: anssi-cra-guide
+    title: Règlement européen sur la cyber-résilience (CRA) - Présentation et accompagnement
+      des acteurs
+    resource: https://cyber.gouv.fr/actualites/reglement-europeen-sur-la-cyber-resilience-cra
+    author: Agence nationale de la sécurité des systèmes d'information (ANSSI)
+    last_modified: '2026-04-18 00:00:00+00:00'
+    used_by:
+    - guidance/national-authorities/france-anssi-cra-guidance
+  bsi-cra-guide:
+    id: bsi-cra-guide
+    title: Cyber Resilience Act (CRA) - Informationen und Handlungsempfehlungen des
+      BSI
+    resource: https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Cyber-Resilience-Act/cyber-resilience-act_node.html
+    author: Federal Office for Information Security (BSI)
+    last_modified: '2026-05-22 00:00:00+00:00'
+    used_by:
+    - guidance/national-authorities/germany-bsi-cra-guidance
+  dtc-cra-guide:
+    id: dtc-cra-guide
+    title: Cyber Resilience Act (CRA) - Wat betekent dit voor uw organisatie?
+    resource: https://www.digitaltrustcenter.nl/kennis/cyber-resilience-act-cra
+    author: Digital Trust Center (Ministry of Economic Affairs and Climate Policy)
+    last_modified: '2026-05-10 00:00:00+00:00'
+    used_by:
+    - guidance/national-authorities/netherlands-dtc-cra-guidance
+  cra-regulation:
+    id: cra-regulation
+    title: Regulation (EU) 2024/2847 (Cyber Resilience Act)
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng
+    author: European Parliament and Council of the European Union
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eea/iceland
+    - jurisdictions/eea/liechtenstein
+    - jurisdictions/eea/norway
+    - jurisdictions/eu-member-states/austria
+    - jurisdictions/eu-member-states/belgium
+    - jurisdictions/eu-member-states/bulgaria
+    - jurisdictions/eu-member-states/croatia
+    - jurisdictions/eu-member-states/cyprus
+    - jurisdictions/eu-member-states/czechia
+    - jurisdictions/eu-member-states/denmark
+    - jurisdictions/eu-member-states/estonia
+    - jurisdictions/eu-member-states/finland
+    - jurisdictions/eu-member-states/france
+    - jurisdictions/eu-member-states/germany
+    - jurisdictions/eu-member-states/greece
+    - jurisdictions/eu-member-states/hungary
+    - jurisdictions/eu-member-states/ireland
+    - jurisdictions/eu-member-states/italy
+    - jurisdictions/eu-member-states/latvia
+    - jurisdictions/eu-member-states/lithuania
+    - jurisdictions/eu-member-states/luxembourg
+    - jurisdictions/eu-member-states/malta
+    - jurisdictions/eu-member-states/netherlands
+    - jurisdictions/eu-member-states/poland
+    - jurisdictions/eu-member-states/portugal
+    - jurisdictions/eu-member-states/romania
+    - jurisdictions/eu-member-states/slovakia
+    - jurisdictions/eu-member-states/slovenia
+    - jurisdictions/eu-member-states/spain
+    - jurisdictions/eu-member-states/sweden
+  efta-eea-lex:
+    id: efta-eea-lex
+    title: EFTA Secretariat EEA-Lex Database
+    resource: https://www.efta.int/eea-lex
+    author: European Free Trade Association (EFTA) Secretariat
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eea/iceland
+    - jurisdictions/eea/liechtenstein
+    - jurisdictions/eea/norway
+  is-stjorn:
+    id: is-stjorn
+    title: Government Gazette of Iceland (Stjórnartíðindi)
+    resource: https://www.stjornartidindi.is/
+    author: Ministry of Justice of Iceland
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eea/iceland
+  is-certis:
+    id: is-certis
+    title: CERT-IS - Iceland's National CSIRT
+    resource: https://www.cert.is/
+    author: Fjarskiptastofa
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eea/iceland
+  li-lgbl:
+    id: li-lgbl
+    title: Liechtenstein National Legal Gazette (Liechtensteinisches Landesgesetzblatt
+      - LGBl.)
+    resource: https://www.gesetze.li/
+    author: Government of the Principality of Liechtenstein
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eea/liechtenstein
+  li-csirt:
+    id: li-csirt
+    title: CSIRT.li - National Computer Emergency Response Team Liechtenstein
+    resource: https://csirt.li/
+    author: Office for Communications (Amt für Kommunikation)
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eea/liechtenstein
+  no-lovdata:
+    id: no-lovdata
+    title: Norsk Lovtidend / Lovdata Legal Foundation
+    resource: https://lovdata.no/
+    author: Ministry of Justice and Public Security of Norway
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eea/norway
+  no-nsm:
+    id: no-nsm
+    title: National Security Authority of Norway (NSM / NorCERT)
+    resource: https://nsm.no/
+    author: Nasjonal sikkerhetsmyndighet
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eea/norway
+  ec-cra-ms:
+    id: ec-cra-ms
+    title: Cyber Resilience Act Implementation
+    resource: https://digital-strategy.ec.europa.eu/en/factpages/cyber-resilience-act-implementation
+    author: European Commission
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/austria
+    - jurisdictions/eu-member-states/belgium
+    - jurisdictions/eu-member-states/bulgaria
+    - jurisdictions/eu-member-states/croatia
+    - jurisdictions/eu-member-states/cyprus
+    - jurisdictions/eu-member-states/czechia
+    - jurisdictions/eu-member-states/denmark
+    - jurisdictions/eu-member-states/estonia
+    - jurisdictions/eu-member-states/finland
+    - jurisdictions/eu-member-states/france
+    - jurisdictions/eu-member-states/germany
+    - jurisdictions/eu-member-states/greece
+    - jurisdictions/eu-member-states/hungary
+    - jurisdictions/eu-member-states/ireland
+    - jurisdictions/eu-member-states/italy
+    - jurisdictions/eu-member-states/latvia
+    - jurisdictions/eu-member-states/lithuania
+    - jurisdictions/eu-member-states/luxembourg
+    - jurisdictions/eu-member-states/malta
+    - jurisdictions/eu-member-states/netherlands
+    - jurisdictions/eu-member-states/poland
+    - jurisdictions/eu-member-states/portugal
+    - jurisdictions/eu-member-states/romania
+    - jurisdictions/eu-member-states/slovakia
+    - jurisdictions/eu-member-states/slovenia
+    - jurisdictions/eu-member-states/spain
+    - jurisdictions/eu-member-states/sweden
+  ec-nando-cra:
+    id: ec-nando-cra
+    title: NANDO Information System - CRA Notifying Authorities
+    resource: https://ec.europa.eu/growth/tools-databases/nando/
+    author: European Commission
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/austria
+    - jurisdictions/eu-member-states/belgium
+    - jurisdictions/eu-member-states/bulgaria
+    - jurisdictions/eu-member-states/croatia
+    - jurisdictions/eu-member-states/cyprus
+    - jurisdictions/eu-member-states/czechia
+    - jurisdictions/eu-member-states/denmark
+    - jurisdictions/eu-member-states/estonia
+    - jurisdictions/eu-member-states/finland
+    - jurisdictions/eu-member-states/france
+    - jurisdictions/eu-member-states/germany
+    - jurisdictions/eu-member-states/greece
+    - jurisdictions/eu-member-states/hungary
+    - jurisdictions/eu-member-states/ireland
+    - jurisdictions/eu-member-states/italy
+    - jurisdictions/eu-member-states/latvia
+    - jurisdictions/eu-member-states/lithuania
+    - jurisdictions/eu-member-states/luxembourg
+    - jurisdictions/eu-member-states/malta
+    - jurisdictions/eu-member-states/netherlands
+    - jurisdictions/eu-member-states/poland
+    - jurisdictions/eu-member-states/portugal
+    - jurisdictions/eu-member-states/romania
+    - jurisdictions/eu-member-states/slovakia
+    - jurisdictions/eu-member-states/slovenia
+    - jurisdictions/eu-member-states/spain
+    - jurisdictions/eu-member-states/sweden
+  at-ris:
+    id: at-ris
+    title: Austrian Legal Information System (Rechtsinformationssystem des Bundes
+      - RIS)
+    resource: https://www.ris.bka.gv.at/
+    author: Federal Chancellery of Austria (Bundeskanzleramt)
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/austria
+  at-cert:
+    id: at-cert
+    title: CERT.at - Austrian National Computer Emergency Response Team
+    resource: https://www.cert.at/
+    author: CERT.at
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/austria
+  be-moniteur:
+    id: be-moniteur
+    title: Belgian Official Gazette (Moniteur Belge / Belgisch Staatsblad)
+    resource: https://www.ejustice.just.fgov.be/
+    author: Federal Public Service Justice
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/belgium
+  be-ccb:
+    id: be-ccb
+    title: Centre for Cybersecurity Belgium (CCB / CERT.be)
+    resource: https://ccb.belgium.be/
+    author: Centre for Cybersecurity Belgium
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/belgium
+  bg-dv:
+    id: bg-dv
+    title: State Gazette of the Republic of Bulgaria (Държавен вестник)
+    resource: https://dv.parliament.bg/
+    author: National Assembly of the Republic of Bulgaria
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/bulgaria
+  bg-cert:
+    id: bg-cert
+    title: CERT Bulgaria (National CSIRT)
+    resource: https://govcert.bg/
+    author: Ministry of Electronic Governance
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/bulgaria
+  hr-nn:
+    id: hr-nn
+    title: Official Gazette of the Republic of Croatia (Narodne novine)
+    resource: https://narodne-novine.nn.hr/
+    author: Narodne novine d.d.
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/croatia
+  hr-cert:
+    id: hr-cert
+    title: CERT.hr - National CERT of the Republic of Croatia
+    resource: https://www.cert.hr/
+    author: CARNET
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/croatia
+  cy-gpo:
+    id: cy-gpo
+    title: Official Gazette of the Republic of Cyprus (Επίσημη Εφημερίδα της Κυπριακής
+      Δημοκρατίας)
+    resource: http://www.mof.gov.cy/gpo/
+    author: Government Printing Office of Cyprus
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/cyprus
+  cy-csirt:
+    id: cy-csirt
+    title: CSIRT-CY - National CSIRT of the Republic of Cyprus
+    resource: https://csirt.cy/
+    author: Digital Security Authority (DSA)
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/cyprus
+  cz-sbirka:
+    id: cz-sbirka
+    title: Collection of Laws of the Czech Republic (Sbírka zákonů)
+    resource: https://www.e-sbirka.cz/
+    author: Ministry of the Interior of the Czech Republic
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/czechia
+  cz-nukib:
+    id: cz-nukib
+    title: National Cyber and Information Security Agency (NÚKIB)
+    resource: https://www.nukib.cz/
+    author: NÚKIB
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/czechia
+  dk-retsinfo:
+    id: dk-retsinfo
+    title: Danish Legal Information Portal (Retsinformation / Lovtidende)
+    resource: https://www.retsinformation.dk/
+    author: Civilstyrelsen
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/denmark
+  dk-cfcs:
+    id: dk-cfcs
+    title: Centre for Cyber Security (Center for Cybersikkerhed - CFCS)
+    resource: https://www.cfcs.dk/
+    author: Danish Defence Intelligence Service (Forsvarets Efterretningstjeneste)
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/denmark
+  ee-rt:
+    id: ee-rt
+    title: State Gazette of Estonia (Riigi Teataja)
+    resource: https://www.riigiteataja.ee/
+    author: Ministry of Justice of Estonia
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/estonia
+  ee-ria:
+    id: ee-ria
+    title: Information System Authority (RIA / CERT-EE)
+    resource: https://www.ria.ee/
+    author: Riigi Infosüsteemi Amet
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/estonia
+  fi-finlex:
+    id: fi-finlex
+    title: Finlex Legal Data Bank (Suomen säädöskokoelma)
+    resource: https://www.finlex.fi/
+    author: Ministry of Justice of Finland
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/finland
+  fi-ncsc:
+    id: fi-ncsc
+    title: National Cyber Security Centre Finland (NCSC-FI / Traficom)
+    resource: https://www.kyberturvallisuuskeskus.fi/
+    author: Finnish Transport and Communications Agency Traficom
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/finland
+  fr-legifrance:
+    id: fr-legifrance
+    title: Légifrance - Official Gazette of the French Republic (JORF)
+    resource: https://www.legifrance.gouv.fr/
+    author: Secrétariat général du gouvernement
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/france
+  fr-anssi:
+    id: fr-anssi
+    title: ANSSI / CERT-FR
+    resource: https://cyber.gouv.fr/
+    author: Agence nationale de la sécurité des systèmes d'information
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/france
+  de-bgbl:
+    id: de-bgbl
+    title: Federal Law Gazette (Bundesgesetzblatt - BGBl.)
+    resource: https://www.recht.bund.de/
+    author: Federal Ministry of Justice (Bundesministerium der Justiz)
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/germany
+  de-bsi:
+    id: de-bsi
+    title: Federal Office for Information Security (BSI / CERT-Bund)
+    resource: https://www.bsi.bund.de/
+    author: Bundesamt für Sicherheit in der Informationstechnik
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/germany
+  gr-fek:
+    id: gr-fek
+    title: Government Gazette of the Hellenic Republic (Εφημερίς της Κυβερνήσεως -
+      FEK)
+    resource: https://www.et.gr/
+    author: National Printing House (Εθνικό Τυπογραφείο)
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/greece
+  gr-eak:
+    id: gr-eak
+    title: Hellenic National Cybersecurity Authority (EAK / CSIRT.gov.gr)
+    resource: https://cybersecurity.gov.gr/
+    author: National Cybersecurity Authority
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/greece
+  hu-njt:
+    id: hu-njt
+    title: National Legislation Database (Nemzeti Jogszabálytár / Magyar Közlöny)
+    resource: https://njt.hu/
+    author: Ministry of Justice of Hungary
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/hungary
+  hu-nki:
+    id: hu-nki
+    title: National Cyber Security Center (Nemzeti Kibervédelmi Intézet - NKI)
+    resource: https://nki.gov.hu/
+    author: Special Service for National Security (NBSZ)
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/hungary
+  ie-statute:
+    id: ie-statute
+    title: electronic Irish Statute Book (eISB / Iris Oifigiúil)
+    resource: https://www.irishstatutebook.ie/
+    author: Office of the Attorney General of Ireland
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/ireland
+  ie-ncsc:
+    id: ie-ncsc
+    title: National Cyber Security Centre Ireland (NCSC-IE)
+    resource: https://www.ncsc.gov.ie/
+    author: Department of the Environment, Climate and Communications
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/ireland
+  it-normattiva:
+    id: it-normattiva
+    title: Official Gazette of the Italian Republic (Normattiva / Gazzetta Ufficiale)
+    resource: https://www.normattiva.it/
+    author: Istituto Poligrafico e Zecca dello Stato
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/italy
+  it-acn:
+    id: it-acn
+    title: National Cybersecurity Agency (ACN / CSIRT Italia)
+    resource: https://www.acn.gov.it/
+    author: Agenzia per la Cybersicurezza Nazionale
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/italy
+  lv-likumi:
+    id: lv-likumi
+    title: Legal Acts of the Republic of Latvia (Likumi.lv / Latvijas Vēstnesis)
+    resource: https://likumi.lv/
+    author: Oficiālais izdevējs Latvijas Vēstnesis
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/latvia
+  lv-cert:
+    id: lv-cert
+    title: CERT.LV - Information Technology Security Incident Response Institution
+    resource: https://cert.lv/
+    author: University of Latvia Institute of Mathematics and Computer Science / Ministry
+      of Defence
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/latvia
+  lt-tar:
+    id: lt-tar
+    title: Register of Legal Acts of the Republic of Lithuania (Teisės aktų registras
+      - TAR)
+    resource: https://www.e-tar.lt/
+    author: Office of the Seimas of the Republic of Lithuania
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/lithuania
+  lt-nksc:
+    id: lt-nksc
+    title: National Cyber Security Centre (NKSC / CERT-LT)
+    resource: https://www.nksc.lt/
+    author: Ministry of National Defence of the Republic of Lithuania
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/lithuania
+  lu-legilux:
+    id: lu-legilux
+    title: Official Journal of the Grand Duchy of Luxembourg (Legilux / Mémorial)
+    resource: https://legilux.public.lu/
+    author: Service central de législation
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/luxembourg
+  lu-circl:
+    id: lu-circl
+    title: CIRCL - Computer Incident Response Center Luxembourg
+    resource: https://www.circl.lu/
+    author: security made in Lëtzebuerg (SECURITYMADEIN.LU) / HCPN
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/luxembourg
+  mt-legislation:
+    id: mt-legislation
+    title: Legislation Malta (Gazzetta tal-Gvern ta' Malta)
+    resource: https://legislation.mt/
+    author: Ministry for Justice and Reform of the Construction Sector
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/malta
+  mt-csm:
+    id: mt-csm
+    title: Cyber Security Malta / MITA-CSIRT
+    resource: https://cybersecurity.gov.mt/
+    author: Malta Information Technology Agency (MITA)
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/malta
+  nl-wetten:
+    id: nl-wetten
+    title: Government Gazette of the Netherlands (Wetten.overheid.nl / Staatscourant)
+    resource: https://wetten.overheid.nl/
+    author: Ministry of the Interior and Kingdom Relations
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/netherlands
+  nl-rdi:
+    id: nl-rdi
+    title: Dutch Authority for Digital Infrastructure (RDI)
+    resource: https://www.rdi.nl/
+    author: Rijksinspectie Digitale Infrastructuur
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/netherlands
+  pl-dziennikustaw:
+    id: pl-dziennikustaw
+    title: Journal of Laws of the Republic of Poland (Dziennik Ustaw)
+    resource: https://dziennikustaw.gov.pl/
+    author: Government Legislation Centre (Rządowe Centrum Legislacji)
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/poland
+  pl-cert:
+    id: pl-cert
+    title: CSIRT NASK (CERT Polska)
+    resource: https://cert.pl/
+    author: NASK - National Research Institute
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/poland
+  pt-dre:
+    id: pt-dre
+    title: Diário da República (DRE)
+    resource: https://dre.pt/
+    author: Imprensa Nacional-Casa da Moeda (INCM)
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/portugal
+  pt-cncs:
+    id: pt-cncs
+    title: Centro Nacional de Cibersegurança (CNCS / CERT.PT)
+    resource: https://www.cncs.gov.pt/
+    author: Gabinete Nacional de Segurança
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/portugal
+  ro-monitorul:
+    id: ro-monitorul
+    title: Official Gazette of Romania (Monitorul Oficial al României)
+    resource: https://www.monitoruloficial.ro/
+    author: Regia Autonomă Monitorul Oficial
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/romania
+  ro-dnsc:
+    id: ro-dnsc
+    title: National Cyber Security Directorate (DNSC)
+    resource: https://dnsc.ro/
+    author: Directoratul Național de Securitate Cibernetică
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/romania
+  sk-slovlex:
+    id: sk-slovlex
+    title: Collection of Laws of the Slovak Republic (Slov-Lex / Zbierka zákonov)
+    resource: https://www.slov-lex.sk/
+    author: Ministry of Justice of the Slovak Republic
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/slovakia
+  sk-nbú:
+    id: sk-nbú
+    title: National Security Authority of Slovakia (NBÚ / SK-CERT)
+    resource: https://www.sk-cert.sk/
+    author: Národný bezpečnostný úrad
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/slovakia
+  si-uradnilist:
+    id: si-uradnilist
+    title: Official Gazette of the Republic of Slovenia (Uradni list RS)
+    resource: https://www.uradni-list.si/
+    author: Uradni list Republike Slovenije d.o.o.
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/slovenia
+  si-sicert:
+    id: si-sicert
+    title: SI-CERT (Slovenian Computer Emergency Response Team)
+    resource: https://www.cert.si/
+    author: Arnes
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/slovenia
+  es-boe:
+    id: es-boe
+    title: Official State Gazette of Spain (Boletín Oficial del Estado - BOE)
+    resource: https://www.boe.es/
+    author: Agencia Estatal Boletín Oficial del Estado
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/spain
+  es-incibe:
+    id: es-incibe
+    title: National Cybersecurity Institute of Spain (INCIBE / INCIBE-CERT)
+    resource: https://www.incibe.es/
+    author: Instituto Nacional de Ciberseguridad
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/spain
+  se-sfs:
+    id: se-sfs
+    title: Swedish Code of Statutes (Svensk författningssamling - SFS)
+    resource: https://www.svenskforfattningssamling.se/
+    author: Government of Sweden / Riksdagen
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/sweden
+  se-certse:
+    id: se-certse
+    title: CERT-SE - Sweden's National CSIRT (MSB)
+    resource: https://www.cert.se/
+    author: Myndigheten för samhällsskydd och beredskap (MSB)
+    last_modified: '2026-08-21 00:00:00+00:00'
+    used_by:
+    - jurisdictions/eu-member-states/sweden
+  cra-annex-i-part-1:
+    id: cra-annex-i-part-1
+    title: Regulation (EU) 2024/2847, Annex I Part I
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#ann_i_part_1
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/annexes/annex-i-part-1
+  cra-annex-i-part-2:
+    id: cra-annex-i-part-2
+    title: Regulation (EU) 2024/2847, Annex I Part II
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#ann_i_part_2
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/annexes/annex-i-part-2
+  cra-annex-i:
+    id: cra-annex-i
+    title: Regulation (EU) 2024/2847, Annex I
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#ann_i
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/annexes/annex-i
+  cra-annex-ii:
+    id: cra-annex-ii
+    title: Regulation (EU) 2024/2847, Annex II
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#ann_ii
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/annexes/annex-ii
+  cra-annex-iii:
+    id: cra-annex-iii
+    title: Regulation (EU) 2024/2847, Annex III
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#ann_iii
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/annexes/annex-iii
+  cra-annex-iv:
+    id: cra-annex-iv
+    title: Regulation (EU) 2024/2847, Annex IV
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#ann_iv
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/annexes/annex-iv
+  cra-annex-v:
+    id: cra-annex-v
+    title: Regulation (EU) 2024/2847, Annex V
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#ann_v
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/annexes/annex-v
+  cra-annex-vi:
+    id: cra-annex-vi
+    title: Regulation (EU) 2024/2847, Annex VI
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#ann_vi
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/annexes/annex-vi
+  cra-annex-vii:
+    id: cra-annex-vii
+    title: Regulation (EU) 2024/2847, Annex VII
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#ann_vii
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/annexes/annex-vii
+  cra-annex-viii:
+    id: cra-annex-viii
+    title: Regulation (EU) 2024/2847, Annex VIII
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#ann_viii
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/annexes/annex-viii
+  cra-art-1:
+    id: cra-art-1
+    title: Regulation (EU) 2024/2847, Article 1
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_1
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-1
+  cra-art-10:
+    id: cra-art-10
+    title: Regulation (EU) 2024/2847, Article 10
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_10
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-10
+  cra-art-11:
+    id: cra-art-11
+    title: Regulation (EU) 2024/2847, Article 11
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_11
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-11
+    - law/eu/related-legislation/reg-2023-988-general-product-safety
+  cra-art-12:
+    id: cra-art-12
+    title: Regulation (EU) 2024/2847, Article 12
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_12
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-12
+    - law/eu/related-legislation/reg-2024-1689-ai-act
+  cra-art-13:
+    id: cra-art-13
+    title: Regulation (EU) 2024/2847, Article 13
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_13
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-13
+    - law/eu/related-legislation/dir-2024-2853-product-liability
+    - obligations/importers-and-distributors/modification-and-rebranding
+    - obligations/manufacturers/cybersecurity-risk-assessment
+    - obligations/manufacturers/manufacturer
+    - obligations/manufacturers/security-updates
+    - obligations/manufacturers/support-period
+    - obligations/manufacturers/technical-documentation
+    - obligations/manufacturers/third-party-components
+    - obligations/scope/substantial-modification
+    - obligations/vulnerability-handling/coordinated-vulnerability-disclosure
+    - obligations/vulnerability-handling/vulnerability-handling-requirements
+    - timeline/main-application-date
+  cra-art-15:
+    id: cra-art-15
+    title: Regulation (EU) 2024/2847, Article 15
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_15
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-15
+    - obligations/manufacturers/authorised-representative
+  cra-art-16:
+    id: cra-art-16
+    title: Regulation (EU) 2024/2847, Article 16
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_16
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-16
+    - law/eu/related-legislation/dir-2022-2555-nis2
+    - obligations/importers-and-distributors/importer
+  cra-art-17:
+    id: cra-art-17
+    title: Regulation (EU) 2024/2847, Article 17
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_17
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-17
+    - obligations/importers-and-distributors/distributor
+  cra-art-18:
+    id: cra-art-18
+    title: Regulation (EU) 2024/2847, Article 18
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_18
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-18
+    - obligations/importers-and-distributors/modification-and-rebranding
+    - obligations/scope/substantial-modification
+  cra-art-19:
+    id: cra-art-19
+    title: Regulation (EU) 2024/2847, Article 19
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_19
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-19
+  cra-art-2:
+    id: cra-art-2
+    title: Regulation (EU) 2024/2847, Article 2
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_2
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-2
+    - law/eu/related-legislation/sector-exclusions/dir-2014-90-eu-marine-equipment
+    - law/eu/related-legislation/sector-exclusions/reg-168-2013-l-category-vehicles
+    - law/eu/related-legislation/sector-exclusions/reg-2017-745-medical-devices
+    - law/eu/related-legislation/sector-exclusions/reg-2017-746-in-vitro-diagnostics
+    - law/eu/related-legislation/sector-exclusions/reg-2018-1139-civil-aviation
+    - law/eu/related-legislation/sector-exclusions/reg-2019-2144-motor-vehicles
+    - law/eu/related-legislation/sector-exclusions/reg-2025-1535-l-category-exclusion
+    - obligations/open-source/non-commercial-foss-developers
+    - obligations/scope/commercial-activity
+    - obligations/scope/exclusions
+    - obligations/scope/exemptions-national-security
+    - obligations/scope/product-scope
+    - obligations/scope/remote-data-processing
+  cra-art-20:
+    id: cra-art-20
+    title: Regulation (EU) 2024/2847, Article 20
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_20
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-20
+  cra-art-21:
+    id: cra-art-21
+    title: Regulation (EU) 2024/2847, Article 21
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_21
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-21
+  cra-art-22:
+    id: cra-art-22
+    title: Regulation (EU) 2024/2847, Article 22
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_22
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-22
+    - law/eu/related-legislation/dir-2024-2853-product-liability
+  cra-art-23:
+    id: cra-art-23
+    title: Regulation (EU) 2024/2847, Article 23
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_23
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-23
+  cra-art-24:
+    id: cra-art-24
+    title: Regulation (EU) 2024/2847, Article 24
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_24
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-24
+    - obligations/open-source/open-source-security-attestation
+    - obligations/open-source/open-source-software-steward
+  cra-art-25:
+    id: cra-art-25
+    title: Regulation (EU) 2024/2847, Article 25
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_25
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-25
+  cra-art-26:
+    id: cra-art-26
+    title: Regulation (EU) 2024/2847, Article 26
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_26
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-26
+  cra-art-28:
+    id: cra-art-28
+    title: Regulation (EU) 2024/2847, Article 28
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_28
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-28
+    - law/eu/related-legislation/reg-765-2008-accreditation-ce-marking
+    - obligations/manufacturers/eu-declaration-of-conformity
+  cra-art-30:
+    id: cra-art-30
+    title: Regulation (EU) 2024/2847, Article 30
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_30
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-30
+    - obligations/manufacturers/ce-marking
+  cra-art-31:
+    id: cra-art-31
+    title: Regulation (EU) 2024/2847, Article 31
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_31
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-31
+    - obligations/manufacturers/technical-documentation
+  cra-art-33:
+    id: cra-art-33
+    title: Regulation (EU) 2024/2847, Article 33
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_33
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-33
+  cra-art-34:
+    id: cra-art-34
+    title: Regulation (EU) 2024/2847, Article 34
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_34
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-34
+  cra-art-36:
+    id: cra-art-36
+    title: Regulation (EU) 2024/2847, Article 36
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_36
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-36
+  cra-art-37:
+    id: cra-art-37
+    title: Regulation (EU) 2024/2847, Article 37
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_37
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-37
+  cra-art-38:
+    id: cra-art-38
+    title: Regulation (EU) 2024/2847, Article 38
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_38
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-38
+  cra-art-39:
+    id: cra-art-39
+    title: Regulation (EU) 2024/2847, Article 39
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_39
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-39
+    - law/eu/related-legislation/reg-765-2008-accreditation-ce-marking
+  cra-art-4:
+    id: cra-art-4
+    title: Regulation (EU) 2024/2847, Article 4
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_4
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-4
+  cra-art-40:
+    id: cra-art-40
+    title: Regulation (EU) 2024/2847, Article 40
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_40
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-40
+  cra-art-41:
+    id: cra-art-41
+    title: Regulation (EU) 2024/2847, Article 41
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_41
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-41
+  cra-art-42:
+    id: cra-art-42
+    title: Regulation (EU) 2024/2847, Article 42
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_42
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-42
+  cra-art-43:
+    id: cra-art-43
+    title: Regulation (EU) 2024/2847, Article 43
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_43
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-43
+  cra-art-44:
+    id: cra-art-44
+    title: Regulation (EU) 2024/2847, Article 44
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_44
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-44
+  cra-art-45:
+    id: cra-art-45
+    title: Regulation (EU) 2024/2847, Article 45
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_45
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-45
+  cra-art-46:
+    id: cra-art-46
+    title: Regulation (EU) 2024/2847, Article 46
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_46
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-46
+  cra-art-47:
+    id: cra-art-47
+    title: Regulation (EU) 2024/2847, Article 47
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_47
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-47
+  cra-art-48:
+    id: cra-art-48
+    title: Regulation (EU) 2024/2847, Article 48
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_48
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-48
+  cra-art-49:
+    id: cra-art-49
+    title: Regulation (EU) 2024/2847, Article 49
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_49
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-49
+  cra-art-5:
+    id: cra-art-5
+    title: Regulation (EU) 2024/2847, Article 5
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_5
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-5
+  cra-art-50:
+    id: cra-art-50
+    title: Regulation (EU) 2024/2847, Article 50
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_50
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-50
+  cra-art-51:
+    id: cra-art-51
+    title: Regulation (EU) 2024/2847, Article 51
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_51
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-51
+  cra-art-52:
+    id: cra-art-52
+    title: Regulation (EU) 2024/2847, Article 52
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_52
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-52
+    - law/eu/related-legislation/reg-2019-1020-market-surveillance
+    - obligations/market-surveillance/market-surveillance-framework
+  cra-art-53:
+    id: cra-art-53
+    title: Regulation (EU) 2024/2847, Article 53
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_53
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-53
+    - obligations/market-surveillance/market-surveillance-framework
+  cra-art-54:
+    id: cra-art-54
+    title: Regulation (EU) 2024/2847, Article 54
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_54
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-54
+    - obligations/market-surveillance/corrective-action-and-recall
+  cra-art-55:
+    id: cra-art-55
+    title: Regulation (EU) 2024/2847, Article 55
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_55
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-55
+  cra-art-56:
+    id: cra-art-56
+    title: Regulation (EU) 2024/2847, Article 56
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_56
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-56
+  cra-art-57:
+    id: cra-art-57
+    title: Regulation (EU) 2024/2847, Article 57
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_57
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-57
+    - obligations/market-surveillance/corrective-action-and-recall
+  cra-art-58:
+    id: cra-art-58
+    title: Regulation (EU) 2024/2847, Article 58
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_58
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-58
+    - obligations/market-surveillance/corrective-action-and-recall
+  cra-art-59:
+    id: cra-art-59
+    title: Regulation (EU) 2024/2847, Article 59
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_59
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-59
+  cra-art-6:
+    id: cra-art-6
+    title: Regulation (EU) 2024/2847, Article 6
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_6
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-6
+  cra-art-60:
+    id: cra-art-60
+    title: Regulation (EU) 2024/2847, Article 60
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_60
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-60
+  cra-art-61:
+    id: cra-art-61
+    title: Regulation (EU) 2024/2847, Article 61
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_61
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-61
+  cra-art-62:
+    id: cra-art-62
+    title: Regulation (EU) 2024/2847, Article 62
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_62
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-62
+  cra-art-63:
+    id: cra-art-63
+    title: Regulation (EU) 2024/2847, Article 63
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_63
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-63
+  cra-art-64:
+    id: cra-art-64
+    title: Regulation (EU) 2024/2847, Article 64
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_64
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-64
+    - obligations/market-surveillance/penalties-and-administrative-fines
+  cra-art-65:
+    id: cra-art-65
+    title: Regulation (EU) 2024/2847, Article 65
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_65
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-65
+  cra-art-66:
+    id: cra-art-66
+    title: Regulation (EU) 2024/2847, Article 66
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_66
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-66
+  cra-art-67:
+    id: cra-art-67
+    title: Regulation (EU) 2024/2847, Article 67
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_67
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-67
+    - law/eu/related-legislation/reg-2019-1020-market-surveillance
+  cra-art-68:
+    id: cra-art-68
+    title: Regulation (EU) 2024/2847, Article 68
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_68
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-68
+    - law/eu/related-legislation/dir-2014-53-eu-radio-equipment
+    - law/eu/related-legislation/reg-2022-30-red-cybersecurity
+  cra-art-69:
+    id: cra-art-69
+    title: Regulation (EU) 2024/2847, Article 69
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_69
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-69
+    - law/eu/related-legislation/dir-2020-1828-representative-actions
+    - obligations/scope/transitional-rules
+    - timeline/transitional-support-and-certificate-expiry
+  cra-art-7:
+    id: cra-art-7
+    title: Regulation (EU) 2024/2847, Article 7
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_7
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-7
+  cra-art-70:
+    id: cra-art-70
+    title: Regulation (EU) 2024/2847, Article 70
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_70
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-70
+  cra-art-71:
+    id: cra-art-71
+    title: Regulation (EU) 2024/2847, Article 71
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_71
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-71
+    - obligations/conformity-assessment/notified-bodies
+    - obligations/scope/transitional-rules
+    - timeline/article-14-reporting-application
+    - timeline/entry-into-force
+    - timeline/main-application-date
+    - timeline/notified-bodies-application
+  cra-art-8:
+    id: cra-art-8
+    title: Regulation (EU) 2024/2847, Article 8
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_8
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-8
+  cra-art-9:
+    id: cra-art-9
+    title: Regulation (EU) 2024/2847, Article 9
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_9
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/articles/article-9
+  cra-del-reg-2025-1535:
+    id: cra-del-reg-2025-1535
+    title: Commission Delegated Regulation (EU) 2025/1535
+    resource: http://data.europa.eu/eli/reg_del/2025/1535/oj
+    author: European Commission
+    last_modified: '2025-10-29 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/secondary-legislation/delegated-regulation-eu-2025-1535
+  cra-del-reg-2026-881:
+    id: cra-del-reg-2026-881
+    title: Commission Delegated Regulation (EU) 2026/881
+    resource: http://data.europa.eu/eli/reg_del/2026/881/oj
+    author: European Commission
+    last_modified: '2026-04-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/secondary-legislation/delegated-regulation-eu-2026-881
+  cra-impl-reg-2025-2392:
+    id: cra-impl-reg-2025-2392
+    title: Commission Implementing Regulation (EU) 2025/2392
+    resource: http://data.europa.eu/eli/reg_impl/2025/2392/oj
+    author: European Commission
+    last_modified: '2025-12-01 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/secondary-legislation/implementing-regulation-eu-2025-2392
+  cra-empowerments-register:
+    id: cra-empowerments-register
+    title: Regulation (EU) 2024/2847 Secondary Legislation Register
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/cra/secondary-legislation/register
+  decision-768-2008:
+    id: decision-768-2008
+    title: Decision No 768/2008/EC on a common framework for the marketing of products
+    resource: http://data.europa.eu/eli/dec/2008/768/oj/eng
+    author: European Parliament and Council
+    last_modified: '2008-08-13 00:00:00+00:00'
+    used_by:
+    - law/eu/related-legislation/decision-768-2008-ec-conformity-modules
+  cra-annex-6:
+    id: cra-annex-6
+    title: Regulation (EU) 2024/2847, Annex VI
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#anx_VI
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/related-legislation/decision-768-2008-ec-conformity-modules
+    - obligations/conformity-assessment/conformity-routes
+    - obligations/conformity-assessment/module-a-internal-control
+    - obligations/conformity-assessment/module-b-and-c-type-examination
+    - obligations/conformity-assessment/module-h-full-quality-assurance
+    - products/default/default-products
+  dir-2014-53-eu:
+    id: dir-2014-53-eu
+    title: Directive 2014/53/EU on the harmonisation of the laws of the Member States
+      relating to the making available on the market of radio equipment (RED)
+    resource: http://data.europa.eu/eli/dir/2014/53/oj/eng
+    author: European Parliament and Council
+    last_modified: '2014-05-22 00:00:00+00:00'
+    used_by:
+    - law/eu/related-legislation/dir-2014-53-eu-radio-equipment
+  dir-2020-1828:
+    id: dir-2020-1828
+    title: Directive (EU) 2020/1828 on representative actions for the protection of
+      the collective interests of consumers
+    resource: http://data.europa.eu/eli/dir/2020/1828/oj/eng
+    author: European Parliament and Council
+    last_modified: '2020-12-04 00:00:00+00:00'
+    used_by:
+    - law/eu/related-legislation/dir-2020-1828-representative-actions
+  dir-2022-2555:
+    id: dir-2022-2555
+    title: Directive (EU) 2022/2555 on measures for a high common level of cybersecurity
+      across the Union (NIS2 Directive)
+    resource: http://data.europa.eu/eli/dir/2022/2555/oj/eng
+    author: European Parliament and Council
+    last_modified: '2022-12-27 00:00:00+00:00'
+    used_by:
+    - law/eu/related-legislation/dir-2022-2555-nis2
+  cra-annex-1:
+    id: cra-annex-1
+    title: Regulation (EU) 2024/2847, Annex I
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#anx_I
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - law/eu/related-legislation/dir-2022-2555-nis2
+    - obligations/manufacturers/cybersecurity-risk-assessment
+    - obligations/manufacturers/security-updates
+    - obligations/manufacturers/third-party-components
+    - obligations/vulnerability-handling/coordinated-vulnerability-disclosure
+    - obligations/vulnerability-handling/software-bill-of-materials
+    - obligations/vulnerability-handling/vulnerability-handling-requirements
+    - products/default/default-products
+  dir-2024-2853:
+    id: dir-2024-2853
+    title: Directive (EU) 2024/2853 on liability for defective products and repealing
+      Council Directive 85/374/EEC
+    resource: http://data.europa.eu/eli/dir/2024/2853/oj/eng
+    author: European Parliament and Council
+    last_modified: '2024-11-18 00:00:00+00:00'
+    used_by:
+    - law/eu/related-legislation/dir-2024-2853-product-liability
+  m606-decision:
+    id: m606-decision
+    title: Commission Implementing Decision C(2025) 618 (Standardisation Request M/606)
+    resource: https://ec.europa.eu/transparency/documents-register/detail?ref=C(2025)618&lang=en
+    author: European Commission
+    last_modified: '2025-02-14 00:00:00+00:00'
+    used_by:
+    - law/eu/related-legislation/reg-1025-2012-standardisation
+  reg-2019-1020:
+    id: reg-2019-1020
+    title: Regulation (EU) 2019/1020 on market surveillance and compliance of products
+    resource: http://data.europa.eu/eli/reg/2019/1020/oj/eng
+    author: European Parliament and Council
+    last_modified: '2019-06-20 00:00:00+00:00'
+    used_by:
+    - law/eu/related-legislation/reg-2019-1020-market-surveillance
+    - obligations/market-surveillance/market-surveillance-framework
+  reg-2019-881:
+    id: reg-2019-881
+    title: Regulation (EU) 2019/881 on ENISA and on information and communications
+      technology cybersecurity certification (Cybersecurity Act)
+    resource: http://data.europa.eu/eli/reg/2019/881/oj/eng
+    author: European Parliament and Council
+    last_modified: '2019-04-17 00:00:00+00:00'
+    used_by:
+    - law/eu/related-legislation/reg-2019-881-cybersecurity-act
+    - law/eu/related-legislation/reg-2024-482-eucc
+  reg-2022-30:
+    id: reg-2022-30
+    title: Commission Delegated Regulation (EU) 2022/30 on the application of essential
+      requirements in Article 3(3)(d), (e) and (f) of Directive 2014/53/EU
+    resource: http://data.europa.eu/eli/reg_del/2022/30/oj/eng
+    author: European Commission
+    last_modified: '2022-01-12 00:00:00+00:00'
+    used_by:
+    - law/eu/related-legislation/reg-2022-30-red-cybersecurity
+  reg-2023-2444:
+    id: reg-2023-2444
+    title: Commission Delegated Regulation (EU) 2023/2444 amending Delegated Regulation
+      (EU) 2022/30 as regards the date of application
+    resource: http://data.europa.eu/eli/reg_del/2023/2444/oj/eng
+    author: European Commission
+    last_modified: '2023-11-06 00:00:00+00:00'
+    used_by:
+    - law/eu/related-legislation/reg-2022-30-red-cybersecurity
+  reg-2023-988:
+    id: reg-2023-988
+    title: Regulation (EU) 2023/988 on general product safety (GPSR)
+    resource: http://data.europa.eu/eli/reg/2023/988/oj/eng
+    author: European Parliament and Council
+    last_modified: '2023-05-23 00:00:00+00:00'
+    used_by:
+    - law/eu/related-legislation/reg-2023-988-general-product-safety
+  reg-2024-1689:
+    id: reg-2024-1689
+    title: Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence
+      (Artificial Intelligence Act)
+    resource: http://data.europa.eu/eli/reg/2024/1689/oj/eng
+    author: European Parliament and Council
+    last_modified: '2024-07-12 00:00:00+00:00'
+    used_by:
+    - law/eu/related-legislation/reg-2024-1689-ai-act
+  reg-2024-482:
+    id: reg-2024-482
+    title: Commission Implementing Regulation (EU) 2024/482 on the European Common
+      Criteria-based cybersecurity certification scheme (EUCC)
+    resource: http://data.europa.eu/eli/reg_impl/2024/482/oj/eng
+    author: European Commission
+    last_modified: '2024-02-07 00:00:00+00:00'
+    used_by:
+    - law/eu/related-legislation/reg-2024-482-eucc
+    - standards/certification-schemes/eucc
+  reg-765-2008:
+    id: reg-765-2008
+    title: Regulation (EC) No 765/2008 on accreditation and market surveillance
+    resource: http://data.europa.eu/eli/reg/2008/765/oj/eng
+    author: European Parliament and Council
+    last_modified: '2008-08-13 00:00:00+00:00'
+    used_by:
+    - law/eu/related-legislation/reg-765-2008-accreditation-ce-marking
+    - obligations/manufacturers/ce-marking
+  dir-2014-90-eu:
+    id: dir-2014-90-eu
+    title: Directive 2014/90/EU on marine equipment and repealing Council Directive
+      96/98/EC (MED)
+    resource: http://data.europa.eu/eli/dir/2014/90/oj/eng
+    author: European Parliament and Council
+    last_modified: '2014-08-28 00:00:00+00:00'
+    used_by:
+    - law/eu/related-legislation/sector-exclusions/dir-2014-90-eu-marine-equipment
+  reg-168-2013:
+    id: reg-168-2013
+    title: Regulation (EU) No 168/2013 on the approval and market surveillance of
+      two- or three-wheel vehicles and quadricycles
+    resource: http://data.europa.eu/eli/reg/2013/168/oj/eng
+    author: European Parliament and Council
+    last_modified: '2013-03-02 00:00:00+00:00'
+    used_by:
+    - law/eu/related-legislation/sector-exclusions/reg-168-2013-l-category-vehicles
+    - law/eu/related-legislation/sector-exclusions/reg-2025-1535-l-category-exclusion
+  reg-2025-1535:
+    id: reg-2025-1535
+    title: Commission Delegated Regulation (EU) 2025/1535
+    resource: http://data.europa.eu/eli/reg_del/2025/1535/oj/eng
+    author: European Commission
+    last_modified: '2025-07-24 00:00:00+00:00'
+    used_by:
+    - law/eu/related-legislation/sector-exclusions/reg-168-2013-l-category-vehicles
+    - law/eu/related-legislation/sector-exclusions/reg-2025-1535-l-category-exclusion
+    - obligations/scope/exclusions
+    - timeline/secondary-legislation-adoption
+  reg-2017-745:
+    id: reg-2017-745
+    title: Regulation (EU) 2017/745 on medical devices (MDR)
+    resource: http://data.europa.eu/eli/reg/2017/745/oj/eng
+    author: European Parliament and Council
+    last_modified: '2017-05-05 00:00:00+00:00'
+    used_by:
+    - law/eu/related-legislation/sector-exclusions/reg-2017-745-medical-devices
+  reg-2017-746:
+    id: reg-2017-746
+    title: Regulation (EU) 2017/746 on in vitro diagnostic medical devices (IVDR)
+    resource: http://data.europa.eu/eli/reg/2017/746/oj/eng
+    author: European Parliament and Council
+    last_modified: '2017-05-05 00:00:00+00:00'
+    used_by:
+    - law/eu/related-legislation/sector-exclusions/reg-2017-746-in-vitro-diagnostics
+  reg-2018-1139:
+    id: reg-2018-1139
+    title: Regulation (EU) 2018/1139 on common rules in the field of civil aviation
+      and establishing a European Union Aviation Safety Agency (EASA)
+    resource: http://data.europa.eu/eli/reg/2018/1139/oj/eng
+    author: European Parliament and Council
+    last_modified: '2018-08-22 00:00:00+00:00'
+    used_by:
+    - law/eu/related-legislation/sector-exclusions/reg-2018-1139-civil-aviation
+  reg-2023-203:
+    id: reg-2023-203
+    title: Commission Delegated Regulation (EU) 2023/203 on management of information
+      security risks in civil aviation (Part-IS)
+    resource: http://data.europa.eu/eli/reg_del/2023/203/oj/eng
+    author: European Commission
+    last_modified: '2023-02-17 00:00:00+00:00'
+    used_by:
+    - law/eu/related-legislation/sector-exclusions/reg-2018-1139-civil-aviation
+  reg-2019-2144:
+    id: reg-2019-2144
+    title: Regulation (EU) 2019/2144 on type-approval requirements for motor vehicles
+      and their trailers (General Safety Regulation / GSR)
+    resource: http://data.europa.eu/eli/reg/2019/2144/oj/eng
+    author: European Parliament and Council
+    last_modified: '2019-12-16 00:00:00+00:00'
+    used_by:
+    - law/eu/related-legislation/sector-exclusions/reg-2019-2144-motor-vehicles
+  reg-2018-858:
+    id: reg-2018-858
+    title: Regulation (EU) 2018/858 on the approval and market surveillance of motor
+      vehicles and their trailers
+    resource: http://data.europa.eu/eli/reg/2018/858/oj/eng
+    author: European Parliament and Council
+    last_modified: '2018-06-14 00:00:00+00:00'
+    used_by:
+    - law/eu/related-legislation/sector-exclusions/reg-2019-2144-motor-vehicles
+  cra-annex-8:
+    id: cra-annex-8
+    title: Regulation (EU) 2024/2847, Annex VIII
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#ann_8
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - obligations/manufacturers/eu-declaration-of-conformity
+  ec-guidance-5252:
+    id: ec-guidance-5252
+    title: Commission Guidance C(2026) 5252 on CRA Implementation
+    resource: https://digital-strategy.ec.europa.eu/en/library/commission-publishes-new-guidance-support-timely-cyber-resilience-act-implementation
+    author: European Commission
+    last_modified: '2026-06-30 00:00:00+00:00'
+    used_by:
+    - obligations/manufacturers/support-period
+    - obligations/open-source/open-source-security-attestation
+    - obligations/scope/commercial-activity
+    - obligations/scope/substantial-modification
+    - timeline/secondary-legislation-adoption
+  cra-annex-7:
+    id: cra-annex-7
+    title: Regulation (EU) 2024/2847, Annex VII
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#ann_7
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - obligations/manufacturers/technical-documentation
+    - obligations/vulnerability-handling/software-bill-of-materials
+  reg-2026-881:
+    id: reg-2026-881
+    title: Commission Delegated Regulation (EU) 2026/881
+    resource: http://data.europa.eu/eli/reg_del/2026/881/oj/eng
+    author: European Commission
+    last_modified: '2026-04-15 00:00:00+00:00'
+    used_by:
+    - obligations/reporting/srp-routing-and-dissemination
+    - timeline/secondary-legislation-adoption
+  cra-annex-4:
+    id: cra-annex-4
+    title: Regulation (EU) 2024/2847, Annex IV
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#ann_4
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - products/critical/hardware-devices-with-security-boxes
+    - products/critical/smart-meter-gateways-critical
+    - products/critical/smartcards-and-secure-elements
+  reg-2025-2392:
+    id: reg-2025-2392
+    title: Commission Implementing Regulation (EU) 2025/2392 on Technical Descriptions
+    resource: http://data.europa.eu/eli/reg_impl/2025/2392/oj/eng
+    author: European Commission
+    last_modified: '2025-11-15 00:00:00+00:00'
+    used_by:
+    - products/critical/hardware-devices-with-security-boxes
+    - products/critical/smart-meter-gateways-critical
+    - products/critical/smartcards-and-secure-elements
+    - products/important-class-i/anti-malware-software
+    - products/important-class-i/boot-managers
+    - products/important-class-i/firewalls-and-idps-class-i
+    - products/important-class-i/identity-management-systems
+    - products/important-class-i/internet-connected-toys
+    - products/important-class-i/microprocessors-and-microcontrollers
+    - products/important-class-i/network-management-systems
+    - products/important-class-i/operating-systems
+    - products/important-class-i/password-managers
+    - products/important-class-i/personal-wearables
+    - products/important-class-i/physical-and-virtual-network-interfaces
+    - products/important-class-i/pki-and-certificate-software
+    - products/important-class-i/routers-modems-switches
+    - products/important-class-i/siem-systems
+    - products/important-class-i/smart-home-general-purpose-assistants
+    - products/important-class-i/smart-home-security-products
+    - products/important-class-i/standalone-browsers
+    - products/important-class-i/tamper-resistant-hardware
+    - products/important-class-i/vpn-products
+    - products/important-class-ii/firewalls-and-idps
+    - products/important-class-ii/hardware-security-modules
+    - products/important-class-ii/industrial-automation-control-systems
+    - products/important-class-ii/industrial-iot-devices
+    - products/important-class-ii/operating-systems-class-ii
+    - products/important-class-ii/routers-modems-switches-class-ii
+    - products/important-class-ii/smart-meter-gateways
+    - products/important-class-ii/tamper-evident-microprocessors
+    - timeline/secondary-legislation-adoption
+  cra-annex-3:
+    id: cra-annex-3
+    title: Regulation (EU) 2024/2847, Annex III
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#ann_3
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - products/important-class-i/anti-malware-software
+    - products/important-class-i/boot-managers
+    - products/important-class-i/firewalls-and-idps-class-i
+    - products/important-class-i/identity-management-systems
+    - products/important-class-i/internet-connected-toys
+    - products/important-class-i/microprocessors-and-microcontrollers
+    - products/important-class-i/network-management-systems
+    - products/important-class-i/operating-systems
+    - products/important-class-i/password-managers
+    - products/important-class-i/personal-wearables
+    - products/important-class-i/physical-and-virtual-network-interfaces
+    - products/important-class-i/pki-and-certificate-software
+    - products/important-class-i/routers-modems-switches
+    - products/important-class-i/siem-systems
+    - products/important-class-i/smart-home-general-purpose-assistants
+    - products/important-class-i/smart-home-security-products
+    - products/important-class-i/standalone-browsers
+    - products/important-class-i/tamper-resistant-hardware
+    - products/important-class-i/vpn-products
+    - products/important-class-ii/firewalls-and-idps
+    - products/important-class-ii/hardware-security-modules
+    - products/important-class-ii/industrial-automation-control-systems
+    - products/important-class-ii/industrial-iot-devices
+    - products/important-class-ii/operating-systems-class-ii
+    - products/important-class-ii/routers-modems-switches-class-ii
+    - products/important-class-ii/smart-meter-gateways
+    - products/important-class-ii/tamper-evident-microprocessors
+  cra-art-27-8:
+    id: cra-art-27-8
+    title: Regulation (EU) 2024/2847, Article 27(8) (Presumption from European cybersecurity
+      schemes)
+    resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_27
+    author: European Parliament and Council
+    last_modified: '2024-11-20 00:00:00+00:00'
+    used_by:
+    - standards/certification-schemes/eucc
+  cen-clc-jtc13:
+    id: cen-clc-jtc13
+    title: CEN-CLC/JTC 13 Cybersecurity and Data Protection
+    resource: https://standards.cencenelec.eu/ords/f?p=205:110:::::FSP_PROJECT,FSP_LANG_ID:81335,25
+    author: CEN-CENELEC
+    last_modified: '2026-06-01 00:00:00+00:00'
+    used_by:
+    - standards/committees/cen-clc-jtc-13
+  stan4cra-jtc13:
+    id: stan4cra-jtc13
+    title: CEN-CLC JTC 13 Technical Work
+    resource: https://www.stan4cra.eu/cenclcjtc13
+    author: STAN4CR
+    last_modified: '2026-06-01 00:00:00+00:00'
+    used_by:
+    - standards/committees/cen-clc-jtc-13
+    - standards/harmonised/pren-40000-1-1
+    - standards/harmonised/pren-40000-1-2
+    - standards/harmonised/pren-40000-1-3
+    - standards/m606/line-01
+    - standards/m606/line-02
+    - standards/m606/line-03
+    - standards/m606/line-04
+    - standards/m606/line-05
+    - standards/m606/line-06
+    - standards/m606/line-07
+    - standards/m606/line-08
+    - standards/m606/line-09
+    - standards/m606/line-10
+    - standards/m606/line-11
+    - standards/m606/line-12
+    - standards/m606/line-13
+    - standards/m606/line-14
+    - standards/m606/line-15
+    - standards/m606/line-40
+  m606:
+    id: m606
+    title: Commission Implementing Decision C(2025) 618 (Mandate M/606)
+    resource: https://ec.europa.eu/transparency/documents-register/detail?ref=C(2025)618&lang=en
+    author: European Commission
+    last_modified: '2025-01-31 00:00:00+00:00'
+    used_by:
+    - standards/committees/cen-clc-jtc-13
+    - standards/committees/cen-tc-224
+    - standards/committees/clc-tc-47x
+    - standards/committees/clc-tc-65x
+    - standards/committees/etsi-tc-cyber-eusr
+    - standards/harmonised/en-304-617
+    - standards/harmonised/en-304-618
+    - standards/harmonised/en-304-619
+    - standards/harmonised/en-304-620
+    - standards/harmonised/en-304-621
+    - standards/harmonised/en-304-622
+    - standards/harmonised/en-304-623
+    - standards/harmonised/en-304-624
+    - standards/harmonised/en-304-625
+    - standards/harmonised/en-304-626
+    - standards/harmonised/en-304-627
+    - standards/harmonised/en-304-631
+    - standards/harmonised/en-304-632
+    - standards/harmonised/en-304-633
+    - standards/harmonised/en-304-634
+    - standards/harmonised/en-304-635
+    - standards/harmonised/en-304-636
+    - standards/harmonised/pren-40000-1-1
+    - standards/harmonised/pren-40000-1-2
+    - standards/harmonised/pren-40000-1-3
+    - standards/m606/line-01
+    - standards/m606/line-02
+    - standards/m606/line-03
+    - standards/m606/line-04
+    - standards/m606/line-05
+    - standards/m606/line-06
+    - standards/m606/line-07
+    - standards/m606/line-08
+    - standards/m606/line-09
+    - standards/m606/line-10
+    - standards/m606/line-11
+    - standards/m606/line-12
+    - standards/m606/line-13
+    - standards/m606/line-14
+    - standards/m606/line-15
+    - standards/m606/line-16
+    - standards/m606/line-17
+    - standards/m606/line-18
+    - standards/m606/line-19
+    - standards/m606/line-20
+    - standards/m606/line-21
+    - standards/m606/line-22
+    - standards/m606/line-23
+    - standards/m606/line-24
+    - standards/m606/line-25
+    - standards/m606/line-26
+    - standards/m606/line-27
+    - standards/m606/line-28
+    - standards/m606/line-29
+    - standards/m606/line-30
+    - standards/m606/line-31
+    - standards/m606/line-32
+    - standards/m606/line-33
+    - standards/m606/line-34
+    - standards/m606/line-35
+    - standards/m606/line-36
+    - standards/m606/line-37
+    - standards/m606/line-38
+    - standards/m606/line-39
+    - standards/m606/line-40
+    - standards/m606/line-41
+    - standards/process/how-cra-standards-are-built
+  cen-tc224:
+    id: cen-tc224
+    title: CEN/TC 224 Personal identification and related personal devices
+    resource: https://standards.cencenelec.eu/ords/f?p=205:110:::::FSP_PROJECT,FSP_LANG_ID:81335,25
+    author: CEN
+    last_modified: '2026-06-01 00:00:00+00:00'
+    used_by:
+    - standards/committees/cen-tc-224
+  stan4cra-tc224:
+    id: stan4cra-tc224
+    title: CEN TC 224 Technical Work
+    resource: https://www.stan4cra.eu/centc244
+    author: STAN4CR
+    last_modified: '2026-06-01 00:00:00+00:00'
+    used_by:
+    - standards/committees/cen-tc-224
+    - standards/m606/line-16
+    - standards/m606/line-39
+    - standards/m606/line-41
+  clc-tc47x:
+    id: clc-tc47x
+    title: CLC/TC 47X Semiconductor devices and trusted chips
+    resource: https://www.cenelec.eu/dyn/www/f?p=104:7:0::::FSP_ORG_ID:2417743
+    author: CENELEC
+    last_modified: '2026-06-01 00:00:00+00:00'
+    used_by:
+    - standards/committees/clc-tc-47x
+  stan4cra-clc47x:
+    id: stan4cra-clc47x
+    title: CLC TC 47X Technical Work
+    resource: https://www.stan4cra.eu/clctc47x
+    author: STAN4CR
+    last_modified: '2026-06-01 00:00:00+00:00'
+    used_by:
+    - standards/committees/clc-tc-47x
+    - standards/m606/line-28
+    - standards/m606/line-29
+    - standards/m606/line-37
+    - standards/m606/line-38
+    - standards/m606/line-41
+  clc-tc65x:
+    id: clc-tc65x
+    title: CLC/TC 65X Industrial-process measurement, control and automation
+    resource: https://www.cenelec.eu/dyn/www/f?p=104:7:0::::FSP_ORG_ID:1257159
+    author: CENELEC
+    last_modified: '2026-06-01 00:00:00+00:00'
+    used_by:
+    - standards/committees/clc-tc-65x
+  stan4cra-clc65x:
+    id: stan4cra-clc65x
+    title: CLC TC 65X Technical Work
+    resource: https://www.stan4cra.eu/clctc65x
+    author: STAN4CR
+    last_modified: '2026-06-01 00:00:00+00:00'
+    used_by:
+    - standards/committees/clc-tc-65x
+  etsi-tc-cyber:
+    id: etsi-tc-cyber
+    title: ETSI Technical Committee CYBER
+    resource: https://www.etsi.org/committee/cyber
+    author: ETSI
+    last_modified: '2026-06-01 00:00:00+00:00'
+    used_by:
+    - standards/committees/etsi-tc-cyber-eusr
+  stan4cra-etsi:
+    id: stan4cra-etsi
+    title: ETSI TC Cyber - CRA Technical Work
+    resource: https://www.stan4cra.eu/etsi-tc-cyber
+    author: STAN4CR
+    last_modified: '2026-07-01 00:00:00+00:00'
+    used_by:
+    - standards/committees/etsi-tc-cyber-eusr
+    - standards/m606/line-17
+    - standards/m606/line-18
+    - standards/m606/line-19
+    - standards/m606/line-20
+    - standards/m606/line-21
+    - standards/m606/line-22
+    - standards/m606/line-23
+    - standards/m606/line-24
+    - standards/m606/line-25
+    - standards/m606/line-26
+    - standards/m606/line-27
+    - standards/m606/line-30
+    - standards/m606/line-31
+    - standards/m606/line-32
+    - standards/m606/line-33
+    - standards/m606/line-34
+    - standards/m606/line-35
+    - standards/m606/line-36
+  etsi-open-docbox:
+    id: etsi-open-docbox
+    title: ETSI CYBER EUSR Open Consultation Area
+    resource: https://docbox.etsi.org/CYBER/EUSR/Open
+    author: ETSI
+    last_modified: '2026-08-13 00:00:00+00:00'
+    used_by:
+    - standards/committees/etsi-tc-cyber-eusr
+  etsi-docbox-617:
+    id: etsi-docbox-617
+    title: 'EN 304 617 V1.0.0 (2026-08-12) Enquiry Draft: Standalone and embedded
+      browsers'
+    resource: https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-617_V1.0.0_2026-08-12_Browsers_Enquiry-draft.pdf
+    author: ETSI TC CYBER
+    last_modified: '2026-08-12 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-617
+  etsi-wi-74408:
+    id: etsi-wi-74408
+    title: ETSI Work Item REN/CYBER-00108
+    resource: https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74408
+    author: ETSI
+    last_modified: '2026-08-12 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-617
+    - standards/m606/line-17
+  etsi-docbox-618:
+    id: etsi-docbox-618
+    title: 'EN 304 618 V0.2.2 (2026-06-22) Enquiry Draft: Password managers'
+    resource: https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-618_V0.2.2_2026-06-22_Password-managers_Enquiry-draft.pdf
+    author: ETSI TC CYBER
+    last_modified: '2026-06-22 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-618
+  etsi-wi-74410:
+    id: etsi-wi-74410
+    title: ETSI Work Item REN/CYBER-00110
+    resource: https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74410
+    author: ETSI
+    last_modified: '2026-06-22 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-618
+    - standards/m606/line-18
+  etsi-docbox-619:
+    id: etsi-docbox-619
+    title: 'EN 304 619 V1.0.0 (2026-07-15) Enquiry Draft: Antivirus software'
+    resource: https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-619_V1.0.0_2026-07-15_Antivirus-Enquiry-draft.pdf
+    author: ETSI TC CYBER
+    last_modified: '2026-07-15 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-619
+  etsi-wi-74411:
+    id: etsi-wi-74411
+    title: ETSI Work Item REN/CYBER-00111
+    resource: https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74411
+    author: ETSI
+    last_modified: '2026-07-15 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-619
+    - standards/m606/line-19
+  etsi-docbox-620:
+    id: etsi-docbox-620
+    title: 'EN 304 620 V1.0.0 (2026-08-12) Enquiry Draft: Virtual Private Networks'
+    resource: https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-620_v1.0.0_2026-08-12_Virtual-Private-Networks_Enquiry-draft.pdf
+    author: ETSI TC CYBER
+    last_modified: '2026-08-12 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-620
+  etsi-wi-74409:
+    id: etsi-wi-74409
+    title: ETSI Work Item REN/CYBER-00109
+    resource: https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74409
+    author: ETSI
+    last_modified: '2026-08-12 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-620
+    - standards/m606/line-20
+  etsi-docbox-621:
+    id: etsi-docbox-621
+    title: 'EN 304 621 V1.0.5 (2026-08-12) Enquiry Draft: Network Management Systems'
+    resource: https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-621_V1.0.5_2026-08-12_Network-Management-Systems_Enquiry-draft.pdf
+    author: ETSI TC CYBER
+    last_modified: '2026-08-12 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-621
+  etsi-wi-74412:
+    id: etsi-wi-74412
+    title: ETSI Work Item REN/CYBER-00112
+    resource: https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74412
+    author: ETSI
+    last_modified: '2026-08-12 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-621
+    - standards/m606/line-21
+  etsi-docbox-622:
+    id: etsi-docbox-622
+    title: 'EN 304 622 V1.0.0 (2026-08-12) Enquiry Draft: Security Information and
+      Event Management'
+    resource: https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-622_V1.0.0_2026-08-12_Security-Information-Event-Management_Enquiry-draft.pdf
+    author: ETSI TC CYBER
+    last_modified: '2026-08-12 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-622
+  etsi-wi-74413:
+    id: etsi-wi-74413
+    title: ETSI Work Item REN/CYBER-00113
+    resource: https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74413
+    author: ETSI
+    last_modified: '2026-08-12 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-622
+    - standards/m606/line-22
+  etsi-docbox-623:
+    id: etsi-docbox-623
+    title: 'EN 304 623 V0.1.3 (2026-06-17) Enquiry Draft: Boot Managers'
+    resource: https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-623_V0.1.3_2026-06-17_Boot_Managers_Enquiry-draft.pdf
+    author: ETSI TC CYBER
+    last_modified: '2026-06-17 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-623
+  etsi-wi-74414:
+    id: etsi-wi-74414
+    title: ETSI Work Item REN/CYBER-00114
+    resource: https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74414
+    author: ETSI
+    last_modified: '2026-06-22 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-623
+    - standards/m606/line-23
+  etsi-docbox-624:
+    id: etsi-docbox-624
+    title: 'EN 304 624 V1.0.0 (2026-08-05) Enquiry Draft: PKI certificate issuance
+      software'
+    resource: https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-624_V1.0.0_2026-08-05_PKI_certificate_issuance_software_Enquiry-draft.pdf
+    author: ETSI TC CYBER
+    last_modified: '2026-08-05 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-624
+  etsi-wi-74837:
+    id: etsi-wi-74837
+    title: ETSI Work Item REN/CYBER-00125
+    resource: https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74837
+    author: ETSI
+    last_modified: '2026-08-05 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-624
+    - standards/m606/line-24
+  etsi-docbox-625:
+    id: etsi-docbox-625
+    title: 'EN 304 625 V1.0.0 (2026-08-10) Enquiry Draft: Network Interfaces'
+    resource: https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-625_V1.0.0_2026-08-10_Network-Interfaces_Enquiry-draft.pdf
+    author: ETSI TC CYBER
+    last_modified: '2026-08-10 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-625
+  etsi-wi-74860:
+    id: etsi-wi-74860
+    title: ETSI Work Item REN/CYBER-00128
+    resource: https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74860
+    author: ETSI
+    last_modified: '2026-08-10 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-625
+    - standards/m606/line-25
+  etsi-docbox-626:
+    id: etsi-docbox-626
+    title: 'EN 304 626 V1.0.1 (2026-08-12) Enquiry Draft: Operating Systems'
+    resource: https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-626_V1.0.1_2026-08-12_Operating-Systems_Enquiry-draft.pdf
+    author: ETSI TC CYBER
+    last_modified: '2026-08-12 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-626
+  etsi-wi-74415:
+    id: etsi-wi-74415
+    title: ETSI Work Item REN/CYBER-00115
+    resource: https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74415
+    author: ETSI
+    last_modified: '2026-08-12 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-626
+    - standards/m606/line-26
+  etsi-docbox-627:
+    id: etsi-docbox-627
+    title: 'EN 304 627 V1.0.1 (2026-07-06) Enquiry Draft: Routers, modems and switches'
+    resource: https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-627_V1.0.1_2026-07-06_Routers-modems-switches_Enquiry-draft.pdf
+    author: ETSI TC CYBER
+    last_modified: '2026-07-06 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-627
+  etsi-wi-74416:
+    id: etsi-wi-74416
+    title: ETSI Work Item REN/CYBER-00116
+    resource: https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74416
+    author: ETSI
+    last_modified: '2026-07-06 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-627
+    - standards/m606/line-27
+  etsi-docbox-631:
+    id: etsi-docbox-631
+    title: 'EN 304 631 V1.0.0 (2026-07-20) Enquiry Draft: Smart-home virtual assistants'
+    resource: https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-631_V1.0.0_2026-07-20_Smart-home-virtual-assistants_Enquiry-draft.pdf
+    author: ETSI TC CYBER
+    last_modified: '2026-07-20 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-631
+  etsi-wi-74420:
+    id: etsi-wi-74420
+    title: ETSI Work Item REN/CYBER-00120
+    resource: https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74420
+    author: ETSI
+    last_modified: '2026-07-20 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-631
+    - standards/m606/line-31
+  etsi-docbox-632:
+    id: etsi-docbox-632
+    title: 'EN 304 632 V1.0.0 (2026-07-20) Enquiry Draft: Smart-home security products'
+    resource: https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-632_V1.0.0_2026-07-20_Smart-home-security-products_Enquiry-draft.pdf
+    author: ETSI TC CYBER
+    last_modified: '2026-07-20 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-632
+  etsi-wi-74417:
+    id: etsi-wi-74417
+    title: ETSI Work Item REN/CYBER-00117
+    resource: https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74417
+    author: ETSI
+    last_modified: '2026-07-20 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-632
+    - standards/m606/line-32
+  etsi-docbox-633:
+    id: etsi-docbox-633
+    title: 'EN 304 633 V1.0.0 (2026-07-20) Enquiry Draft: Internet-connected toys'
+    resource: https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-633_V1.0.0_2026-07-20_Internet-connected-toys_Enquiry-Draft.pdf
+    author: ETSI TC CYBER
+    last_modified: '2026-07-20 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-633
+  etsi-wi-74418:
+    id: etsi-wi-74418
+    title: ETSI Work Item REN/CYBER-00118
+    resource: https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74418
+    author: ETSI
+    last_modified: '2026-07-20 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-633
+    - standards/m606/line-33
+  etsi-docbox-634:
+    id: etsi-docbox-634
+    title: 'EN 304 634 V1.0.0 (2026-07-24) Enquiry Draft: Personal wearables'
+    resource: https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-634_V1.0.0_2026-07-24_Personal-wearables_Enquiry-draft.pdf
+    author: ETSI TC CYBER
+    last_modified: '2026-07-24 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-634
+  etsi-wi-74419:
+    id: etsi-wi-74419
+    title: ETSI Work Item REN/CYBER-00119
+    resource: https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74419
+    author: ETSI
+    last_modified: '2026-07-24 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-634
+    - standards/m606/line-34
+  etsi-docbox-635:
+    id: etsi-docbox-635
+    title: 'EN 304 635 V1.0.1 (2026-06-24) Enquiry Draft: Virtualization and Container
+      Systems'
+    resource: https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-635_V1.0.1_2026-06-24_Virtualization_Container_Enquiry-draft.pdf
+    author: ETSI TC CYBER
+    last_modified: '2026-06-24 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-635
+  etsi-wi-74858:
+    id: etsi-wi-74858
+    title: ETSI Work Item REN/CYBER-00126
+    resource: https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74858
+    author: ETSI
+    last_modified: '2026-06-24 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-635
+    - standards/m606/line-35
+  etsi-docbox-636:
+    id: etsi-docbox-636
+    title: 'EN 304 636 V1.0.0 (2026-07-09) Enquiry Draft: Firewalls and IDS/IPS'
+    resource: https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-636_V1.0.0_2026-07-09_Firewalls_Enquiry-draft.pdf
+    author: ETSI TC CYBER
+    last_modified: '2026-07-09 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-636
+  etsi-wi-74859:
+    id: etsi-wi-74859
+    title: ETSI Work Item REN/CYBER-00127
+    resource: https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74859
+    author: ETSI
+    last_modified: '2026-07-09 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/en-304-636
+    - standards/m606/line-36
+  cen-wi-81335:
+    id: cen-wi-81335
+    title: 'CEN/CLC Project 81335: Cybersecurity requirements for products with digital
+      elements - Principles for cyber resilience'
+    resource: https://standards.cencenelec.eu/ords/f?p=205:110:::::FSP_PROJECT,FSP_LANG_ID:81335,25
+    author: CEN-CENELEC
+    last_modified: '2026-06-01 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/pren-40000-1-1
+  cen-wi-81344:
+    id: cen-wi-81344
+    title: 'CEN/CLC Project 81344: Cybersecurity requirements for products with digital
+      elements - Generic Security Requirements'
+    resource: https://standards.cencenelec.eu/ords/f?p=205:110:::::FSP_PROJECT,FSP_LANG_ID:81344,25
+    author: CEN-CENELEC
+    last_modified: '2026-06-01 00:00:00+00:00'
+    used_by:
+    - standards/harmonised/pren-40000-1-2
+    - standards/harmonised/pren-40000-1-3
+  cyberstand-process:
+    id: cyberstand-process
+    title: How CRA Standards are built
+    resource: https://cyberstand.eu/how-cra-standards-are-built
+    author: CYBERSTAND.eu
+    last_modified: '2026-01-15 00:00:00+00:00'
+    used_by:
+    - standards/process/how-cra-standards-are-built
+  stan4cra-work:
+    id: stan4cra-work
+    title: CRA Standardisation Technical Work
+    resource: https://www.stan4cra.eu/technicalwork
+    author: STAN4CR
+    last_modified: '2026-06-01 00:00:00+00:00'
+    used_by:
+    - standards/process/how-cra-standards-are-built
+    - timeline/standardisation-m606-deadline
+  en-iec-62443-4-1:
+    id: en-iec-62443-4-1
+    title: 'EN IEC 62443-4-1:2018 Security for industrial automation and control systems
+      - Part 4-1: Secure product development lifecycle requirements'
+    resource: https://www.cenelec.eu/dyn/www/f?p=104:110:0::::FSP_PROJECT:65287
+    author: CENELEC / IEC
+    last_modified: '2018-08-01 00:00:00+00:00'
+    used_by:
+    - standards/supporting/en-iec-62443-4-1
+  enisa-mapping:
+    id: enisa-mapping
+    title: Cyber Resilience Act Requirements Standards Mapping
+    resource: https://www.enisa.europa.eu/publications/cyber-resilience-act-requirements-standards-mapping
+    author: ENISA
+    last_modified: '2024-11-01 00:00:00+00:00'
+    used_by:
+    - standards/supporting/en-iec-62443-4-1
+    - standards/supporting/en-iec-62443-4-2
+    - standards/supporting/etsi-en-303-645
+    - standards/supporting/iso-iec-29147
+    - standards/supporting/iso-iec-30111
+  en-iec-62443-4-2:
+    id: en-iec-62443-4-2
+    title: 'EN IEC 62443-4-2:2019 Security for industrial automation and control systems
+      - Part 4-2: Technical security requirements for IACS components'
+    resource: https://www.cenelec.eu/dyn/www/f?p=104:110:0::::FSP_PROJECT:65288
+    author: CENELEC / IEC
+    last_modified: '2019-06-01 00:00:00+00:00'
+    used_by:
+    - standards/supporting/en-iec-62443-4-2
+  etsi-en-303-645:
+    id: etsi-en-303-645
+    title: 'ETSI EN 303 645 V2.1.1: CYBER; CYBER Security for Consumer Internet of
+      Things: Baseline Requirements'
+    resource: https://www.etsi.org/deliver/etsi_en/303600_303699/303645/02.01.01_60/en_303645v020101p.pdf
+    author: ETSI
+    last_modified: '2020-06-01 00:00:00+00:00'
+    used_by:
+    - standards/supporting/etsi-en-303-645
+  iso-iec-29147:
+    id: iso-iec-29147
+    title: ISO/IEC 29147:2018 Information technology - Security techniques - Vulnerability
+      disclosure
+    resource: https://www.iso.org/standard/72311.html
+    author: ISO/IEC JTC 1/SC 27
+    last_modified: '2018-10-01 00:00:00+00:00'
+    used_by:
+    - standards/supporting/iso-iec-29147
+  iso-iec-30111:
+    id: iso-iec-30111
+    title: ISO/IEC 30111:2019 Information technology - Security techniques - Vulnerability
+      handling processes
+    resource: https://www.iso.org/standard/69298.html
+    author: ISO/IEC JTC 1/SC 27
+    last_modified: '2019-10-01 00:00:00+00:00'
+    used_by:
+    - standards/supporting/iso-iec-30111
+  ec-m606:
+    id: ec-m606
+    title: Commission Implementing Decision C(2025) 618 (Standardisation Request M/606)
+    resource: https://ec.europa.eu/transparency/documents-register/detail?ref=C(2025)618&lang=en
+    author: European Commission
+    last_modified: '2025-02-04 00:00:00+00:00'
+    used_by:
+    - timeline/standardisation-m606-deadline

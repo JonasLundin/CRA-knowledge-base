@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this knowledge bundle, cite the repository and the exact release tag."
+title: "CRA Knowledge Base"
+type: dataset
+authors:
+  - family-names: "Lundin"
+    given-names: "Jonas"
+repository-code: "https://github.com/JonasLundin/CRA-knowledge-base"
+url: "https://github.com/JonasLundin/CRA-knowledge-base"
+license: CC-BY-4.0
+version: 0.1.0
+date-released: 2026-08-21

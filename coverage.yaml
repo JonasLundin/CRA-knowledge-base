@@ -1,0 +1,57 @@
+version: 1
+release: 0.1.0
+baseline: '2026-08-21'
+coverage_status: complete
+review_status: unverified
+total_concepts: 334
+by_category:
+  glossary: 24
+  guidance: 23
+  authority: 32
+  law: 105
+  procedure: 10
+  role: 5
+  requirement: 24
+  product: 31
+  standard: 73
+  timeline: 7
+by_type:
+  Glossary Term: 24
+  Official Guidance: 23
+  Authority: 37
+  Legal Provision: 81
+  Legal Instrument: 24
+  Procedure: 11
+  Economic Operator: 5
+  Requirement: 24
+  Product Category: 31
+  Standard: 67
+  Timeline Milestone: 7
+gates:
+  cra_articles:
+    expected: 71
+    actual: 71
+    status: pass
+  cra_annexes:
+    expected: 8
+    actual: 8
+    status: pass
+  m606_lines:
+    expected: 41
+    actual: 41
+    status: pass
+  etsi_open_area_drafts:
+    expected: 17
+    actual: 17
+    status: pass
+  product_categories:
+    actual: 31
+    status: pass
+  eu_member_states:
+    expected: 27
+    actual: 27
+    status: pass
+  eea_states:
+    expected: 3
+    actual: 3
+    status: pass
