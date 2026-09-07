@@ -3,10 +3,10 @@ release: 0.1.1
 baseline: '2026-08-21'
 coverage_status: complete
 review_status: unverified
-total_concepts: 334
+total_concepts: 336
 by_category:
   glossary: 24
-  guidance: 23
+  guidance: 25
   authority: 32
   law: 105
   procedure: 10
@@ -17,7 +17,7 @@ by_category:
   timeline: 7
 by_type:
   Glossary Term: 24
-  Official Guidance: 23
+  Official Guidance: 25
   Authority: 37
   Legal Provision: 81
   Legal Instrument: 24

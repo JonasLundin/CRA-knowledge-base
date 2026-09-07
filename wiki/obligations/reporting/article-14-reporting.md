@@ -24,7 +24,7 @@ x-cra:
   instrument_status: in_force
   provision: Article 14
   applies_from: 2026-09-11
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-09-07T00:00:00Z
 ---
 
 # Summary
@@ -44,18 +44,18 @@ Applies to all manufacturers placing products with digital elements on the EU ma
 Manufacturers must report via a multi-stage timeline:
 
 ### 1. Actively Exploited Vulnerabilities (Article 14(1)–(2))
-- **Early Warning:** Within **24 hours** of becoming aware;
-- **Vulnerability Notification:** Within **72 hours** of becoming aware;
-- **Intermediate Status Update:** Upon request or within **14 days** of a corrective measure being available;
-- **Final Report:** Within **one month** after a corrective/mitigating measure is made available.
+- **Early Warning:** Within **24 hours** of becoming aware (indicating whether other Member States are likely affected);
+- **Vulnerability Notification:** Within **72 hours** of becoming aware (technical details, severity, corrective measures);
+- **Intermediate Status Update:** Upon request of the lead CSIRT or ENISA, or voluntarily via follow-up notes;
+- **Final Report:** No later than **14 days** after a corrective or mitigating measure is in place (or 14 days after closure if no measure is available).
 
 ### 2. Severe Incidents (Article 14(3)–(4))
-- **Early Warning:** Within **24 hours** of becoming aware;
-- **Incident Notification:** Within **72 hours** of becoming aware;
-- **Final Report:** Within **one month** after the severe incident is handled.
+- **Early Warning:** Within **24 hours** of becoming aware (indicating whether other Member States are likely affected);
+- **Incident Notification:** Within **72 hours** of becoming aware (incident description, severity, impact assessment);
+- **Final Report:** Within **1 month** after submission of the 72-hour incident notification (comprehensive report on root causes and mitigation).
 
 ### 3. Centralised Routing
-All notifications are submitted electronically via the ENISA-operated Single Reporting Platform (SRP), which automatically routes them simultaneously to the designated CSIRT of the Member State of establishment and ENISA.[^cra-art-14] [^enisa-srp-docs]
+All notifications are submitted electronically via the ENISA-operated Single Reporting Platform (SRP) web portal, which simultaneously transmits them to the designated lead CSIRT and ENISA, subject to delayed dissemination where Particular Exceptional Circumstances apply.[^cra-art-14] [^enisa-srp-docs]
 
 # Dates and transitions
 

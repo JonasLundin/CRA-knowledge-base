@@ -12,13 +12,13 @@ sources:
     resource: https://digital-strategy.ec.europa.eu/en/library/commission-publishes-new-guidance-support-timely-cyber-resilience-act-implementation
     title: Commission Communication C(2026) 5252 final - Guidelines on the application of Regulation (EU) 2024/2847
     author: European Commission
-    last_modified: 2026-06-18T00:00:00Z
+    last_modified: 2026-07-27T00:00:00Z
 x-cra:
   jurisdiction: EU
   issuing_authority: European Commission - DG CNECT
   authority_level: non_binding
   document_status: published
-  publication_date: 2026-06-18
+  publication_date: 2026-07-27
   relevant_provisions:
     - Article 2
     - Article 3
@@ -32,7 +32,7 @@ x-cra:
     - Annex I
     - Annex VII
   language: en
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-09-07T00:00:00Z
 ---
 
 # Summary
@@ -55,11 +55,12 @@ The communication and its annexed guidance cover several critical areas [^ec-c-2
 - **Substantial Modification (Article 3(32) & Article 18):** Defines criteria for determining when a software update or hardware alteration affects compliance with Annex I essential requirements, triggering manufacturer responsibilities for the modified entity.
 - **Support Period Determination (Article 13(8)):** Explains how manufacturers must assess expected product lifetime, user expectations, and component availability to determine and explicitly declare the cybersecurity support period (minimum expected duration of security updates).
 - **Open-Source Software Stewards (Article 24):** Details the light-touch regulatory regime applicable to non-profit entities and foundations facilitating open-source development without acting as commercial manufacturers.
+- **Reporting Obligations (Article 14):** Provides guidance in Section 9.1 regarding awareness triggers for actively exploited vulnerabilities and severe incidents, reporting on legacy products placed on the market before general application, and handling vulnerabilities in third-party components.
 - **Technical Documentation & SBOM (Annex VII & Annex I):** Practical guidance on structuring technical files, maintaining Software Bills of Materials (SBOMs), and retaining documentation for ten years.
 
 # Dates and transitions
 
-- **Publication Date:** 18 June 2026.
+- **Publication Date:** 27 July 2026.
 - **Application Context:** Designed to support compliance ahead of the reporting deadline on 11 September 2026 (Article 14) and general application on 11 December 2027.
 
 # Related concepts
