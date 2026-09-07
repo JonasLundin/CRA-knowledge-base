@@ -8,6 +8,7 @@
   - Reconciled ENISA SRP documentation suite (updated August/September 2026) to reflect live endpoints, EU Login authentication, 20-notification unvalidated quota, advisory against pre-emptive registration, and absence of external API at initial launch.
   - Added official concepts for *CRA SRP Glossary* (v1.1, 43 reporting fields) and *List of CSIRTs Designated as Coordinators*.
   - Corrected statutory final report timelines under Article 14(2)(d) (14 days after corrective measure) and Article 14(4)(c) (1 month after 72h report).
+  - Explicitly defined statutory awareness thresholds and triage standards ("sufficient degree of certainty"), telemetry and external report triggers, third-party component reachability, and negative exclusions (Recital 68 good-faith research/CVD, static scan noise) in early warning, reporting, and glossary concepts.
 
 ## 2026-08-21
 

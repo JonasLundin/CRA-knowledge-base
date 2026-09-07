@@ -9,6 +9,7 @@
 - Corrected SRP technical interface documentation to reflect AR web portal interface functions and the absence of an external API at initial release.
 - Documented SRP EU Login MFA authentication, AR role delegation, 20-notification quota for unvalidated ARs, advisory against pre-emptive registration, and non-EU lead CSIRT selection hierarchy.
 - Corrected statutory final report timelines under Article 14(2)(d) (14 days after corrective measure) and Article 14(4)(c) (1 month after 72h report).
+- Explicitly documented statutory awareness thresholds, triage standards ("sufficient degree of certainty"), positive telemetry/external triggers, third-party component reachability, and negative exclusions (Recital 68 good-faith research/CVD, static scan noise) across early warning, reporting overview, and glossary concepts.
 
 ### Added
 - Added concept and source for *CRA SRP Glossary* (v1.1, 5 September 2026) covering 43 standardized notification fields.

@@ -270,7 +270,10 @@ sources:
     author: European Commission
     last_modified: '2026-07-27 00:00:00+00:00'
     used_by:
+    - glossary/actively-exploited-vulnerability
     - guidance/european-commission/c-2026-5252-cra-guidance
+    - obligations/reporting/article-14-reporting
+    - obligations/reporting/early-warning-24h
   ec-cra-conformity:
     id: ec-cra-conformity
     title: Cyber Resilience Act - Conformity Assessment Procedures and Notified Bodies
@@ -286,9 +289,12 @@ sources:
     author: European Commission
     last_modified: '2026-09-04 00:00:00+00:00'
     used_by:
+    - glossary/actively-exploited-vulnerability
     - guidance/european-commission/implementation-faq
     - obligations/open-source/non-commercial-foss-developers
     - obligations/open-source/open-source-software-steward
+    - obligations/reporting/article-14-reporting
+    - obligations/reporting/early-warning-24h
     - obligations/reporting/user-notifications
     - obligations/scope/commercial-activity
     - obligations/scope/product-scope

@@ -3,7 +3,7 @@ type: Requirement
 title: Article 14 Reporting Obligations Overview
 description: Mandatory notification framework for actively exploited vulnerabilities and severe incidents under Article 14 of Regulation (EU) 2024/2847.
 category: requirement
-tags: [cra, reporting, article-14, vulnerability, incident, csirt, enisa, srp]
+tags: [cra, reporting, article-14, vulnerability, incident, csirt, enisa, srp, awareness, thresholds]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
 stale_after: 2026-11-20T00:00:00Z
@@ -18,6 +18,16 @@ sources:
     title: ENISA Single Reporting Platform Documentation
     author: ENISA
     last_modified: 2026-03-01T00:00:00Z
+  - id: ec-c-2026-5252
+    resource: https://digital-strategy.ec.europa.eu/en/library/commission-publishes-new-guidance-support-timely-cyber-resilience-act-implementation
+    title: Commission Communication C(2026) 5252 final - Guidelines on the application of Regulation (EU) 2024/2847
+    author: European Commission
+    last_modified: 2026-07-27T00:00:00Z
+  - id: ec-cra-faq
+    resource: https://digital-strategy.ec.europa.eu/en/library/cyber-resilience-act-implementation-frequently-asked-questions
+    title: Cyber Resilience Act Implementation - Frequently Asked Questions (v1.4)
+    author: European Commission
+    last_modified: 2026-09-04T00:00:00Z
 x-cra:
   jurisdiction: EU
   authority_level: binding
@@ -39,20 +49,31 @@ Compliance with Article 14 is a mandatory legal obligation enforceable from 11 S
 
 Applies to all manufacturers placing products with digital elements on the EU market, including legacy products placed on the market before 11 September 2026 that are actively maintained or available.[^cra-art-14]
 
-# Requirements or coverage
+# Awareness Thresholds and Reporting Triggers
 
-Manufacturers must report via a multi-stage timeline:
+Under Commission Guidance C(2026) 5252 (§9.1) and the Commission Implementation FAQ (v1.4, Chapter 5), statutory reporting deadlines begin running when the manufacturer achieves a **"sufficient degree of certainty" (verified knowledge)** that a qualifying event affects its product, rather than at the completion of root-cause investigation or patch development [^ec-c-2026-5252] [^ec-cra-faq].
 
 ### 1. Actively Exploited Vulnerabilities (Article 14(1)–(2))
-- **Early Warning:** Within **24 hours** of becoming aware (indicating whether other Member States are likely affected);
-- **Vulnerability Notification:** Within **72 hours** of becoming aware (technical details, severity, corrective measures);
-- **Intermediate Status Update:** Upon request of the lead CSIRT or ENISA, or voluntarily via follow-up notes;
-- **Final Report:** No later than **14 days** after a corrective or mitigating measure is in place (or 14 days after closure if no measure is available).
+- **Trigger Definition (Article 3(42)):** Requires **reliable evidence** that execution of malicious code was performed by an actor on a system without permission of the system owner [^cra-art-14].
+- **Positive Triggers:**
+  - Production telemetry, SIEM/EDR detections, or SOC alerts confirming active exploitation.
+  - Verified reports from users, CSIRTs, or security researchers containing actionable indicators of compromise (IoCs) or exploit telemetry.
+  - Vulnerabilities in integrated third-party components trigger awareness **only if** the flaw is *reachable and exploitable* within the manufacturer's product and actively exploited in that context.
+- **Negative Exclusions (Recital 68):** Good-faith security research, laboratory proof-of-concept (PoC) exploits, and coordinated vulnerability disclosure (CVD) without malicious intent do **not** trigger reporting. Static code scan results and unverified CVE announcements without wild exploitation are also excluded [^cra-art-14].
+- **Timeline:**
+  - **Early Warning:** Within **24 hours** of becoming aware (indicating whether other Member States are likely affected);
+  - **Vulnerability Notification:** Within **72 hours** of becoming aware (technical details, severity, corrective measures);
+  - **Intermediate Status Update:** Upon request of the lead CSIRT or ENISA, or voluntarily via follow-up notes;
+  - **Final Report:** No later than **14 days** after a corrective or mitigating measure is in place (or 14 days after closure if no measure is available).
 
-### 2. Severe Incidents (Article 14(3)–(4))
-- **Early Warning:** Within **24 hours** of becoming aware (indicating whether other Member States are likely affected);
-- **Incident Notification:** Within **72 hours** of becoming aware (incident description, severity, impact assessment);
-- **Final Report:** Within **1 month** after submission of the 72-hour incident notification (comprehensive report on root causes and mitigation).
+### 2. Severe Incidents (Article 14(3)–(5))
+- **Trigger Definition (Article 14(5)):** Applies when an incident impacting product security satisfies **either** statutory severity threshold [^cra-art-14]:
+  - **Criterion (a):** Negatively affects (or is capable of negatively affecting) the product's ability to protect the **availability, authenticity, integrity, or confidentiality** of sensitive or important data or functions; **or**
+  - **Criterion (b):** Has led (or is capable of leading) to the **introduction or execution of malicious code** in the product or in the network and information systems of a user.
+- **Timeline:**
+  - **Early Warning:** Within **24 hours** of becoming aware (indicating whether other Member States are likely affected);
+  - **Incident Notification:** Within **72 hours** of becoming aware (incident description, severity, impact assessment);
+  - **Final Report:** Within **1 month** after submission of the 72-hour incident notification (comprehensive report on root causes and mitigation).
 
 ### 3. Centralised Routing
 All notifications are submitted electronically via the ENISA-operated Single Reporting Platform (SRP) web portal, which simultaneously transmits them to the designated lead CSIRT and ENISA, subject to delayed dissemination where Particular Exceptional Circumstances apply.[^cra-art-14] [^enisa-srp-docs]
@@ -69,6 +90,9 @@ All notifications are submitted electronically via the ENISA-operated Single Rep
 - [Final Report (1 Month)](final-report-one-month.md)
 - [SRP Routing & Dissemination](srp-routing-and-dissemination.md)
 - [User Notifications](user-notifications.md)
+- [Actively Exploited Vulnerability](../../glossary/actively-exploited-vulnerability.md)
 
 [^cra-art-14]: Regulation (EU) 2024/2847, Article 14, http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_14
 [^enisa-srp-docs]: ENISA, Single Reporting Platform Documentation, https://www.enisa.europa.eu/topics/product-security/single-reporting-platform-srp
+[^ec-c-2026-5252]: European Commission, Guidelines on the application of Regulation (EU) 2024/2847 (C(2026) 5252 final), https://digital-strategy.ec.europa.eu/en/library/commission-publishes-new-guidance-support-timely-cyber-resilience-act-implementation
+[^ec-cra-faq]: European Commission, Cyber Resilience Act Implementation - Frequently Asked Questions, https://digital-strategy.ec.europa.eu/en/library/cyber-resilience-act-implementation-frequently-asked-questions
