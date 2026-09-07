@@ -12,7 +12,7 @@ sources:
     resource: https://www.enisa.europa.eu/topics/product-security/single-reporting-platform-srp
     title: Single Reporting Platform (SRP) for the Cyber Resilience Act
     author: European Union Agency for Cybersecurity (ENISA)
-    last_modified: 2026-07-01T00:00:00Z
+    last_modified: 2026-09-04T00:00:00Z
 x-cra:
   jurisdiction: EU
   issuing_authority: ENISA
@@ -25,7 +25,7 @@ x-cra:
     - Article 16
     - Article 71
   language: en
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-09-07T00:00:00Z
 ---
 
 # Summary
@@ -45,20 +45,25 @@ Applies to all manufacturers placing products with digital elements on the EU ma
 The overview details the operational mechanism of the platform [^enisa-srp-hub]:
 
 - **Centralized Single-Entry Architecture (Article 16(1)):** The SRP provides a single digital entry point for manufacturers, preventing duplicate reporting to individual Member States.
-- **Simultaneous Dissemination (Article 16(2)):** Upon submission, notifications are automatically routed simultaneously to the designated CSIRT of the Member State where the manufacturer has its main establishment (or representative) and to ENISA.
-- **End-to-End Confidentiality & Encryption:** Technical security safeguards ensuring end-to-end cryptographic protection of sensitive vulnerability details, restricted role-based access, and audited access logs.
-- **Support for Multi-Stage Workflows:** Structured submission workflows supporting 24-hour early warnings, 72-hour formal notifications, sensitive progress updates, and final closure reports.
-- **Voluntary Reporting Integration (Article 14(8)):** Dedicated channels for voluntary submissions by open-source stewards, security researchers, and non-commercial entities.
+- **Web Portal Access via EU Login:** Users authenticate using personal EU Login accounts secured with multi-factor authentication (MFA). Corporate certificates or custom PKI onboarding are not used for portal access.
+- **Assigned Representative (AR) Roles:** Organizations operate through Assigned Representatives, comprising a Primary AR (who registers the manufacturer and manages delegations) and up to 20 Secondary ARs.
+- **Simultaneous Dissemination (Article 16(2)):** Upon submission, notifications are made simultaneously available to the relevant CSIRT designated as coordinator (CDaC) and to ENISA, subject to delayed dissemination rules under Particular Exceptional Circumstances (PEC).
+- **Initial Release Scope (No M2M API):** The SRP is deployed exclusively as an interactive web portal for its initial release on 11 September 2026. No machine-to-machine (REST API) interface is available at launch; API functionality is planned for a subsequent phase.
+- **Mandatory Reporting First:** Voluntary reporting under Article 15 is not implemented in the initial release; the initial version strictly supports mandatory reporting under Article 14 (and Article 24(3) for open-source software stewards from December 2027).
+- **End-to-End Confidentiality & Encryption:** Safeguards ensure cryptographic protection of sensitive vulnerability notifications, role-based isolation, and complete audit logging.
 
 # Dates and transitions
 
-- **Platform Launch:** Operational deployment ahead of the statutory reporting deadline of **11 September 2026** (Article 71(2)).
+- **Platform Launch:** Operational deployment for mandatory reporting on **11 September 2026** (Article 71(2)(a)).
 
 # Related concepts
 
 - [SRP FAQ](./srp-faq.md)
 - [SRP Notification Submission and Updates](./srp-notification-submission-and-updates.md)
 - [SRP Interface Guidance](./srp-interface-guidance.md)
+- [SRP User Registration](./srp-assigned-representative-registration.md)
+- [SRP Glossary](./srp-glossary.md)
+- [CSIRTs Designated as Coordinators](./srp-csirt-coordinators.md)
 - [European Commission Reporting Guidance](../european-commission/reporting-guidance.md)
 
 [^enisa-srp-hub]: European Union Agency for Cybersecurity (ENISA), Single Reporting Platform (SRP) for the Cyber Resilience Act, https://www.enisa.europa.eu/topics/product-security/single-reporting-platform-srp

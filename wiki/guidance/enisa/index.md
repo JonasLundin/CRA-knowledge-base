@@ -11,7 +11,9 @@ ENISA guidance is non-binding and establishes operational, technical, and engine
 - [CRA Factsheet](./cra-factsheet.md) - Executive overview of the CRA architecture and ENISA's statutory responsibilities.
 - [SRP Assigned Representative Registration](./srp-assigned-representative-registration.md) - User registration, identity verification, and role delegation in the SRP.
 - [SRP Notification Submission and Updates](./srp-notification-submission-and-updates.md) - Step-by-step reporting workflows for 24h early warnings, 72h notifications, and final reports.
-- [SRP Interface Guidance](./srp-interface-guidance.md) - Technical machine-to-machine interfaces, APIs, and data models for automated reporting.
+- [SRP Interface Guidance](./srp-interface-guidance.md) - Operational guidance on web portal interface functions, user settings, and Secondary AR delegation.
+- [SRP Glossary](./srp-glossary.md) - Standardized terminology and 43 operational reporting data fields.
+- [CSIRTs Designated as Coordinators](./srp-csirt-coordinators.md) - Directory and coordination roles of national CSIRTs across EU Member States.
 - [Secure-by-Design Guidance](./secure-by-design-guidance.md) - Engineering principles for secure-by-design and secure-by-default products under Annex I.
 - [CRA Standards Mapping](./cra-standards-mapping.md) - Authoritative mapping of CRA Annex I requirements to existing international and European standards.
 - [Notified Body Competence](./notified-body-competence.md) - Competence criteria and assessment guidelines for conformity assessment bodies.

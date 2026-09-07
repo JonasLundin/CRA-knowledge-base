@@ -211,51 +211,69 @@ sources:
     title: Single Reporting Platform (SRP) for the Cyber Resilience Act
     resource: https://www.enisa.europa.eu/topics/product-security/single-reporting-platform-srp
     author: European Union Agency for Cybersecurity (ENISA)
-    last_modified: '2026-07-01 00:00:00+00:00'
+    last_modified: '2026-09-04 00:00:00+00:00'
     used_by:
     - guidance/enisa/single-reporting-platform
   enisa-srp-registration:
     id: enisa-srp-registration
-    title: Single Reporting Platform - Entity Onboarding and User Registration Guidance
-    resource: https://www.enisa.europa.eu/topics/product-security/single-reporting-platform-srp/user-registration-guidance
+    title: CRA SRP guidance - AR User registration
+    resource: https://www.enisa.europa.eu/topics/product-security/single-reporting-platform-srp/cra-srp-guidance-ar-user-registration
     author: European Union Agency for Cybersecurity (ENISA)
-    last_modified: '2026-06-20 00:00:00+00:00'
+    last_modified: '2026-08-03 00:00:00+00:00'
     used_by:
     - guidance/enisa/srp-assigned-representative-registration
   enisa-srp-faq:
     id: enisa-srp-faq
-    title: Single Reporting Platform - Frequently Asked Questions
-    resource: https://www.enisa.europa.eu/topics/product-security/single-reporting-platform-srp/faq
+    title: CRA Single Reporting Platform - Frequently Asked Questions
+    resource: https://www.enisa.europa.eu/topics/product-security/single-reporting-platform-srp/frequently-asked-questions
     author: European Union Agency for Cybersecurity (ENISA)
-    last_modified: '2026-07-15 00:00:00+00:00'
+    last_modified: '2026-09-04 00:00:00+00:00'
     used_by:
     - guidance/enisa/srp-faq
   enisa-srp-api-guide:
     id: enisa-srp-api-guide
-    title: Single Reporting Platform - Technical Interface and API Integration Specifications
-    resource: https://www.enisa.europa.eu/topics/product-security/single-reporting-platform-srp/interface-guidance
+    title: CRA SRP guidance - AR Interface functions
+    resource: https://www.enisa.europa.eu/topics/product-security/single-reporting-platform-srp/cra-srp-guidance-ar-interface-functions
     author: European Union Agency for Cybersecurity (ENISA)
-    last_modified: '2026-07-22 00:00:00+00:00'
+    last_modified: '2026-08-14 00:00:00+00:00'
     used_by:
     - guidance/enisa/srp-interface-guidance
   enisa-srp-notification:
     id: enisa-srp-notification
-    title: Single Reporting Platform - Notification Submission and Lifecycle Management
-      Guidance
-    resource: https://www.enisa.europa.eu/topics/product-security/single-reporting-platform-srp/notification-guidance
+    title: CRA SRP guidance - AR Notification submission and update
+    resource: https://www.enisa.europa.eu/topics/product-security/single-reporting-platform-srp/cra-srp-guidance-ar-notification-submission-and-update
     author: European Union Agency for Cybersecurity (ENISA)
-    last_modified: '2026-07-08 00:00:00+00:00'
+    last_modified: '2026-08-03 00:00:00+00:00'
     used_by:
     - guidance/enisa/srp-notification-submission-and-updates
+  enisa-srp-glossary:
+    id: enisa-srp-glossary
+    title: CRA SRP Glossary
+    resource: https://www.enisa.europa.eu/topics/product-security/single-reporting-platform-srp/cra-srp-glossary
+    author: European Union Agency for Cybersecurity (ENISA)
+    last_modified: '2026-09-05 00:00:00+00:00'
+    used_by:
+    - guidance/enisa/srp-glossary
+  enisa-srp-csirts:
+    id: enisa-srp-csirts
+    title: List of CSIRTs Designated as Coordinators
+    resource: https://www.enisa.europa.eu/topics/product-security/single-reporting-platform-srp/list-of-csirts-designated-as-coordinators
+    author: European Union Agency for Cybersecurity (ENISA)
+    last_modified: '2026-09-04 00:00:00+00:00'
+    used_by:
+    - guidance/enisa/srp-csirt-coordinators
   ec-c-2026-5252:
     id: ec-c-2026-5252
     title: Commission Communication C(2026) 5252 final - Guidelines on the application
       of Regulation (EU) 2024/2847
     resource: https://digital-strategy.ec.europa.eu/en/library/commission-publishes-new-guidance-support-timely-cyber-resilience-act-implementation
     author: European Commission
-    last_modified: '2026-06-18 00:00:00+00:00'
+    last_modified: '2026-07-27 00:00:00+00:00'
     used_by:
+    - glossary/actively-exploited-vulnerability
     - guidance/european-commission/c-2026-5252-cra-guidance
+    - obligations/reporting/article-14-reporting
+    - obligations/reporting/early-warning-24h
   ec-cra-conformity:
     id: ec-cra-conformity
     title: Cyber Resilience Act - Conformity Assessment Procedures and Notified Bodies
@@ -266,14 +284,17 @@ sources:
     - guidance/european-commission/conformity-assessment-guidance
   ec-cra-faq:
     id: ec-cra-faq
-    title: Cyber Resilience Act Implementation - Frequently Asked Questions
+    title: Cyber Resilience Act Implementation - Frequently Asked Questions (v1.4)
     resource: https://digital-strategy.ec.europa.eu/en/library/cyber-resilience-act-implementation-frequently-asked-questions
     author: European Commission
-    last_modified: '2026-07-10 00:00:00+00:00'
+    last_modified: '2026-09-04 00:00:00+00:00'
     used_by:
+    - glossary/actively-exploited-vulnerability
     - guidance/european-commission/implementation-faq
     - obligations/open-source/non-commercial-foss-developers
     - obligations/open-source/open-source-software-steward
+    - obligations/reporting/article-14-reporting
+    - obligations/reporting/early-warning-24h
     - obligations/reporting/user-notifications
     - obligations/scope/commercial-activity
     - obligations/scope/product-scope
