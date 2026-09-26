@@ -1,6 +1,6 @@
 version: 1
-checked_at: '2026-08-21T00:00:00Z'
-total_sources: 264
+checked_at: '2026-09-26T00:00:00Z'
+total_sources: 267
 sources:
   cra-art-3:
     id: cra-art-3
@@ -262,6 +262,15 @@ sources:
     last_modified: '2026-09-04 00:00:00+00:00'
     used_by:
     - guidance/enisa/srp-csirt-coordinators
+  enisa-srp-portal:
+    id: enisa-srp-portal
+    title: Single Reporting Platform (SRP) Production Portal
+    resource: https://portal.cra-srp.enisa.europa.eu
+    author: European Union Agency for Cybersecurity (ENISA)
+    last_modified: '2026-09-11 00:00:00+00:00'
+    used_by:
+    - guidance/enisa/single-reporting-platform
+    - guidance/enisa/srp-assigned-representative-registration
   ec-c-2026-5252:
     id: ec-c-2026-5252
     title: Commission Communication C(2026) 5252 final - Guidelines on the application

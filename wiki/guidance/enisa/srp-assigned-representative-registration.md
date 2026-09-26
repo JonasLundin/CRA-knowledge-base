@@ -13,6 +13,11 @@ sources:
     title: CRA SRP guidance - AR User registration
     author: European Union Agency for Cybersecurity (ENISA)
     last_modified: 2026-08-03T00:00:00Z
+  - id: enisa-srp-portal
+    resource: https://portal.cra-srp.enisa.europa.eu
+    title: Single Reporting Platform (SRP) Production Portal
+    author: European Union Agency for Cybersecurity (ENISA)
+    last_modified: 2026-09-11T00:00:00Z
 x-cra:
   jurisdiction: EU
   issuing_authority: ENISA
@@ -26,7 +31,7 @@ x-cra:
     - Article 17
     - Article 20
   language: en
-  checked_at: 2026-09-07T00:00:00Z
+  checked_at: 2026-09-26T00:00:00Z
 ---
 
 # Summary
@@ -45,8 +50,8 @@ Applies to manufacturers (EU and non-EU), authorized representatives appointed u
 
 The guidance outlines the account setup lifecycle, authentication, and validation model [^enisa-srp-registration]:
 
-- **Personal Authentication via EU Login:**
-  - Individual users access the SRP using their personal EU Login account secured by multi-factor authentication (MFA).
+- **Personal Authentication via EU Login (`portal.cra-srp.enisa.europa.eu`):**
+  - Individual users access the SRP production portal [^enisa-srp-portal] using their personal EU Login account secured by multi-factor authentication (MFA).
   - Corporate certificates or federated enterprise SSO are not utilized for user onboarding.
 - **Assigned Representative Designation:**
   - *Primary Assigned Representative (Primary AR):* The individual who initially registers the manufacturer entity on the platform. The Primary AR provides the manufacturer's legal name, registration number (e.g., VAT, EORI, or national commercial registry code), contact details, and country of establishment.
