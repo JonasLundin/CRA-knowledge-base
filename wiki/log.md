@@ -1,5 +1,13 @@
 # Bundle Update Log
 
+## 2026-09-26
+
+* **v0.2.0 Release & SRP Go-Live Integration**:
+  - Integrated official live Single Reporting Platform production endpoint (`https://portal.cra-srp.enisa.europa.eu`) as `enisa-srp-portal` across SRP overview and registration concepts.
+  - Audited all 267 normative sources in `sources.yaml` following the 11 September 2026 Article 14 application milestone.
+  - Established formal CRA Knowledge Base Release Notes Standard (`CKB-RNS-01`), reusable templates, and published comprehensive release notes for v0.2.0.
+  - Bumped version to 0.2.0 across manifests (`VERSION`, `CITATION.cff`, `CHANGELOG.md`).
+
 ## 2026-09-07
 
 * **Normative Drift Reconciliation**: Updated drifted European Commission and ENISA Single Reporting Platform (SRP) normative sources and concepts:

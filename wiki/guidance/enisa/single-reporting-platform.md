@@ -13,6 +13,11 @@ sources:
     title: Single Reporting Platform (SRP) for the Cyber Resilience Act
     author: European Union Agency for Cybersecurity (ENISA)
     last_modified: 2026-09-04T00:00:00Z
+  - id: enisa-srp-portal
+    resource: https://portal.cra-srp.enisa.europa.eu
+    title: Single Reporting Platform (SRP) Production Portal
+    author: European Union Agency for Cybersecurity (ENISA)
+    last_modified: 2026-09-11T00:00:00Z
 x-cra:
   jurisdiction: EU
   issuing_authority: ENISA
@@ -25,7 +30,7 @@ x-cra:
     - Article 16
     - Article 71
   language: en
-  checked_at: 2026-09-07T00:00:00Z
+  checked_at: 2026-09-26T00:00:00Z
 ---
 
 # Summary
@@ -45,7 +50,7 @@ Applies to all manufacturers placing products with digital elements on the EU ma
 The overview details the operational mechanism of the platform [^enisa-srp-hub]:
 
 - **Centralized Single-Entry Architecture (Article 16(1)):** The SRP provides a single digital entry point for manufacturers, preventing duplicate reporting to individual Member States.
-- **Web Portal Access via EU Login:** Users authenticate using personal EU Login accounts secured with multi-factor authentication (MFA). Corporate certificates or custom PKI onboarding are not used for portal access.
+- **Web Portal Access via EU Login (`portal.cra-srp.enisa.europa.eu`):** Users authenticate to the production portal [^enisa-srp-portal] using personal EU Login accounts secured with multi-factor authentication (MFA). Corporate certificates or custom PKI onboarding are not used for portal access.
 - **Assigned Representative (AR) Roles:** Organizations operate through Assigned Representatives, comprising a Primary AR (who registers the manufacturer and manages delegations) and up to 20 Secondary ARs.
 - **Simultaneous Dissemination (Article 16(2)):** Upon submission, notifications are made simultaneously available to the relevant CSIRT designated as coordinator (CDaC) and to ENISA, subject to delayed dissemination rules under Particular Exceptional Circumstances (PEC).
 - **Initial Release Scope (No M2M API):** The SRP is deployed exclusively as an interactive web portal for its initial release on 11 September 2026. No machine-to-machine (REST API) interface is available at launch; API functionality is planned for a subsequent phase.
