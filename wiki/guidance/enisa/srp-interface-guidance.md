@@ -6,7 +6,7 @@ category: guidance
 tags: [cra, guidance, enisa, srp, web-interface, assigned-representatives, user-functions]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
-stale_after: 2026-11-21T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: enisa-srp-api-guide
     resource: https://www.enisa.europa.eu/topics/product-security/single-reporting-platform-srp/cra-srp-guidance-ar-interface-functions
@@ -23,7 +23,7 @@ x-cra:
     - Article 14
     - Article 16
   language: en
-  checked_at: 2026-09-07T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary
@@ -45,10 +45,10 @@ The interface guidance outlines the functional components of the web portal [^en
 - **Interface Modality (No Machine-to-Machine API):** For the initial 11 September 2026 launch, the SRP operates exclusively via an interactive web interface. No machine-to-machine (REST API) interface is available at launch; programmatic integration (e.g., CSAF 2.0 endpoints) is deferred to a future platform iteration.
 - **User Settings and Authentication:** Users manage profile data linked to their personal EU Login account. Multi-factor authentication (MFA) credentials and communication preferences are maintained directly.
 - **Assigned Representative Hierarchy:**
-  - *Primary Assigned Representative (Primary AR):* The initial user establishing the manufacturer association on the platform. Possesses administrative rights to configure manufacturer entity profiles and delegate access.
-  - *Secondary Assigned Representatives (Secondary ARs):* Up to 20 additional users invited by the Primary AR to collaborate on submissions.
-- **Invitation and Delegation Lifecycle:**
-  - Primary ARs generate secure invitation links for Secondary ARs directly within the platform.
+  - *Primary Assigned Representative (Primary AR / AR Primary User):* The initial user establishing the manufacturer association on the platform. Possesses administrative rights to configure manufacturer entity profiles and delegate access.
+  - *Secondary Assigned Representatives (Secondary ARs / AR Backup Users):* Up to 20 additional users invited by the Primary AR to collaborate on submissions.
+- **Invitation and Delegation Lifecycle (`v1.2.1` Update):**
+  - Under SRP `v1.2.1` (deployed 20 October 2026), Primary ARs initiate invitations for Secondary ARs directly within the portal once the Primary AR's association is verified by the coordinating CSIRT.
   - Invitation links remain valid for **7 days** from generation.
   - Primary ARs may revoke active delegations or re-issue expired invitations at any time.
 - **Multi-Manufacturer Associations:**
@@ -63,6 +63,7 @@ The interface guidance outlines the functional components of the web portal [^en
 
 - **First Published:** 14 August 2026.
 - **Application:** Operational for portal access from 11 September 2026.
+- **Platform `v1.2.1` Update:** 20 October 2026 (revised Secondary AR invitation and account management workflow).
 
 # Related concepts
 

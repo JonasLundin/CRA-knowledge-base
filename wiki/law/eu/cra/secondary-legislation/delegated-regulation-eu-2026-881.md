@@ -24,7 +24,7 @@ x-cra:
   in_force_date: 2026-05-10
   applies_from: 2026-09-11
   celex: 32026R0881
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary

@@ -6,7 +6,7 @@ category: timeline
 tags: [cra, timeline, delegated-acts, implementing-acts, secondary-legislation, milestones]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
-stale_after: 2026-11-20T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: reg-2025-1535
     resource: http://data.europa.eu/eli/reg_del/2025/1535/oj/eng
@@ -34,7 +34,7 @@ x-cra:
   instrument_status: in_force
   provision: Articles 2, 8, 14, 65
   applies_from: 2025-07-24
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary

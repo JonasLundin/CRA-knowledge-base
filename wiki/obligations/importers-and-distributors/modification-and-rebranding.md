@@ -6,7 +6,7 @@ category: requirement
 tags: [cra, rebranding, white-labelling, substantial-modification, economic-operator]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
-stale_after: 2026-11-20T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: cra-art-18
     resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_18
@@ -24,7 +24,7 @@ x-cra:
   instrument_status: in_force
   provision: Article 18
   applies_from: 2027-12-11
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary

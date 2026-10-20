@@ -36,7 +36,7 @@ x-cra:
     - Recital 56
     - Recital 57
   applicability: procedural_enabling_framework
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary

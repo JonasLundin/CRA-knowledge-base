@@ -6,7 +6,7 @@ category: standard
 tags: [cra, standard, m606, vertical, annex-iii-class-i, vpn, etsi-tc-cyber, clc-tc65x]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
-stale_after: 2026-11-21T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: m606
     resource: https://ec.europa.eu/transparency/documents-register/detail?ref=C(2025)618&lang=en
@@ -36,7 +36,7 @@ x-cra:
     - CRA Annex III Class I point 5
   access: open
   copyright: third-party
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary
@@ -56,7 +56,7 @@ This request entry sets the mandate; legal presumption of conformity requires ci
 
 - **Technical Committees**:
   - ETSI TC CYBER / WG EUSR (Rapporteur: Aki Rose Braun) -> `EN 304-620` (ETSI WI `REN/CYBER-00109`, WKI ID 74409)[^etsi-wi-74409].
-  - CLC/TC 65X WG 3 for industrial automation VPN components.
+  - CLC/TC 65X WG 3 for industrial automation VPN components -> `prEN 50770-4` (*Industrial Automation and Control Systems — Cybersecurity requirements for OT Virtual Private Networks*).
 
 # Related concepts
 

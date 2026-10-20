@@ -24,7 +24,7 @@ x-cra:
   in_force_date: 2025-12-21
   applies_from: 2027-12-11
   celex: 32025R2392
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary

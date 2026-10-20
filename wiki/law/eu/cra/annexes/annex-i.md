@@ -19,7 +19,7 @@ x-cra:
   instrument_status: in_force
   provision: Annex I
   applies_from: 2027-12-11
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary
@@ -66,4 +66,4 @@ Applies from 11 December 2027.
 - [Article 13: Obligations of manufacturers](../articles/article-13.md)
 - [Annex VII: Content of Technical Documentation](annex-vii.md)
 
-[^cra-annex-i]: Regulation (EU) 2024/2847, Annex I, [ELI: http://data.europa.eu/eli/reg/2024/2847/oj/eng](http://data.europa.eu/eli/reg/2024/2847/oj/eng).
+[^cra-annex-i]: Regulation (EU) 2024/2847, Annex I, [ELI: http://data.europa.eu/eli/reg/2024/2847/oj/eng#ann_1](http://data.europa.eu/eli/reg/2024/2847/oj/eng#ann_1).

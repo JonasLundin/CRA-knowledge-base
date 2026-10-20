@@ -6,7 +6,7 @@ category: standard
 tags: [cra, standard, m606, vertical, annex-iii-class-ii, annex-iv-critical, smartcards, secure-elements, eucc, cen-tc224, clc-tc47x]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
-stale_after: 2026-11-21T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: m606
     resource: https://ec.europa.eu/transparency/documents-register/detail?ref=C(2025)618&lang=en
@@ -37,7 +37,7 @@ x-cra:
     - CRA Annex IV point 1
   access: restricted
   copyright: third-party
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary
@@ -56,8 +56,8 @@ This request entry sets the standardisation mandate; presumption of conformity r
 # Responsible committee and deliverables
 
 - **Technical Committees**:
-  - CEN/TC 224 WG 17 (Protection Profiles in the context of SSCD; expert Ivan Plajh)[^stan4cra-tc224].
-  - CLC/TC 47X WG 3 (SmartCards and Secure Element Platforms; expert Mariela Pavlova)[^stan4cra-clc47x].
+  - CEN/TC 224 WG 17 (Protection Profiles in the context of SSCD; expert Ivan Plajh) -> `prEN 18330` (*Cyber Resilience Act requirements — Smartcards and similar devices, including secure elements — Application layer*)[^stan4cra-tc224].
+  - CLC/TC 47X WG 3 (SmartCards and Secure Element Platforms; expert Mariela Pavlova) -> `prEN 50764:2026` (*Platforms of smartcards and similar devices, including secure elements*)[^stan4cra-clc47x].
 
 # Related concepts
 

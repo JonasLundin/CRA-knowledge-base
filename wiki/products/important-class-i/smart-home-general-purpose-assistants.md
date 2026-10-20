@@ -6,7 +6,7 @@ category: product
 tags: [cra, product-category, important-class-i, virtual-assistants, smart-home, voice-assistants]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
-stale_after: 2026-11-20T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: cra-annex-3
     resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#ann_3
@@ -29,7 +29,7 @@ x-cra:
   instrument_status: in_force
   provision: Annex III Class I point 14, Article 32(2)
   applies_from: 2027-12-11
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary
@@ -65,5 +65,5 @@ Applies to:
 - [Conformity Assessment Routes](../../obligations/conformity-assessment/conformity-routes.md)
 
 [^cra-annex-3]: Regulation (EU) 2024/2847, Annex III, http://data.europa.eu/eli/reg/2024/2847/oj/eng#ann_3
-[^cra-art-32]: Regulation (EU) 2024/2847, Article 32, http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_3
+[^cra-art-32]: Regulation (EU) 2024/2847, Article 32, http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_32
 [^reg-2025-2392]: Commission Implementing Regulation (EU) 2025/2392, http://data.europa.eu/eli/reg_impl/2025/2392/oj/eng

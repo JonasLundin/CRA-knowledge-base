@@ -19,7 +19,7 @@ x-cra:
   instrument_status: in_force
   provision: Annex VII
   applies_from: 2027-12-11
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary
@@ -56,4 +56,4 @@ Applies from 11 December 2027.
 - [Article 31: Technical documentation](../articles/article-31.md)
 - [Annex I: Essential Requirements](annex-i.md)
 
-[^cra-annex-vii]: Regulation (EU) 2024/2847, Annex VII, [ELI: http://data.europa.eu/eli/reg/2024/2847/oj/eng](http://data.europa.eu/eli/reg/2024/2847/oj/eng).
+[^cra-annex-vii]: Regulation (EU) 2024/2847, Annex VII, [ELI: http://data.europa.eu/eli/reg/2024/2847/oj/eng#ann_7](http://data.europa.eu/eli/reg/2024/2847/oj/eng#ann_7).

@@ -32,7 +32,7 @@ x-cra:
     - Annex I
     - Annex VII
   language: en
-  checked_at: 2026-09-07T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary

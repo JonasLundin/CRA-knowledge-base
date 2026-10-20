@@ -6,7 +6,7 @@ category: product
 tags: [cra, product-category, important-class-i, iam, pam, identity-management]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
-stale_after: 2026-11-20T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: cra-annex-3
     resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#ann_3
@@ -29,7 +29,7 @@ x-cra:
   instrument_status: in_force
   provision: Annex III Class I point 1, Article 32(2)
   applies_from: 2027-12-11
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary
@@ -50,7 +50,7 @@ Covers software and hardware whose core function is:
 # Requirements or coverage
 
 - **Conformity assessment route:** Module A (if harmonised standards are applied in full), or third-party Module B+C / Module H, or European cybersecurity certification (Article 32(2));[^cra-art-32]
-- **Relevant vertical standards:** M/606 line 16 (CEN/TC 224 / CEN-CLC JTC 13);
+- **Relevant vertical standards:** `prEN 40000-10` under M/606 Line 16 (CEN/TC 224 WG 17);
 - **Lifecycle & reporting:** Full Annex I essential requirements and Article 14 mandatory reporting via the SRP.
 
 # Dates and transitions

@@ -1,6 +1,6 @@
 version: 1
-checked_at: '2026-09-26T00:00:00Z'
-total_sources: 267
+checked_at: '2026-11-18T00:00:00Z'
+total_sources: 272
 sources:
   cra-art-3:
     id: cra-art-3
@@ -28,8 +28,8 @@ sources:
     - glossary/product-with-digital-elements
     - glossary/remote-data-processing
     - glossary/severe-incident
-    - glossary/software-bill-of-materials
     - glossary/software
+    - glossary/software-bill-of-materials
     - glossary/substantial-modification
     - glossary/support-period
     - law/eu/cra/articles/article-3
@@ -190,8 +190,8 @@ sources:
     - guidance/enisa/cra-standards-mapping
   enisa-notified-bodies:
     id: enisa-notified-bodies
-    title: Competence Criteria and Assessment Framework for Notified Bodies under
-      the Cyber Resilience Act
+    title: Competence Criteria and Assessment Framework for Notified Bodies under the Cyber Resilience
+      Act
     resource: https://www.enisa.europa.eu/topics/product-security/notified-bodies-competence
     author: European Union Agency for Cybersecurity (ENISA)
     last_modified: '2026-04-12 00:00:00+00:00'
@@ -199,8 +199,7 @@ sources:
     - guidance/enisa/notified-body-competence
   enisa-sbd-guidance:
     id: enisa-sbd-guidance
-    title: Engineering Cybersecurity by Design and by Default for the Cyber Resilience
-      Act
+    title: Engineering Cybersecurity by Design and by Default for the Cyber Resilience Act
     resource: https://www.enisa.europa.eu/publications/cybersecurity-by-design-in-cyber-resilience-act
     author: European Union Agency for Cybersecurity (ENISA)
     last_modified: '2025-10-28 00:00:00+00:00'
@@ -267,14 +266,14 @@ sources:
     title: Single Reporting Platform (SRP) Production Portal
     resource: https://portal.cra-srp.enisa.europa.eu
     author: European Union Agency for Cybersecurity (ENISA)
-    last_modified: '2026-09-11 00:00:00+00:00'
+    last_modified: '2026-10-20 00:00:00+00:00'
     used_by:
     - guidance/enisa/single-reporting-platform
     - guidance/enisa/srp-assigned-representative-registration
   ec-c-2026-5252:
     id: ec-c-2026-5252
-    title: Commission Communication C(2026) 5252 final - Guidelines on the application
-      of Regulation (EU) 2024/2847
+    title: Commission Communication C(2026) 5252 final - Guidelines on the application of Regulation (EU)
+      2024/2847
     resource: https://digital-strategy.ec.europa.eu/en/library/commission-publishes-new-guidance-support-timely-cyber-resilience-act-implementation
     author: European Commission
     last_modified: '2026-07-27 00:00:00+00:00'
@@ -318,8 +317,8 @@ sources:
     - guidance/european-commission/implementation-hub
   eurlex-cra-summary:
     id: eurlex-cra-summary
-    title: Summary of Regulation (EU) 2024/2847 on horizontal cybersecurity requirements
-      for products with digital elements
+    title: Summary of Regulation (EU) 2024/2847 on horizontal cybersecurity requirements for products
+      with digital elements
     resource: https://eur-lex.europa.eu/EN/legal-content/summary/cyber-resilience-act.html
     author: Publications Office of the European Union
     last_modified: '2024-12-15 00:00:00+00:00'
@@ -375,8 +374,7 @@ sources:
     - guidance/european-commission/standardisation-guidance
   anssi-cra-guide:
     id: anssi-cra-guide
-    title: Règlement européen sur la cyber-résilience (CRA) - Présentation et accompagnement
-      des acteurs
+    title: Règlement européen sur la cyber-résilience (CRA) - Présentation et accompagnement des acteurs
     resource: https://cyber.gouv.fr/actualites/reglement-europeen-sur-la-cyber-resilience-cra
     author: Agence nationale de la sécurité des systèmes d'information (ANSSI)
     last_modified: '2026-04-18 00:00:00+00:00'
@@ -384,8 +382,7 @@ sources:
     - guidance/national-authorities/france-anssi-cra-guidance
   bsi-cra-guide:
     id: bsi-cra-guide
-    title: Cyber Resilience Act (CRA) - Informationen und Handlungsempfehlungen des
-      BSI
+    title: Cyber Resilience Act (CRA) - Informationen und Handlungsempfehlungen des BSI
     resource: https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Cyber-Resilience-Act/cyber-resilience-act_node.html
     author: Federal Office for Information Security (BSI)
     last_modified: '2026-05-22 00:00:00+00:00'
@@ -464,8 +461,7 @@ sources:
     - jurisdictions/eea/iceland
   li-lgbl:
     id: li-lgbl
-    title: Liechtenstein National Legal Gazette (Liechtensteinisches Landesgesetzblatt
-      - LGBl.)
+    title: Liechtenstein National Legal Gazette (Liechtensteinisches Landesgesetzblatt - LGBl.)
     resource: https://www.gesetze.li/
     author: Government of the Principality of Liechtenstein
     last_modified: '2026-08-21 00:00:00+00:00'
@@ -565,8 +561,7 @@ sources:
     - jurisdictions/eu-member-states/sweden
   at-ris:
     id: at-ris
-    title: Austrian Legal Information System (Rechtsinformationssystem des Bundes
-      - RIS)
+    title: Austrian Legal Information System (Rechtsinformationssystem des Bundes - RIS)
     resource: https://www.ris.bka.gv.at/
     author: Federal Chancellery of Austria (Bundeskanzleramt)
     last_modified: '2026-08-21 00:00:00+00:00'
@@ -630,8 +625,7 @@ sources:
     - jurisdictions/eu-member-states/croatia
   cy-gpo:
     id: cy-gpo
-    title: Official Gazette of the Republic of Cyprus (Επίσημη Εφημερίδα της Κυπριακής
-      Δημοκρατίας)
+    title: Official Gazette of the Republic of Cyprus (Επίσημη Εφημερίδα της Κυπριακής Δημοκρατίας)
     resource: http://www.mof.gov.cy/gpo/
     author: Government Printing Office of Cyprus
     last_modified: '2026-08-21 00:00:00+00:00'
@@ -743,8 +737,7 @@ sources:
     - jurisdictions/eu-member-states/germany
   gr-fek:
     id: gr-fek
-    title: Government Gazette of the Hellenic Republic (Εφημερίς της Κυβερνήσεως -
-      FEK)
+    title: Government Gazette of the Hellenic Republic (Εφημερίς της Κυβερνήσεως - FEK)
     resource: https://www.et.gr/
     author: National Printing House (Εθνικό Τυπογραφείο)
     last_modified: '2026-08-21 00:00:00+00:00'
@@ -818,15 +811,13 @@ sources:
     id: lv-cert
     title: CERT.LV - Information Technology Security Incident Response Institution
     resource: https://cert.lv/
-    author: University of Latvia Institute of Mathematics and Computer Science / Ministry
-      of Defence
+    author: University of Latvia Institute of Mathematics and Computer Science / Ministry of Defence
     last_modified: '2026-08-21 00:00:00+00:00'
     used_by:
     - jurisdictions/eu-member-states/latvia
   lt-tar:
     id: lt-tar
-    title: Register of Legal Acts of the Republic of Lithuania (Teisės aktų registras
-      - TAR)
+    title: Register of Legal Acts of the Republic of Lithuania (Teisės aktų registras - TAR)
     resource: https://www.e-tar.lt/
     author: Office of the Seimas of the Republic of Lithuania
     last_modified: '2026-08-21 00:00:00+00:00'
@@ -1715,8 +1706,8 @@ sources:
     - products/default/default-products
   dir-2014-53-eu:
     id: dir-2014-53-eu
-    title: Directive 2014/53/EU on the harmonisation of the laws of the Member States
-      relating to the making available on the market of radio equipment (RED)
+    title: Directive 2014/53/EU on the harmonisation of the laws of the Member States relating to the
+      making available on the market of radio equipment (RED)
     resource: http://data.europa.eu/eli/dir/2014/53/oj/eng
     author: European Parliament and Council
     last_modified: '2014-05-22 00:00:00+00:00'
@@ -1724,8 +1715,8 @@ sources:
     - law/eu/related-legislation/dir-2014-53-eu-radio-equipment
   dir-2020-1828:
     id: dir-2020-1828
-    title: Directive (EU) 2020/1828 on representative actions for the protection of
-      the collective interests of consumers
+    title: Directive (EU) 2020/1828 on representative actions for the protection of the collective interests
+      of consumers
     resource: http://data.europa.eu/eli/dir/2020/1828/oj/eng
     author: European Parliament and Council
     last_modified: '2020-12-04 00:00:00+00:00'
@@ -1733,8 +1724,8 @@ sources:
     - law/eu/related-legislation/dir-2020-1828-representative-actions
   dir-2022-2555:
     id: dir-2022-2555
-    title: Directive (EU) 2022/2555 on measures for a high common level of cybersecurity
-      across the Union (NIS2 Directive)
+    title: Directive (EU) 2022/2555 on measures for a high common level of cybersecurity across the Union
+      (NIS2 Directive)
     resource: http://data.europa.eu/eli/dir/2022/2555/oj/eng
     author: European Parliament and Council
     last_modified: '2022-12-27 00:00:00+00:00'
@@ -1757,8 +1748,8 @@ sources:
     - products/default/default-products
   dir-2024-2853:
     id: dir-2024-2853
-    title: Directive (EU) 2024/2853 on liability for defective products and repealing
-      Council Directive 85/374/EEC
+    title: Directive (EU) 2024/2853 on liability for defective products and repealing Council Directive
+      85/374/EEC
     resource: http://data.europa.eu/eli/dir/2024/2853/oj/eng
     author: European Parliament and Council
     last_modified: '2024-11-18 00:00:00+00:00'
@@ -1783,8 +1774,8 @@ sources:
     - obligations/market-surveillance/market-surveillance-framework
   reg-2019-881:
     id: reg-2019-881
-    title: Regulation (EU) 2019/881 on ENISA and on information and communications
-      technology cybersecurity certification (Cybersecurity Act)
+    title: Regulation (EU) 2019/881 on ENISA and on information and communications technology cybersecurity
+      certification (Cybersecurity Act)
     resource: http://data.europa.eu/eli/reg/2019/881/oj/eng
     author: European Parliament and Council
     last_modified: '2019-04-17 00:00:00+00:00'
@@ -1793,8 +1784,8 @@ sources:
     - law/eu/related-legislation/reg-2024-482-eucc
   reg-2022-30:
     id: reg-2022-30
-    title: Commission Delegated Regulation (EU) 2022/30 on the application of essential
-      requirements in Article 3(3)(d), (e) and (f) of Directive 2014/53/EU
+    title: Commission Delegated Regulation (EU) 2022/30 on the application of essential requirements in
+      Article 3(3)(d), (e) and (f) of Directive 2014/53/EU
     resource: http://data.europa.eu/eli/reg_del/2022/30/oj/eng
     author: European Commission
     last_modified: '2022-01-12 00:00:00+00:00'
@@ -1802,8 +1793,8 @@ sources:
     - law/eu/related-legislation/reg-2022-30-red-cybersecurity
   reg-2023-2444:
     id: reg-2023-2444
-    title: Commission Delegated Regulation (EU) 2023/2444 amending Delegated Regulation
-      (EU) 2022/30 as regards the date of application
+    title: Commission Delegated Regulation (EU) 2023/2444 amending Delegated Regulation (EU) 2022/30 as
+      regards the date of application
     resource: http://data.europa.eu/eli/reg_del/2023/2444/oj/eng
     author: European Commission
     last_modified: '2023-11-06 00:00:00+00:00'
@@ -1819,8 +1810,8 @@ sources:
     - law/eu/related-legislation/reg-2023-988-general-product-safety
   reg-2024-1689:
     id: reg-2024-1689
-    title: Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence
-      (Artificial Intelligence Act)
+    title: Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial
+      Intelligence Act)
     resource: http://data.europa.eu/eli/reg/2024/1689/oj/eng
     author: European Parliament and Council
     last_modified: '2024-07-12 00:00:00+00:00'
@@ -1828,8 +1819,8 @@ sources:
     - law/eu/related-legislation/reg-2024-1689-ai-act
   reg-2024-482:
     id: reg-2024-482
-    title: Commission Implementing Regulation (EU) 2024/482 on the European Common
-      Criteria-based cybersecurity certification scheme (EUCC)
+    title: Commission Implementing Regulation (EU) 2024/482 on the European Common Criteria-based cybersecurity
+      certification scheme (EUCC)
     resource: http://data.europa.eu/eli/reg_impl/2024/482/oj/eng
     author: European Commission
     last_modified: '2024-02-07 00:00:00+00:00'
@@ -1847,8 +1838,7 @@ sources:
     - obligations/manufacturers/ce-marking
   dir-2014-90-eu:
     id: dir-2014-90-eu
-    title: Directive 2014/90/EU on marine equipment and repealing Council Directive
-      96/98/EC (MED)
+    title: Directive 2014/90/EU on marine equipment and repealing Council Directive 96/98/EC (MED)
     resource: http://data.europa.eu/eli/dir/2014/90/oj/eng
     author: European Parliament and Council
     last_modified: '2014-08-28 00:00:00+00:00'
@@ -1856,8 +1846,8 @@ sources:
     - law/eu/related-legislation/sector-exclusions/dir-2014-90-eu-marine-equipment
   reg-168-2013:
     id: reg-168-2013
-    title: Regulation (EU) No 168/2013 on the approval and market surveillance of
-      two- or three-wheel vehicles and quadricycles
+    title: Regulation (EU) No 168/2013 on the approval and market surveillance of two- or three-wheel
+      vehicles and quadricycles
     resource: http://data.europa.eu/eli/reg/2013/168/oj/eng
     author: European Parliament and Council
     last_modified: '2013-03-02 00:00:00+00:00'
@@ -1893,8 +1883,8 @@ sources:
     - law/eu/related-legislation/sector-exclusions/reg-2017-746-in-vitro-diagnostics
   reg-2018-1139:
     id: reg-2018-1139
-    title: Regulation (EU) 2018/1139 on common rules in the field of civil aviation
-      and establishing a European Union Aviation Safety Agency (EASA)
+    title: Regulation (EU) 2018/1139 on common rules in the field of civil aviation and establishing a
+      European Union Aviation Safety Agency (EASA)
     resource: http://data.europa.eu/eli/reg/2018/1139/oj/eng
     author: European Parliament and Council
     last_modified: '2018-08-22 00:00:00+00:00'
@@ -1902,8 +1892,8 @@ sources:
     - law/eu/related-legislation/sector-exclusions/reg-2018-1139-civil-aviation
   reg-2023-203:
     id: reg-2023-203
-    title: Commission Delegated Regulation (EU) 2023/203 on management of information
-      security risks in civil aviation (Part-IS)
+    title: Commission Delegated Regulation (EU) 2023/203 on management of information security risks in
+      civil aviation (Part-IS)
     resource: http://data.europa.eu/eli/reg_del/2023/203/oj/eng
     author: European Commission
     last_modified: '2023-02-17 00:00:00+00:00'
@@ -1911,8 +1901,8 @@ sources:
     - law/eu/related-legislation/sector-exclusions/reg-2018-1139-civil-aviation
   reg-2019-2144:
     id: reg-2019-2144
-    title: Regulation (EU) 2019/2144 on type-approval requirements for motor vehicles
-      and their trailers (General Safety Regulation / GSR)
+    title: Regulation (EU) 2019/2144 on type-approval requirements for motor vehicles and their trailers
+      (General Safety Regulation / GSR)
     resource: http://data.europa.eu/eli/reg/2019/2144/oj/eng
     author: European Parliament and Council
     last_modified: '2019-12-16 00:00:00+00:00'
@@ -1920,8 +1910,8 @@ sources:
     - law/eu/related-legislation/sector-exclusions/reg-2019-2144-motor-vehicles
   reg-2018-858:
     id: reg-2018-858
-    title: Regulation (EU) 2018/858 on the approval and market surveillance of motor
-      vehicles and their trailers
+    title: Regulation (EU) 2018/858 on the approval and market surveillance of motor vehicles and their
+      trailers
     resource: http://data.europa.eu/eli/reg/2018/858/oj/eng
     author: European Parliament and Council
     last_modified: '2018-06-14 00:00:00+00:00'
@@ -2049,8 +2039,7 @@ sources:
     - products/important-class-ii/tamper-evident-microprocessors
   cra-art-27-8:
     id: cra-art-27-8
-    title: Regulation (EU) 2024/2847, Article 27(8) (Presumption from European cybersecurity
-      schemes)
+    title: Regulation (EU) 2024/2847, Article 27(8) (Presumption from European cybersecurity schemes)
     resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_27
     author: European Parliament and Council
     last_modified: '2024-11-20 00:00:00+00:00'
@@ -2069,12 +2058,13 @@ sources:
     title: CEN-CLC JTC 13 Technical Work
     resource: https://www.stan4cra.eu/cenclcjtc13
     author: STAN4CR
-    last_modified: '2026-06-01 00:00:00+00:00'
+    last_modified: '2026-11-01 00:00:00+00:00'
     used_by:
     - standards/committees/cen-clc-jtc-13
     - standards/harmonised/pren-40000-1-1
     - standards/harmonised/pren-40000-1-2
     - standards/harmonised/pren-40000-1-3
+    - standards/harmonised/pren-40000-1-4
     - standards/m606/line-01
     - standards/m606/line-02
     - standards/m606/line-03
@@ -2123,6 +2113,7 @@ sources:
     - standards/harmonised/pren-40000-1-1
     - standards/harmonised/pren-40000-1-2
     - standards/harmonised/pren-40000-1-3
+    - standards/harmonised/pren-40000-1-4
     - standards/m606/line-01
     - standards/m606/line-02
     - standards/m606/line-03
@@ -2178,7 +2169,7 @@ sources:
     title: CEN TC 224 Technical Work
     resource: https://www.stan4cra.eu/centc244
     author: STAN4CR
-    last_modified: '2026-06-01 00:00:00+00:00'
+    last_modified: '2026-10-01 00:00:00+00:00'
     used_by:
     - standards/committees/cen-tc-224
     - standards/m606/line-16
@@ -2265,8 +2256,7 @@ sources:
     - standards/committees/etsi-tc-cyber-eusr
   etsi-docbox-617:
     id: etsi-docbox-617
-    title: 'EN 304 617 V1.0.0 (2026-08-12) Enquiry Draft: Standalone and embedded
-      browsers'
+    title: 'EN 304 617 V1.0.0 (2026-08-12) Enquiry Draft: Standalone and embedded browsers'
     resource: https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-617_V1.0.0_2026-08-12_Browsers_Enquiry-draft.pdf
     author: ETSI TC CYBER
     last_modified: '2026-08-12 00:00:00+00:00'
@@ -2351,8 +2341,7 @@ sources:
     - standards/m606/line-21
   etsi-docbox-622:
     id: etsi-docbox-622
-    title: 'EN 304 622 V1.0.0 (2026-08-12) Enquiry Draft: Security Information and
-      Event Management'
+    title: 'EN 304 622 V1.0.0 (2026-08-12) Enquiry Draft: Security Information and Event Management'
     resource: https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-622_V1.0.0_2026-08-12_Security-Information-Event-Management_Enquiry-draft.pdf
     author: ETSI TC CYBER
     last_modified: '2026-08-12 00:00:00+00:00'
@@ -2386,8 +2375,7 @@ sources:
     - standards/m606/line-23
   etsi-docbox-624:
     id: etsi-docbox-624
-    title: 'EN 304 624 V1.0.0 (2026-08-05) Enquiry Draft: PKI certificate issuance
-      software'
+    title: 'EN 304 624 V1.0.0 (2026-08-05) Enquiry Draft: PKI certificate issuance software'
     resource: https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-624_V1.0.0_2026-08-05_PKI_certificate_issuance_software_Enquiry-draft.pdf
     author: ETSI TC CYBER
     last_modified: '2026-08-05 00:00:00+00:00'
@@ -2523,8 +2511,7 @@ sources:
     - standards/m606/line-34
   etsi-docbox-635:
     id: etsi-docbox-635
-    title: 'EN 304 635 V1.0.1 (2026-06-24) Enquiry Draft: Virtualization and Container
-      Systems'
+    title: 'EN 304 635 V1.0.1 (2026-06-24) Enquiry Draft: Virtualization and Container Systems'
     resource: https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-635_V1.0.1_2026-06-24_Virtualization_Container_Enquiry-draft.pdf
     author: ETSI TC CYBER
     last_modified: '2026-06-24 00:00:00+00:00'
@@ -2558,23 +2545,24 @@ sources:
     - standards/m606/line-36
   cen-wi-81335:
     id: cen-wi-81335
-    title: 'CEN/CLC Project 81335: Cybersecurity requirements for products with digital
-      elements - Principles for cyber resilience'
+    title: 'CEN/CLC Project 81335: Cybersecurity requirements for products with digital elements - Principles
+      for cyber resilience'
     resource: https://standards.cencenelec.eu/ords/f?p=205:110:::::FSP_PROJECT,FSP_LANG_ID:81335,25
     author: CEN-CENELEC
-    last_modified: '2026-06-01 00:00:00+00:00'
+    last_modified: '2026-11-02 00:00:00+00:00'
     used_by:
     - standards/harmonised/pren-40000-1-1
+    - standards/harmonised/pren-40000-1-2
   cen-wi-81344:
     id: cen-wi-81344
-    title: 'CEN/CLC Project 81344: Cybersecurity requirements for products with digital
-      elements - Generic Security Requirements'
+    title: 'CEN/CLC Project 81344: Cybersecurity requirements for products with digital elements - Generic
+      Security Requirements'
     resource: https://standards.cencenelec.eu/ords/f?p=205:110:::::FSP_PROJECT,FSP_LANG_ID:81344,25
     author: CEN-CENELEC
     last_modified: '2026-06-01 00:00:00+00:00'
     used_by:
-    - standards/harmonised/pren-40000-1-2
     - standards/harmonised/pren-40000-1-3
+    - standards/harmonised/pren-40000-1-4
   cyberstand-process:
     id: cyberstand-process
     title: How CRA Standards are built
@@ -2594,8 +2582,8 @@ sources:
     - timeline/standardisation-m606-deadline
   en-iec-62443-4-1:
     id: en-iec-62443-4-1
-    title: 'EN IEC 62443-4-1:2018 Security for industrial automation and control systems
-      - Part 4-1: Secure product development lifecycle requirements'
+    title: 'EN IEC 62443-4-1:2018 Security for industrial automation and control systems - Part 4-1: Secure
+      product development lifecycle requirements'
     resource: https://www.cenelec.eu/dyn/www/f?p=104:110:0::::FSP_PROJECT:65287
     author: CENELEC / IEC
     last_modified: '2018-08-01 00:00:00+00:00'
@@ -2615,8 +2603,8 @@ sources:
     - standards/supporting/iso-iec-30111
   en-iec-62443-4-2:
     id: en-iec-62443-4-2
-    title: 'EN IEC 62443-4-2:2019 Security for industrial automation and control systems
-      - Part 4-2: Technical security requirements for IACS components'
+    title: 'EN IEC 62443-4-2:2019 Security for industrial automation and control systems - Part 4-2: Technical
+      security requirements for IACS components'
     resource: https://www.cenelec.eu/dyn/www/f?p=104:110:0::::FSP_PROJECT:65288
     author: CENELEC / IEC
     last_modified: '2019-06-01 00:00:00+00:00'
@@ -2624,8 +2612,7 @@ sources:
     - standards/supporting/en-iec-62443-4-2
   etsi-en-303-645:
     id: etsi-en-303-645
-    title: 'ETSI EN 303 645 V2.1.1: CYBER; CYBER Security for Consumer Internet of
-      Things: Baseline Requirements'
+    title: 'ETSI EN 303 645 V2.1.1: CYBER; CYBER Security for Consumer Internet of Things: Baseline Requirements'
     resource: https://www.etsi.org/deliver/etsi_en/303600_303699/303645/02.01.01_60/en_303645v020101p.pdf
     author: ETSI
     last_modified: '2020-06-01 00:00:00+00:00'
@@ -2633,8 +2620,7 @@ sources:
     - standards/supporting/etsi-en-303-645
   iso-iec-29147:
     id: iso-iec-29147
-    title: ISO/IEC 29147:2018 Information technology - Security techniques - Vulnerability
-      disclosure
+    title: ISO/IEC 29147:2018 Information technology - Security techniques - Vulnerability disclosure
     resource: https://www.iso.org/standard/72311.html
     author: ISO/IEC JTC 1/SC 27
     last_modified: '2018-10-01 00:00:00+00:00'
@@ -2642,8 +2628,7 @@ sources:
     - standards/supporting/iso-iec-29147
   iso-iec-30111:
     id: iso-iec-30111
-    title: ISO/IEC 30111:2019 Information technology - Security techniques - Vulnerability
-      handling processes
+    title: ISO/IEC 30111:2019 Information technology - Security techniques - Vulnerability handling processes
     resource: https://www.iso.org/standard/69298.html
     author: ISO/IEC JTC 1/SC 27
     last_modified: '2019-10-01 00:00:00+00:00'
@@ -2657,3 +2642,49 @@ sources:
     last_modified: '2025-02-04 00:00:00+00:00'
     used_by:
     - timeline/standardisation-m606-deadline
+  reg-2025-37:
+    id: reg-2025-37
+    title: Regulation (EU) 2025/37 amending Regulation (EU) 2019/881 as regards managed security services
+    resource: http://data.europa.eu/eli/reg/2025/37/oj/eng
+    author: European Parliament and Council
+    last_modified: '2025-01-15 00:00:00+00:00'
+    used_by:
+    - law/eu/related-legislation/reg-2019-881-cybersecurity-act
+  reg-2024-3144:
+    id: reg-2024-3144
+    title: Commission Implementing Regulation (EU) 2024/3144 amending Implementing Regulation (EU) 2024/482
+      as regards applicable international standards and correcting that Implementing Regulation
+    resource: http://data.europa.eu/eli/reg_impl/2024/3144/oj/eng
+    author: European Commission
+    last_modified: '2024-12-18 00:00:00+00:00'
+    used_by:
+    - law/eu/related-legislation/reg-2024-482-eucc
+    - standards/certification-schemes/eucc
+  reg-2025-2462:
+    id: reg-2025-2462
+    title: Commission Implementing Regulation (EU) 2025/2462 amending Implementing Regulation (EU) 2024/482
+      as regards the definition and rules for certification of a product series, the definitions of minor
+      and major changes and the state-of-the-art documents in Annexes I, II and III
+    resource: http://data.europa.eu/eli/reg_impl/2025/2462/oj/eng
+    author: European Commission
+    last_modified: '2025-12-08 00:00:00+00:00'
+    used_by:
+    - law/eu/related-legislation/reg-2024-482-eucc
+    - standards/certification-schemes/eucc
+  enisa-sbom-advisory:
+    id: enisa-sbom-advisory
+    title: ENISA Technical Advisory for Software Bill of Materials
+    resource: https://www.enisa.europa.eu/publications/enisa-technical-advisory-for-software-bill-of-materials
+    author: European Union Agency for Cybersecurity (ENISA)
+    last_modified: '2026-10-22 00:00:00+00:00'
+    used_by:
+    - guidance/enisa/sbom-technical-advisory
+  enisa-sbom-state-of-play:
+    id: enisa-sbom-state-of-play
+    title: SBOM Adoption State of Play - 2026
+    resource: https://www.enisa.europa.eu/publications/sbom-adoption-state-of-play-2026
+    author: European Union Agency for Cybersecurity (ENISA)
+    last_modified: '2026-06-09 00:00:00+00:00'
+    used_by:
+    - guidance/enisa/sbom-technical-advisory
+generated_at: '2026-11-18T00:00:00Z'

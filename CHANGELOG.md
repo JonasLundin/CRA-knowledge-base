@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.3.0] - 2026-11-18
+
+### Added
+- Added concept for horizontal draft standard *prEN 40000-1-4: Cybersecurity requirements for products with digital elements — Part 1-4: Generic security requirements* covering M/606 Lines 02–14 (`wiki/standards/harmonised/pren-40000-1-4.md`).
+- Added concept and sources for *ENISA Technical Advisory for Software Bill of Materials (SBOM)* (`enisa-sbom-advisory`, published 22 October 2026) and *SBOM Adoption State of Play - 2026* (`enisa-sbom-state-of-play`, 9 June 2026) in `wiki/guidance/enisa/sbom-technical-advisory.md`.
+- Added normative sources for EUCC amending acts *Commission Implementing Regulation (EU) 2024/3144* (`reg-2024-3144`) and *Commission Implementing Regulation (EU) 2025/2462* (`reg-2025-2462`) and Cybersecurity Act amendment *Regulation (EU) 2025/37* (`reg-2025-37`).
+- Published comprehensive standalone release note for v0.3.0 in `releases/v0.3.0.md` following `CKB-RNS-01`.
+
+### Changed
+- Reconciled CEN-CLC/JTC 13 WG 9 horizontal `EN 40000` series numbering and November 2026 ratification status across harmonised standard concepts, M/606 lines 01–15, and supporting standards: `EN 40000-1-1` (*Vocabulary*, ratified 2 November 2026, available 18 November 2026; non-OJEU-cited baseline), `EN 40000-1-2` (*Principles for cyber resilience*, Line 01, ratified 2 November 2026, available 18 November 2026; non-OJEU-cited framework), `prEN 40000-1-3` (*Vulnerability handling*, Line 15, targeted for OJEU citation), `prEN 40000-1-4` (*Generic security requirements*, Lines 02–14), and `CEN/CLC/TR 40000-1-5` (*Threats and security objectives*).
+- Updated ENISA Single Reporting Platform (SRP) guidance (`single-reporting-platform.md`, `srp-assigned-representative-registration.md`, `srp-interface-guidance.md`) for platform release `v1.2.1` (deployed 20 October 2026), detailing the updated Secondary AR / backup user invitation workflow.
+- Updated M/606 standardisation request timeline (`wiki/timeline/standardisation-m606-deadline.md`, `wiki/standards/process/how-cra-standards-are-built.md`) to reflect the July 2026 Commission amendment shifting 2026 deadlines to 31 October 2026 (Type A Horizontal Principles & Type B Vulnerability Handling) and 31 December 2026 (Type C Vertical Product-Specific Standards), plus the November 2026 ratification of `EN 40000-1-1` and `EN 40000-1-2`.
+- Added concrete 2026 draft European Standard numbers across vertical committees, M/606 lines, and product categories: CEN/TC 224 WG 17 (`prEN 40000-10`, `prEN 40000-11`, `prEN 18330`), CLC/TC 47X (`prEN 50765:2026`, `prEN 50766:2026`, `prEN 50764:2026`), CLC/TC 65X WG 3 (`prEN 50770-1` through `prEN 50770-6`), and ETSI TC CYBER/EUSR (`EN 304 642` for telecommunications network functions).
+- Refreshed `checked_at` (`2026-11-18`) and advanced `stale_after` (`2027-05-18`) across all 338 concepts; updated `sources.yaml` (272 sources) and `coverage.yaml` (338 concepts, baseline `2026-11-18`).
+
+### Fixed
+- Corrected CRA Article 27(8)–(9) legal mechanism references in `wiki/law/eu/cra/articles/article-27.md` and `wiki/standards/certification-schemes/eucc.md` from implementing acts to delegated acts (in accordance with Article 61) for specifying qualifying European cybersecurity certification schemes.
+- Repaired 39 truncated or missing ELI anchor fragments (`#art_32`, `#art_35`, `#ann_1`–`#ann_8`, `#ann_i_part_1`–`2`) across product category, glossary, and annex footnotes.
+
 ## [0.2.0] - 2026-09-26
 
 ### Added

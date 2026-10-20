@@ -13,6 +13,11 @@ sources:
     title: Regulation (EU) 2019/881 on ENISA and on information and communications technology cybersecurity certification (Cybersecurity Act)
     author: European Parliament and Council
     last_modified: 2019-04-17T00:00:00Z
+  - id: reg-2025-37
+    resource: http://data.europa.eu/eli/reg/2025/37/oj/eng
+    title: Regulation (EU) 2025/37 amending Regulation (EU) 2019/881 as regards managed security services
+    author: European Parliament and Council
+    last_modified: 2025-01-15T00:00:00Z
   - id: cra-art-14
     resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_14
     title: Regulation (EU) 2024/2847, Article 14
@@ -42,12 +47,12 @@ x-cra:
     - Recital 64
     - Recital 73
   applicability: concurrent_certification_infrastructure
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary
 
-Regulation (EU) 2019/881 (Cybersecurity Act / CSA) grants a permanent mandate to the European Union Agency for Cybersecurity (ENISA) and establishes the European Cybersecurity Certification Framework for ICT products, services, and processes.[^reg-2019-881] In the context of the Cyber Resilience Act, the CSA provides the certification framework through which European schemes can confer presumption of conformity with CRA requirements and establishes ENISA's operational role in hosting the CRA Single Reporting Platform.[^cra-art-14][^cra-art-27]
+Regulation (EU) 2019/881 (Cybersecurity Act / CSA) grants a permanent mandate to the European Union Agency for Cybersecurity (ENISA) and establishes the European Cybersecurity Certification Framework for ICT products, ICT services, ICT processes, and (following the amendment by Regulation (EU) 2025/37) managed security services.[^reg-2019-881][^reg-2025-37] In the context of the Cyber Resilience Act, the CSA provides the certification framework through which European schemes can confer presumption of conformity with CRA requirements and establishes ENISA's operational role in hosting the CRA Single Reporting Platform.[^cra-art-14][^cra-art-27]
 
 # Interaction and scope relationship
 
@@ -56,7 +61,7 @@ Regulation (EU) 2019/881 and Regulation (EU) 2024/2847 operate concurrently and 
 # When the instrument applies
 
 Regulation (EU) 2019/881 applies whenever:
-- The Commission requests ENISA to prepare candidate European cybersecurity certification schemes pursuant to Article 48;[^reg-2019-881]
+- The Commission requests ENISA to prepare candidate European cybersecurity certification schemes pursuant to Article 48 (for ICT products, services, processes, or managed security services);[^reg-2019-881][^reg-2025-37]
 - Manufacturers voluntarily certify ICT products or processes under adopted schemes (e.g., EUCC under Implementing Regulation (EU) 2024/482);[^reg-2019-881]
 - ENISA performs its statutory functions in supporting EU cybersecurity policy, operating incident platforms, and coordinating CSIRTs.[^reg-2019-881]
 
@@ -66,19 +71,19 @@ The two acts apply concurrently. CSA certification does not replace CRA CE marki
 
 # Technical or procedural satisfaction of CRA elements
 
-1. **Presumption of conformity via European certification schemes:** Under CRA Article 27(8), the Commission may adopt delegated acts specifying that European cybersecurity certification schemes adopted under Regulation (EU) 2019/881 confer presumption of conformity with CRA Annex I essential requirements (or parts thereof), provided the certificate or statement of conformity is issued at assurance level 'substantial' or 'high'.[^cra-art-27]
-2. **Alternative to notified body assessment:** Under CRA Article 32(4), for important products with digital elements (Class I and Class II), a valid European cybersecurity certificate or EU statement of conformity issued at assurance level 'substantial' or 'high' under a CSA scheme satisfies mandatory third-party assessment requirements without needing a separate CRA Module B+C or Module H assessment.[^cra-art-32]
+1. **Presumption of conformity via European certification schemes:** Under CRA Article 27(8) and (9), the Commission may adopt **delegated acts** (in accordance with Article 61) specifying that European cybersecurity certification schemes adopted under Regulation (EU) 2019/881 confer a presumption of conformity with CRA Annex I essential requirements (or parts thereof).[^cra-art-27]
+2. **Alternative to notified body assessment:** Under CRA Article 32(3) and (4), for important products with digital elements (Class I and Class II) and critical products (Annex IV), a valid European cybersecurity certificate or EU statement of conformity issued at assurance level 'substantial' or 'high' under a CSA scheme satisfies mandatory third-party assessment requirements without needing a separate CRA Module B+C or Module H assessment.[^cra-art-32]
 3. **Single Reporting Platform operation:** CRA Article 14 mandates ENISA to establish and maintain the secure Single Reporting Platform (SRP) for actively exploited vulnerabilities and severe incidents, relying on ENISA's institutional infrastructure established under the CSA.[^cra-art-14]
 
 # Relevant provisions
 
-- **Regulation (EU) 2019/881:** Title I (ENISA mandate and tasks), Title III (Articles 46–65: European Cybersecurity Certification Framework).[^reg-2019-881]
-- **Regulation (EU) 2024/2847:** Article 14 (Vulnerability and incident notification), Article 27(8)–(9) (Presumption of conformity from certification schemes), Article 32(4) (Conformity assessment routes), Recitals 58, 64, 73.[^cra-art-14][^cra-art-27][^cra-art-32]
+- **Regulation (EU) 2019/881 (as amended by Regulation (EU) 2025/37):** Title I (ENISA mandate and tasks), Title III (Articles 46–65: European Cybersecurity Certification Framework, including Article 51a on security objectives for managed security services).[^reg-2019-881][^reg-2025-37]
+- **Regulation (EU) 2024/2847:** Article 14 (Vulnerability and incident notification), Article 27(8)–(9) (Presumption of conformity from certification schemes via delegated acts), Article 32(3)–(4) (Conformity assessment routes), Recitals 58, 64, 73.[^cra-art-14][^cra-art-27][^cra-art-32]
 
 # Dates and transition
 
-- Regulation (EU) 2019/881 entered into force on 27 June 2019.[^reg-2019-881]
-- The interaction provisions governing CRA presumption of conformity and third-party substitution apply from 11 December 2027, subject to the adoption of relevant delegated acts specifying qualifying schemes.[^cra-art-27]
+- Regulation (EU) 2019/881 entered into force on 27 June 2019, and Regulation (EU) 2025/37 entered into force on 4 February 2025.[^reg-2019-881][^reg-2025-37]
+- The interaction provisions governing CRA presumption of conformity and third-party substitution apply from 11 December 2027, subject to the adoption of relevant delegated acts specifying qualifying schemes (empowerment active from 11 December 2024).[^cra-art-27]
 
 # Related concepts
 
@@ -88,6 +93,7 @@ The two acts apply concurrently. CSA certification does not replace CRA CE marki
 - [CRA Article 27: Presumption of Conformity](../cra/articles/article-27.md)
 
 [^reg-2019-881]: Regulation (EU) 2019/881, http://data.europa.eu/eli/reg/2019/881/oj/eng
+[^reg-2025-37]: Regulation (EU) 2025/37, http://data.europa.eu/eli/reg/2025/37/oj/eng
 [^cra-art-14]: Regulation (EU) 2024/2847, Article 14, http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_14
 [^cra-art-27]: Regulation (EU) 2024/2847, Article 27, http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_27
 [^cra-art-32]: Regulation (EU) 2024/2847, Article 32, http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_32

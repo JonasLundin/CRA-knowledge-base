@@ -6,7 +6,7 @@ category: guidance
 tags: [cra, guidance, enisa, srp, glossary, fields, taxonomy, reporting-data]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-09-07T00:00:00Z }
-stale_after: 2026-12-07T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: enisa-srp-glossary
     resource: https://www.enisa.europa.eu/topics/product-security/single-reporting-platform-srp/cra-srp-glossary
@@ -23,7 +23,7 @@ x-cra:
     - Article 14
     - Article 16
   language: en
-  checked_at: 2026-09-07T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary

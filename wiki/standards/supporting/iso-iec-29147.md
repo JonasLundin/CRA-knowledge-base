@@ -6,7 +6,7 @@ category: standard
 tags: [cra, standard, supporting-standard, vulnerability-disclosure, cvd, iso-iec]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
-stale_after: 2026-11-21T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: iso-iec-29147
     resource: https://www.iso.org/standard/72311.html
@@ -31,7 +31,7 @@ x-cra:
     - CRA Annex I Part II points 4-5
   access: restricted
   copyright: third-party
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary

@@ -6,7 +6,7 @@ category: standard
 tags: [cra, standard, supporting-standard, vulnerability-handling, remediation, iso-iec]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
-stale_after: 2026-11-21T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: iso-iec-30111
     resource: https://www.iso.org/standard/69298.html
@@ -31,7 +31,7 @@ x-cra:
     - CRA Annex I Part II points 1-3, 6-8
   access: restricted
   copyright: third-party
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary

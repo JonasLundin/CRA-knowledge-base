@@ -6,7 +6,7 @@ category: guidance
 tags: [cra, guidance, european-commission, faq, implementation, scope, conformity]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
-stale_after: 2026-11-21T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: ec-cra-faq
     resource: https://digital-strategy.ec.europa.eu/en/library/cyber-resilience-act-implementation-frequently-asked-questions
@@ -32,7 +32,7 @@ x-cra:
     - Annex III
     - Annex IV
   language: en
-  checked_at: 2026-09-07T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary

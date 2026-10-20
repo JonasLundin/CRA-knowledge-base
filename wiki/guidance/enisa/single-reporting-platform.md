@@ -6,7 +6,7 @@ category: guidance
 tags: [cra, guidance, enisa, srp, reporting, article-16, vulnerabilities, incidents]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
-stale_after: 2026-11-21T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: enisa-srp-hub
     resource: https://www.enisa.europa.eu/topics/product-security/single-reporting-platform-srp
@@ -17,7 +17,7 @@ sources:
     resource: https://portal.cra-srp.enisa.europa.eu
     title: Single Reporting Platform (SRP) Production Portal
     author: European Union Agency for Cybersecurity (ENISA)
-    last_modified: 2026-09-11T00:00:00Z
+    last_modified: 2026-10-20T00:00:00Z
 x-cra:
   jurisdiction: EU
   issuing_authority: ENISA
@@ -30,7 +30,7 @@ x-cra:
     - Article 16
     - Article 71
   language: en
-  checked_at: 2026-09-26T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary
@@ -51,7 +51,7 @@ The overview details the operational mechanism of the platform [^enisa-srp-hub]:
 
 - **Centralized Single-Entry Architecture (Article 16(1)):** The SRP provides a single digital entry point for manufacturers, preventing duplicate reporting to individual Member States.
 - **Web Portal Access via EU Login (`portal.cra-srp.enisa.europa.eu`):** Users authenticate to the production portal [^enisa-srp-portal] using personal EU Login accounts secured with multi-factor authentication (MFA). Corporate certificates or custom PKI onboarding are not used for portal access.
-- **Assigned Representative (AR) Roles:** Organizations operate through Assigned Representatives, comprising a Primary AR (who registers the manufacturer and manages delegations) and up to 20 Secondary ARs.
+- **Assigned Representative (AR) Roles:** Organizations operate through Assigned Representatives, comprising a Primary AR (who registers the manufacturer and manages delegations) and up to 20 Secondary ARs (also referred to as AR Backup Users). Under platform version `v1.2.1` (deployed 20 October 2026), Primary ARs invite Secondary ARs directly through the portal once the Primary AR's association with the manufacturer is marked as *Verified* by the coordinating CSIRT.
 - **Simultaneous Dissemination (Article 16(2)):** Upon submission, notifications are made simultaneously available to the relevant CSIRT designated as coordinator (CDaC) and to ENISA, subject to delayed dissemination rules under Particular Exceptional Circumstances (PEC).
 - **Initial Release Scope (No M2M API):** The SRP is deployed exclusively as an interactive web portal for its initial release on 11 September 2026. No machine-to-machine (REST API) interface is available at launch; API functionality is planned for a subsequent phase.
 - **Mandatory Reporting First:** Voluntary reporting under Article 15 is not implemented in the initial release; the initial version strictly supports mandatory reporting under Article 14 (and Article 24(3) for open-source software stewards from December 2027).
@@ -60,6 +60,7 @@ The overview details the operational mechanism of the platform [^enisa-srp-hub]:
 # Dates and transitions
 
 - **Platform Launch:** Operational deployment for mandatory reporting on **11 September 2026** (Article 71(2)(a)).
+- **Platform Update (`v1.2.1`):** Deployed on **20 October 2026**, refining Secondary AR (backup user) invitation workflows and multi-user management with transitional backward compatibility.
 
 # Related concepts
 

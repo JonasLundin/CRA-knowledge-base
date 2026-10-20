@@ -6,7 +6,7 @@ category: authority
 tags: [cra, jurisdiction, eea, norway, authorities, market-surveillance, csirt]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
-stale_after: 2026-11-21T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: cra-regulation
     resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng
@@ -39,7 +39,7 @@ x-cra:
   csirt_routing: NorCERT (Nasjonal sikkerhetsmyndighet - NSM / National Cyber Security Centre - NCSC-NO)
   source_language: no, nb, nn
   language_review_gap: false
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary

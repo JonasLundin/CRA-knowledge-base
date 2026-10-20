@@ -29,7 +29,7 @@ x-cra:
     - Recital 31
     - Recital 32
   applicability: lex_generalis_with_cyber_exclusion
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary

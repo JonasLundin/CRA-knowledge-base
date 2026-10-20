@@ -19,7 +19,7 @@ x-cra:
   instrument_status: in_force
   provision: Annex V
   applies_from: 2027-12-11
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary
@@ -55,4 +55,4 @@ Applies from 11 December 2027.
 - [Article 28: EU declaration of conformity](../articles/article-28.md)
 - [Annex VI: Simplified EU Declaration](annex-vi.md)
 
-[^cra-annex-v]: Regulation (EU) 2024/2847, Annex V, [ELI: http://data.europa.eu/eli/reg/2024/2847/oj/eng](http://data.europa.eu/eli/reg/2024/2847/oj/eng).
+[^cra-annex-v]: Regulation (EU) 2024/2847, Annex V, [ELI: http://data.europa.eu/eli/reg/2024/2847/oj/eng#ann_5](http://data.europa.eu/eli/reg/2024/2847/oj/eng#ann_5).

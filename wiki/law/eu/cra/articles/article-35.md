@@ -19,7 +19,7 @@ x-cra:
   instrument_status: in_force
   provision: Article 35
   applies_from: 2026-06-11
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary
