@@ -6,7 +6,7 @@ category: standard
 tags: [cra, standard, m606, vertical, annex-iii-class-ii, firewalls, ids, ips, etsi-tc-cyber, clc-tc65x]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
-stale_after: 2026-11-21T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: m606
     resource: https://ec.europa.eu/transparency/documents-register/detail?ref=C(2025)618&lang=en
@@ -36,7 +36,7 @@ x-cra:
     - CRA Annex III Class II point 2
   access: open
   copyright: third-party
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary
@@ -56,7 +56,7 @@ This request entry sets the standardisation mandate; presumption of conformity r
 
 - **Technical Committees**:
   - ETSI TC CYBER / WG EUSR (Rapporteur: Damir Samardzic) -> `EN 304-636` (ETSI WI `REN/CYBER-00127`, WKI ID 74859)[^etsi-wi-74859].
-  - CLC/TC 65X WG 3 for industrial automation firewalls and OT inspection appliances.
+  - CLC/TC 65X WG 3 for industrial automation firewalls and OT inspection appliances -> `prEN 50770-1` (*Industrial Automation and Control Systems — Cybersecurity requirements for OT Firewalls, IDS, and IPS*).
 
 # Related concepts
 

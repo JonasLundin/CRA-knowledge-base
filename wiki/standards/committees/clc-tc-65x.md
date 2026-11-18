@@ -6,7 +6,7 @@ category: standard
 tags: [cra, cenelec, clc-tc65x, industrial-automation, ot-security, iec-62443, m606]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
-stale_after: 2026-11-21T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: clc-tc65x
     resource: https://www.cenelec.eu/dyn/www/f?p=104:7:0::::FSP_ORG_ID:1257159
@@ -32,7 +32,8 @@ x-cra:
   key_references:
     - EN IEC 62443-4-1:2018/prAA (WI 81487)
     - EN IEC 62443-4-2:2019/prAA (WI 79973)
-  checked_at: 2026-08-21T00:00:00Z
+    - prEN 50770-1 to prEN 50770-6 (OT vertical profiles)
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary
@@ -45,19 +46,20 @@ Deliverables and amendments developed by CLC/TC 65X do not confer presumption of
 
 # Responsibilities and work programme
 
-Working Group 3 (WG 3: Cyber Security) develops European amendments and vertical profiles based on the EN IEC 62443 series:
-- **WI 81487**: EN IEC 62443-4-1:2018/prAA (Security for industrial automation and control systems - Secure product development lifecycle requirements).
-- **WI 79973**: EN IEC 62443-4-2:2019/prAA (Security for industrial automation and control systems - Technical security requirements for IACS components).
+Working Group 3 (WG 3: Cyber Security) develops European amendments and vertical profiles (`prEN 50770` series) based on the `EN IEC 62443` series:
+- **WI 81487**: `EN IEC 62443-4-1:2018/prAA` (Security for industrial automation and control systems - Secure product development lifecycle requirements).
+- **WI 79973**: `EN IEC 62443-4-2:2019/prAA` (Security for industrial automation and control systems - Technical security requirements for IACS components).
+- **`prEN 50770` Series**: Six dedicated Operational Technology (OT) vertical European Standard drafts profiling `EN IEC 62443-4-2` and `EN IEC 62443-4-1` for industrial network and security appliances.
 
-# M/606 work allocation
+# M/606 work allocation and `prEN 50770` deliverables
 
-CLC/TC 65X provides industrial/OT-specific vertical deliverables for product categories shared with ETSI TC CYBER:
-- **Topic 20**: VPN products intended for industrial use.
-- **Topic 21**: Network management systems intended for industrial use.
-- **Topic 22**: SIEM systems intended for industrial use.
-- **Topic 25**: Physical and virtual network interfaces for industrial systems.
-- **Topic 27**: Industrial routers, modems, and switches.
-- **Topic 36**: Firewalls and intrusion detection/prevention systems (IDS/IPS) specifically intended for industrial use.
+CLC/TC 65X WG 3 provides industrial/OT-specific vertical deliverables (`prEN 50770-1` to `prEN 50770-6`) for product categories shared with ETSI TC CYBER:
+- **Topic 20 (`prEN 50770-4`)**: Virtual Private Network (VPN) products intended for industrial / OT use (CRA Annex III Class I point 5).
+- **Topic 21 (`prEN 50770-2`)**: Network management systems (NMS) intended for industrial / OT use (CRA Annex III Class I point 6).
+- **Topic 22 (`prEN 50770-6`)**: Security Information and Event Management (SIEM) systems intended for industrial / OT use (CRA Annex III Class I point 7).
+- **Topic 25 (`prEN 50770-3`)**: Physical and virtual network interfaces for industrial / OT systems (CRA Annex III Class I point 10).
+- **Topic 27 (`prEN 50770-5`)**: Industrial / OT routers, modems, and switches (CRA Annex III Class I point 12).
+- **Topic 36 (`prEN 50770-1`)**: Firewalls and intrusion detection/prevention systems (IDS/IPS) specifically intended for industrial / OT use (CRA Annex III Class II point 2).
 
 # Related concepts
 

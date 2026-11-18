@@ -36,7 +36,7 @@ x-cra:
     - Recital 60
     - Recital 68
   applicability: concurrent_nlf_framework
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary

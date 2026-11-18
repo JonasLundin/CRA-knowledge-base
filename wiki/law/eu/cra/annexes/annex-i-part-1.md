@@ -19,7 +19,7 @@ x-cra:
   instrument_status: in_force
   provision: Annex I Part I
   applies_from: 2027-12-11
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary
@@ -58,4 +58,4 @@ Applies from 11 December 2027.
 - [Article 6: Requirements for products](../articles/article-6.md)
 - [Article 13: Obligations of manufacturers](../articles/article-13.md)
 
-[^cra-annex-i-part-1]: Regulation (EU) 2024/2847, Annex I Part I, [ELI: http://data.europa.eu/eli/reg/2024/2847/oj/eng](http://data.europa.eu/eli/reg/2024/2847/oj/eng).
+[^cra-annex-i-part-1]: Regulation (EU) 2024/2847, Annex I Part I, [ELI: http://data.europa.eu/eli/reg/2024/2847/oj/eng#ann_i_part_1](http://data.europa.eu/eli/reg/2024/2847/oj/eng#ann_i_part_1).

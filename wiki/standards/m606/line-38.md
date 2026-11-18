@@ -6,7 +6,7 @@ category: standard
 tags: [cra, standard, m606, vertical, annex-iii-class-ii, tamper-resistance, semiconductors, microcontrollers, clc-tc47x]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
-stale_after: 2026-11-21T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: m606
     resource: https://ec.europa.eu/transparency/documents-register/detail?ref=C(2025)618&lang=en
@@ -31,7 +31,7 @@ x-cra:
     - CRA Annex III Class II point 4
   access: restricted
   copyright: third-party
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary
@@ -50,6 +50,7 @@ This request entry sets the standardisation mandate; presumption of conformity r
 # Responsible committee and deliverables
 
 - **Technical Committee**: CLC/TC 47X WG 1 & WG 2[^stan4cra-clc47x].
+- **Deliverable**: `prEN 50766:2026` (*Cybersecurity requirements for tamper-resistant microprocessors and microcontrollers*).
 
 # Related concepts
 

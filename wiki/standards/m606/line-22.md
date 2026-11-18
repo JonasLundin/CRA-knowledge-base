@@ -6,7 +6,7 @@ category: standard
 tags: [cra, standard, m606, vertical, annex-iii-class-i, siem, etsi-tc-cyber]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
-stale_after: 2026-11-21T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: m606
     resource: https://ec.europa.eu/transparency/documents-register/detail?ref=C(2025)618&lang=en
@@ -36,7 +36,7 @@ x-cra:
     - CRA Annex III Class I point 7
   access: open
   copyright: third-party
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary
@@ -56,7 +56,7 @@ This request entry sets the standardisation mandate; presumption of conformity r
 
 - **Technical Committees**:
   - ETSI TC CYBER / WG EUSR (Rapporteur: August Bournique) -> `EN 304-622` (ETSI WI `REN/CYBER-00113`, WKI ID 74413)[^etsi-wi-74413].
-  - CLC/TC 65X WG 3 for industrial security monitoring platforms.
+  - CLC/TC 65X WG 3 for industrial security monitoring platforms -> `prEN 50770-6` (*Industrial Automation and Control Systems — Cybersecurity requirements for OT Security Information and Event Management systems*).
 
 # Related concepts
 

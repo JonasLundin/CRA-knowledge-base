@@ -19,7 +19,7 @@ x-cra:
   instrument_status: in_force
   provision: Annex VIII
   applies_from: 2027-12-11
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary
@@ -55,4 +55,4 @@ Applies from 11 December 2027.
 - [Article 39: Requirements for notified bodies](../articles/article-39.md)
 - [Annex I: Essential Requirements](annex-i.md)
 
-[^cra-annex-viii]: Regulation (EU) 2024/2847, Annex VIII, [ELI: http://data.europa.eu/eli/reg/2024/2847/oj/eng](http://data.europa.eu/eli/reg/2024/2847/oj/eng).
+[^cra-annex-viii]: Regulation (EU) 2024/2847, Annex VIII, [ELI: http://data.europa.eu/eli/reg/2024/2847/oj/eng#ann_8](http://data.europa.eu/eli/reg/2024/2847/oj/eng#ann_8).

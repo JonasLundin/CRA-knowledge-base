@@ -6,7 +6,7 @@ category: requirement
 tags: [cra, timeline, transition, grandfathering, compliance]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
-stale_after: 2026-11-20T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: cra-art-69
     resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_69
@@ -24,7 +24,7 @@ x-cra:
   instrument_status: in_force
   provision: Articles 69, 71
   applies_from: 2024-12-10
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary

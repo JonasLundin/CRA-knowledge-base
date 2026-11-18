@@ -35,7 +35,7 @@ x-cra:
     - Recital 35
     - Recital 36
   applicability: transitional_regime_superseded_by_cra
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary

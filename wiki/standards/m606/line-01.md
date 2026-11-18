@@ -6,7 +6,7 @@ category: standard
 tags: [cra, standard, m606, horizontal, en-40000, jtc13]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
-stale_after: 2026-11-21T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: m606
     resource: https://ec.europa.eu/transparency/documents-register/detail?ref=C(2025)618&lang=en
@@ -17,7 +17,7 @@ sources:
     resource: https://www.stan4cra.eu/cenclcjtc13
     title: CEN-CLC JTC 13 Technical Work (Topic 1)
     author: STAN4CR
-    last_modified: 2026-06-01T00:00:00Z
+    last_modified: 2026-10-01T00:00:00Z
 x-cra:
   standard_number: M/606 Line 01
   standard_status: requested
@@ -31,7 +31,7 @@ x-cra:
     - CRA Annex I Part I point 1
   access: restricted
   copyright: third-party
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary
@@ -50,12 +50,13 @@ An M/606 request entry defines standardisation mandates given by the European Co
 # Responsible committee and deliverables
 
 - **Technical Committee**: CEN-CLC/JTC 13 WG 9 (Special Working Group on CRA)[^stan4cra-jtc13].
-- **Deliverable**: `prEN 40000-1-1` (Work Item 81335).
+- **Deliverables**: `EN 40000-1-2` (*Cybersecurity requirements for products with digital elements — Part 1-2: Principles for cyber resilience*, ratified 2 November 2026 with target availability 18 November 2026), supported by `EN 40000-1-1` (*Part 1-1: Vocabulary*, ratified 2 November 2026) and `CEN/CLC/TR 40000-1-5` (*Part 1-5: Threats and security objectives*). Both `EN 40000-1-1` and `EN 40000-1-2` serve as foundational framework standards referenced by OJEU-citable Type B and Type C standards rather than standalone OJEU-cited standards.
 
 # Related concepts
 
 - `standards/process/how-cra-standards-are-built`
 - `standards/committees/cen-clc-jtc-13`
+- `standards/harmonised/pren-40000-1-2`
 - `standards/harmonised/pren-40000-1-1`
 
 [^m606]: Commission Implementing Decision C(2025) 618. https://ec.europa.eu/transparency/documents-register/detail?ref=C(2025)618&lang=en

@@ -6,7 +6,7 @@ category: glossary
 tags: [cra, glossary, definition, notified-body, conformity-assessment-body, nando]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
-stale_after: 2026-11-20T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: cra-art-3
     resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_3
@@ -24,7 +24,7 @@ x-cra:
   instrument_status: in_force
   provision: Article 3(36), Chapter IV
   applies_from: 2024-12-10
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary
@@ -46,4 +46,4 @@ Must satisfy statutory independence, technical competence, and testing capacity 
 - [Chapter IV Notified Bodies Application Date](../timeline/notified-bodies-application.md)
 
 [^cra-art-3]: Regulation (EU) 2024/2847, Article 3, http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_3
-[^cra-art-35]: Regulation (EU) 2024/2847, Article 35, http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_3
+[^cra-art-35]: Regulation (EU) 2024/2847, Article 35, http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_35

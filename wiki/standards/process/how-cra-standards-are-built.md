@@ -6,7 +6,7 @@ category: standard
 tags: [cra, standards, standardisation-process, m606, ojeu, etsi, cen, cenelec]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
-stale_after: 2026-11-21T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: m606
     resource: https://ec.europa.eu/transparency/documents-register/detail?ref=C(2025)618&lang=en
@@ -38,7 +38,7 @@ x-cra:
   mandate: M/606
   controlling_law: Regulation (EU) No 1025/2012
   presumption_basis: Regulation (EU) 2024/2847 Article 27
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary
@@ -56,15 +56,15 @@ Draft standards, committee work items, and published European Standards (EN) tha
 Standardisation under M/606 is partitioned into two complementary tiers[^cyberstand-process][^stan4cra-work]:
 
 ## Horizontal standards (M/606 Lines 1–15)
-Horizontal deliverables are product-agnostic and framework-oriented. Developed primarily within CEN-CLC/JTC 13 WG 9 (the EN 40000 family), they define baseline cybersecurity principles, generic engineering requirements across all Annex I Part I essential requirements (Lines 1–14), and vulnerability handling processes under Annex I Part II (Line 15).
+Horizontal deliverables are product-agnostic and framework-oriented. Developed primarily within CEN-CLC/JTC 13 WG 9 (the `EN 40000-1` series), they define foundational vocabulary (`prEN 40000-1-1`), Type A baseline cyber resilience principles and risk management methodology (`prEN 40000-1-2`, Line 1), Type B vulnerability handling processes under Annex I Part II (`prEN 40000-1-3`, Line 15), Type B generic technical security requirements across Annex I Part I points 2(a)–(m) (`prEN 40000-1-4`, Lines 2–14), and supporting threat/objective guidance (`CEN/CLC/TR 40000-1-5`).
 
 ## Vertical standards (M/606 Lines 16–41)
-Vertical deliverables address specific product categories listed in CRA Annex III (Important products Class I and II) and Annex IV (Critical products). They translate horizontal security concepts into sector-specific requirements and attack-potential baselines. Work is distributed across:
-- **ETSI TC CYBER / EUSR**: Software and connected device verticals (EN 304 series: browsers, password managers, OS, routers, IoT, virtualisation, firewalls);
+Vertical deliverables (Type C) address specific product categories listed in CRA Annex III (Important products Class I and II) and Annex IV (Critical products). They translate horizontal security concepts into sector-specific requirements and attack-potential baselines. Work is distributed across:
+- **ETSI TC CYBER / EUSR**: Software and connected device verticals (`EN 304 617` to `EN 304 636`: browsers, password managers, antivirus, VPNs, NMS, SIEM, boot managers, PKI, network interfaces, OS, routers, smart-home assistants/security, connected toys, wearables, virtualisation, firewalls);
 - **CEN-CLC/JTC 13 (WG 6)**: Smart meter gateways (Line 40) and sector risk assessment;
-- **CEN/TC 224 (WG 17)**: Identity and privileged access management (Line 16), hardware security boxes (Line 39), and smartcards/secure elements (Line 41);
-- **CLC/TC 47X**: Microprocessors, microcontrollers, and trusted chip platforms (Lines 28, 29, 37, 38, 41);
-- **CLC/TC 65X (WG 3)**: Industrial-process measurement, control, and automation systems (OT overlays for Lines 20–22, 25, 27, 36).
+- **CEN/TC 224 (WG 17)**: Identity and privileged access management (`prEN 40000-10`, Line 16), hardware devices with security boxes (`prEN 40000-11`, Line 39), and smartcard/secure element applications (`prEN 18330`, Line 41);
+- **CLC/TC 47X**: Microprocessors, microcontrollers, ASICs, and FPGAs with security functionalities (`prEN 50765`, Lines 28–29), tamper-resistant microprocessors/microcontrollers (`prEN 50766`, Lines 37–38), and smartcard/secure element platforms (`prEN 50764`, Line 41);
+- **CLC/TC 65X (WG 3)**: Industrial-process measurement, control, and automation systems (`prEN 50770-1` to `prEN 50770-6` OT vertical profiles for Lines 20–22, 25, 27, 36, plus `EN IEC 62443-4-1/prAA` and `EN IEC 62443-4-2/prAA`).
 
 # Lifecycle stages
 
@@ -92,7 +92,7 @@ Vertical deliverables address specific product categories listed in CRA Annex II
 
 1. **Standardisation Request (M/606)**: The Commission adopts an implementing decision establishing the work scope, list of deliverables, and delivery deadlines[^m606].
 2. **Technical Drafting**: Joint Working Groups and Technical Committees draft European Standards (prEN / EN) aligned with CRA Annex I essential requirements.
-3. **Public Enquiry / Open Consultation**: Drafts (e.g., EN 304 series enquiry drafts in ETSI Open Area) are released for public commenting by industry, open-source communities, civil society, and national standardisation bodies.
+3. **Public Enquiry / Open Consultation**: Drafts (e.g., EN 304 series enquiry drafts in ETSI Open Area and prEN 40000 / prEN 50764–50770 CEN-CENELEC enquiry drafts) are released for public commenting by industry, open-source communities, civil society, and national standardisation bodies.
 4. **ESO Formal Approval**: National standardisation delegations and ESO members vote on final draft text.
 5. **Commission Assessment**: Harmonised Standard (HAS) consultants and the European Commission assess deliverable conformity with M/606 and CRA requirements.
 6. **OJEU Citation**: The Commission publishes the reference of the harmonised standard in the Official Journal (C series), with or without restrictions. Presumption of conformity takes effect on the date of OJEU publication.
@@ -100,8 +100,12 @@ Vertical deliverables address specific product categories listed in CRA Annex II
 # Dates and transitions
 
 - **2025-01-31**: Commission Implementing Decision C(2025) 618 adopting Standardisation Request M/606[^m606].
-- **2026-08-21**: ETSI public enquiry baseline active for 17 vertical EN 304 series drafts.
-- **2026-09-11**: CRA Article 14 vulnerability reporting obligations take effect.
+- **2026-07**: European Commission two-month deadline extension amendment to M/606 Annex II, shifting 2026 delivery dates from 30 August / 30 October 2026 to 31 October / 31 December 2026[^stan4cra-work].
+- **2026-09-11**: CRA Article 14 vulnerability reporting obligations take effect via ENISA SRP.
+- **2026-10-31**: Amended M/606 delivery deadline for Type A horizontal principles (`EN 40000-1-2`, with `EN 40000-1-1` vocabulary) and Type B vulnerability handling (`prEN 40000-1-3`).
+- **2026-11-02 / 2026-11-18**: CEN-CENELEC formal ratification (2 November 2026) and publication availability (18 November 2026) of `EN 40000-1-1` and `EN 40000-1-2` (following close of CEN Formal Vote on 1 October 2026).
+- **2026-12-31**: Amended M/606 delivery deadline for Type C vertical product-specific standards (Lines 16–41).
+- **2027-10-30**: M/606 delivery deadline for Type B horizontal generic security requirements (`prEN 40000-1-4`, Lines 2–14).
 - **2027-12-11**: Full application of Regulation (EU) 2024/2847 and complete entry into force of essential requirements.
 
 # Related concepts

@@ -6,9 +6,10 @@ Index of European Standards (EN) and public enquiry drafts developed under Stand
 
 ## Horizontal Standards (CEN-CLC/JTC 13 WG 9)
 
-- [prEN 40000-1-1](pren-40000-1-1.md) — Principles for cyber resilience (M/606 Line 01)
-- [prEN 40000-1-2](pren-40000-1-2.md) — Generic security requirements (M/606 Lines 02–14)
-- [prEN 40000-1-3](pren-40000-1-3.md) — Vulnerability handling requirements (M/606 Line 15)
+- [EN 40000-1-1 (prEN 40000-1-1)](pren-40000-1-1.md) — Part 1-1: Vocabulary (Foundational horizontal terminology across M/606 Lines 01–15; ratified 2 Nov 2026, available 18 Nov 2026; non-cited baseline)
+- [EN 40000-1-2 (prEN 40000-1-2)](pren-40000-1-2.md) — Part 1-2: Principles for cyber resilience (Type A horizontal methodology; M/606 Line 01; ratified 2 Nov 2026, available 18 Nov 2026; non-cited framework)
+- [prEN 40000-1-3](pren-40000-1-3.md) — Part 1-3: Vulnerability handling (Type B horizontal process requirements; M/606 Line 15; targeted for OJEU citation)
+- [prEN 40000-1-4](pren-40000-1-4.md) — Part 1-4: Generic security requirements (Type B horizontal technical controls; M/606 Lines 02–14; target Oct 2027)
 
 ## Vertical Public Enquiry Drafts (ETSI TC CYBER / WG EUSR)
 

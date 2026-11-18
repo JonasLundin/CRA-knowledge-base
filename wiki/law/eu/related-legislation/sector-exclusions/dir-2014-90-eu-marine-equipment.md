@@ -28,7 +28,7 @@ x-cra:
     - Article 2(3)
     - Recital 22
   applicability: full_statutory_exclusion
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary

@@ -6,7 +6,7 @@ category: standard
 tags: [cra, standard, m606, vertical, annex-iii-class-i, nms, network-management, etsi-tc-cyber]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
-stale_after: 2026-11-21T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: m606
     resource: https://ec.europa.eu/transparency/documents-register/detail?ref=C(2025)618&lang=en
@@ -36,7 +36,7 @@ x-cra:
     - CRA Annex III Class I point 6
   access: open
   copyright: third-party
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary
@@ -56,7 +56,7 @@ This request entry sets the mandate; presumption of conformity requires publicat
 
 - **Technical Committees**:
   - ETSI TC CYBER / WG EUSR (Rapporteur: Santeri Toikka) -> `EN 304-621` (ETSI WI `REN/CYBER-00112`, WKI ID 74412)[^etsi-wi-74412].
-  - CLC/TC 65X WG 3 for industrial network management systems.
+  - CLC/TC 65X WG 3 for industrial network management systems -> `prEN 50770-2` (*Industrial Automation and Control Systems — Cybersecurity requirements for OT Network Management Systems*).
 
 # Related concepts
 

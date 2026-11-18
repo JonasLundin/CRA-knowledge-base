@@ -6,7 +6,7 @@ category: guidance
 tags: [cra, guidance, european-commission, implementation-hub, overview, secondary-legislation]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
-stale_after: 2026-11-21T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: ec-cra-hub
     resource: https://digital-strategy.ec.europa.eu/en/factpages/cyber-resilience-act-implementation
@@ -29,7 +29,7 @@ x-cra:
     - Article 28
     - Article 71
   language: en
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary

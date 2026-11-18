@@ -25,7 +25,7 @@ x-cra:
     - Article 24
     - Recitals 18-20
   language: en
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary

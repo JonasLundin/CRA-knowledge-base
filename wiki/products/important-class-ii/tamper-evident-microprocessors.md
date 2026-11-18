@@ -6,7 +6,7 @@ category: product
 tags: [cra, product-category, important-class-ii, semiconductors, tamper-evident, crypto-processor, hardware-security]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
-stale_after: 2026-11-20T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: cra-annex-3
     resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#ann_3
@@ -29,7 +29,7 @@ x-cra:
   instrument_status: in_force
   provision: Annex III Class II point 8, Article 32(3)
   applies_from: 2027-12-11
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary
@@ -50,7 +50,7 @@ Applies to:
 # Requirements or coverage
 
 - **Mandatory conformity assessment route:** **Module B + C** or **Module H** evaluated by a notified body, or European cybersecurity certificate (Article 32(3));[^cra-art-32]
-- **Relevant vertical standards:** M/606 line 38 (CLC/TC 47X);
+- **Relevant vertical standards:** `prEN 50766:2026` under M/606 Lines 37–38 (CLC/TC 47X);
 - **Advanced physical security:** Laser fault injection mitigation, active sensor mesh shielding across silicon layers, dynamic bus encryption, and PUF-derived key generation.
 
 # Dates and transitions
@@ -65,5 +65,5 @@ Applies to:
 - [Conformity Assessment Routes](../../obligations/conformity-assessment/conformity-routes.md)
 
 [^cra-annex-3]: Regulation (EU) 2024/2847, Annex III, http://data.europa.eu/eli/reg/2024/2847/oj/eng#ann_3
-[^cra-art-32]: Regulation (EU) 2024/2847, Article 32, http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_3
+[^cra-art-32]: Regulation (EU) 2024/2847, Article 32, http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_32
 [^reg-2025-2392]: Commission Implementing Regulation (EU) 2025/2392, http://data.europa.eu/eli/reg_impl/2025/2392/oj/eng

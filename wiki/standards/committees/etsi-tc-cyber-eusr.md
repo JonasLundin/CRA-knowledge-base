@@ -6,7 +6,7 @@ category: standard
 tags: [cra, etsi, tc-cyber, eusr, standards-committee, m606]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
-stale_after: 2026-11-21T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: etsi-tc-cyber
     resource: https://www.etsi.org/committee/cyber
@@ -34,7 +34,7 @@ x-cra:
   mandate_lines: [17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 31, 32, 33, 34, 35, 36]
   deliverable_series: EN 304 series
   open_area: https://docbox.etsi.org/CYBER/EUSR/Open
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary
@@ -66,6 +66,7 @@ ETSI TC CYBER WG EUSR is responsible for 17 vertical product deliverables under 
 - **Line 34 (EN 304-634)**: Personal wearable products
 - **Line 35 (EN 304-635)**: Virtualisation and container systems (hypervisors, container runtimes)
 - **Line 36 (EN 304-636)**: Firewalls and intrusion detection/prevention systems (IDS/IPS)
+- **Supplementary Vertical Work Item (EN 304-642)**: Cybersecurity requirements for network functions of telecommunications systems (initiated October 2026 to cover virtualised and physical telecom network functions alongside the M/606 EN 304 series)
 
 # Consultation and public drafts
 

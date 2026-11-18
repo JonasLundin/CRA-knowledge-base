@@ -6,7 +6,7 @@ category: standard
 tags: [cra, standard, m606, vertical, annex-iii-class-i, identity-management, pam, cen-tc224]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
-stale_after: 2026-11-21T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: m606
     resource: https://ec.europa.eu/transparency/documents-register/detail?ref=C(2025)618&lang=en
@@ -17,7 +17,7 @@ sources:
     resource: https://www.stan4cra.eu/centc244
     title: CEN TC 224 Technical Work (Topic 16)
     author: STAN4CR
-    last_modified: 2026-06-01T00:00:00Z
+    last_modified: 2026-10-01T00:00:00Z
 x-cra:
   standard_number: M/606 Line 16
   standard_status: requested
@@ -31,7 +31,7 @@ x-cra:
     - CRA Annex III Class I point 1
   access: restricted
   copyright: third-party
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary
@@ -50,6 +50,7 @@ This request entry creates no direct presumption of conformity until standard ad
 # Responsible committee and deliverables
 
 - **Technical Committee**: CEN/TC 224 WG 17 (Protection Profiles in the context of SSCD / Secure Elements)[^stan4cra-tc224].
+- **Deliverable**: `prEN 40000-10` (*Cyber Resilience Act requirements — Part 10: Identity management systems and privileged access management software and hardware, including authentication and access control readers, including biometric readers*).
 
 # Related concepts
 

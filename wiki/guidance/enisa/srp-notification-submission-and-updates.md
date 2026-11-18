@@ -6,7 +6,7 @@ category: guidance
 tags: [cra, guidance, enisa, srp, notifications, article-14, early-warning, incident-reporting]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
-stale_after: 2026-11-21T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: enisa-srp-notification
     resource: https://www.enisa.europa.eu/topics/product-security/single-reporting-platform-srp/cra-srp-guidance-ar-notification-submission-and-update
@@ -25,7 +25,7 @@ x-cra:
     - Article 16
     - Article 71
   language: en
-  checked_at: 2026-09-07T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary

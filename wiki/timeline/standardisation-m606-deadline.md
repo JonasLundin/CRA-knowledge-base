@@ -6,7 +6,7 @@ category: timeline
 tags: [cra, timeline, standardisation, m606, cen, cenelec, etsi, harmonised-standards]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
-stale_after: 2026-11-20T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: ec-m606
     resource: https://ec.europa.eu/transparency/documents-register/detail?ref=C(2025)618&lang=en
@@ -24,12 +24,12 @@ x-cra:
   instrument_status: in_force
   provision: Standardisation Request M/606
   applies_from: 2025-02-04
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary
 
-Commission Implementing Decision C(2025) 618 issued Standardisation Request M/606 to CEN, CENELEC, and ETSI, requesting the development of European harmonised standards supporting the essential requirements of the Cyber Resilience Act across 41 specific technical entries.[^ec-m606] [^stan4cra-work]
+Commission Implementing Decision C(2025) 618 issued Standardisation Request M/606 to CEN, CENELEC, and ETSI, requesting the development of European harmonised standards supporting the essential requirements of the Cyber Resilience Act across 41 specific technical entries.[^ec-m606] [^stan4cra-work] In July 2026, the European Commission amended M/606 Annex II to grant a two-month extension for the 2026 deliverables, shifting the Type A and Type B vulnerability handling deadline to **31 October 2026** and the Type C vertical standards deadline to **31 December 2026**.[^stan4cra-work]
 
 # Legal effect
 
@@ -41,18 +41,29 @@ Directs the work programmes of European Standardisation Organisations (ESOs) and
 
 # Requirements or coverage
 
-M/606 establishes structured delivery milestones:
+M/606 Annex II establishes structured delivery milestones across three standard types:
 
-1. **Horizontal standards (Lines 1–15):** General cybersecurity requirements, risk assessment, SBOM, vulnerability handling, and security updates developed primarily by CEN-CLC/JTC 13/WG 9 (e.g. EN 40000 family);
-2. **Vertical product standards (Lines 16–41):** Product-specific standards for Annex III/IV categories developed by ETSI (EN 304 series), CEN/TC 224, CLC/TC 47X, and CLC/TC 65X;
-3. **Draft enquiry stage:** Public enquiry periods conducted throughout 2025–2026;
-4. **Final delivery & citation:** Submission of candidate standards to the European Commission for assessment and OJEU citation prior to 11 December 2027.[^ec-m606] [^stan4cra-work]
+1. **Type A (Horizontal Principles) & Type B (Horizontal Vulnerability Handling) — Lines 1 and 15:**
+   - Developed by CEN-CLC/JTC 13/WG 9 (`EN 40000-1-1` Vocabulary, `EN 40000-1-2` Principles for cyber resilience, and `prEN 40000-1-3` Vulnerability handling);
+   - Original M/606 deadline: **30 August 2026**; amended deadline (July 2026 extension): **31 October 2026**.[^ec-m606][^stan4cra-work]
+   - Following CEN Formal Vote closure on 1 October 2026, `EN 40000-1-1` and `EN 40000-1-2` were formally ratified on **2 November 2026** (target availability **18 November 2026**) as foundational non-cited baseline standards, while `prEN 40000-1-3` is targeted for OJEU citation.
+2. **Type C (Vertical Product-Specific Standards) — Lines 16–41:**
+   - Product-specific standards for Annex III (Class I and Class II) and Annex IV (Critical) categories developed by ETSI TC CYBER/EUSR (`EN 304 617`–`636`), CEN/TC 224 (`prEN 18330`, `prEN 40000-10`, `prEN 40000-11`), CLC/TC 47X (`prEN 50764`–`50766`), CLC/TC 65X (`prEN 50770-1`–`6`), and CEN-CLC/JTC 13 WG 6;
+   - Original M/606 deadline: **30 October 2026**; amended deadline (July 2026 extension): **31 December 2026**.[^ec-m606][^stan4cra-work]
+3. **Type B (Horizontal Generic Security Requirements) — Lines 2–14:**
+   - Horizontal technical security controls covering CRA Annex I Part I points 2(a)–(m), developed by CEN-CLC/JTC 13/WG 9 as `prEN 40000-1-4`;
+   - M/606 delivery deadline: **30 October 2027**.[^ec-m606][^stan4cra-work]
+4. **Final assessment & OJEU citation:** Submission of adopted European Standards (EN) to the European Commission for HAS compliance assessment and OJEU citation ahead of the 11 December 2027 full application date.[^ec-m606][^stan4cra-work]
 
 # Dates and transitions
 
-- **4 February 2025:** Adoption of Standardisation Request M/606.
-- **2025–2026:** ESO drafting, public enquiry (enquiry drafts e.g. EN 304 series), and committee approval.
-- **2026–2027:** Commission HAS assessment and OJEU citation publication.
+- **4 February 2025:** Notification/adoption of Standardisation Request M/606 (`C(2025) 618`).
+- **July 2026:** Commission amendment extending 2026 M/606 delivery deadlines by two months.
+- **31 October 2026:** Amended deadline for Type A Horizontal Principles (`EN 40000-1-2`, with `EN 40000-1-1` Vocabulary) and Type B Horizontal Vulnerability Handling (`prEN 40000-1-3`).
+- **2 November 2026 / 18 November 2026:** CEN-CENELEC formal ratification (2 November 2026) and availability (18 November 2026) of `EN 40000-1-1` (*Vocabulary*) and `EN 40000-1-2` (*Principles for cyber resilience*).
+- **31 December 2026:** Amended deadline for Type C Vertical Product-Specific Standards (Lines 16–41).
+- **30 October 2027:** Deadline for Type B Horizontal Generic Security Requirements (`prEN 40000-1-4`, Lines 2–14).
+- **11 December 2027:** Full application of Regulation (EU) 2024/2847.
 
 # Related concepts
 

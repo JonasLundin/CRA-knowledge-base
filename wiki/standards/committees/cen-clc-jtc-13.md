@@ -6,7 +6,7 @@ category: standard
 tags: [cra, cen, cenelec, jtc13, horizontal-standards, en-40000, m606]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
-stale_after: 2026-11-21T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: cen-clc-jtc13
     resource: https://standards.cencenelec.eu/ords/f?p=205:110:::::FSP_PROJECT,FSP_LANG_ID:81335,25
@@ -30,7 +30,7 @@ x-cra:
   working_groups:
     - WG 9: Horizontal CRA standards (EN 40000 series, Lines 1-15)
     - WG 6: Product security and smart meter gateways (Line 40)
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary
@@ -44,11 +44,13 @@ CEN-CLC/JTC 13 deliverables and draft standards (such as the prEN 40000 family) 
 # Working group responsibilities
 
 ## Working Group 9 (Special Working Group on CRA)
-WG 9 is tasked with developing horizontal cybersecurity standards that establish the baseline state-of-the-art for product engineering, lifecycle management, and vulnerability handling across all products with digital elements:
+WG 9 is tasked with developing the horizontal `EN 40000-1` series that establishes the baseline state-of-the-art for terminology, product risk management, lifecycle processes, generic technical security controls, and vulnerability handling across all products with digital elements:
 
-- **prEN 40000-1-1 (Line 1 / WI 81335)**: Principles for cyber resilience covering CRA Annex I Part I point 1 (cybersecurity-by-design, risk assessment methodology, and lifecycle processes).
-- **prEN 40000-1-2 (Lines 2–14 / WI 81344)**: Generic security requirements translating Annex I Part I point 2(a)–(m) into technical controls.
-- **prEN 40000-1-3 (Line 15 / WI 81335 & 81344)**: Vulnerability handling requirements covering Annex I Part II points 1–8 (vulnerability policy, disclosure, SBOM, security updates).
+- **`EN 40000-1-1` (Vocabulary / WI 81335)**: Foundational terminology and shared definitions across all parts of the `EN 40000` series and vertical CRA standards (passed CEN Formal Vote 1 October 2026; ratified 2 November 2026; target availability 18 November 2026; no standalone OJEU citation expected).
+- **`EN 40000-1-2` (Line 1 / WI 81335)**: *Principles for cyber resilience* (also referred to as *Principles, product risk management, and lifecycle activities*), covering Type A horizontal methodology under CRA Annex I Part I point 1 (passed CEN Formal Vote 1 October 2026; ratified 2 November 2026; target availability 18 November 2026; non-cited framework referenced by Type B and Type C standards).
+- **`prEN 40000-1-3` (Line 15 / WI 81344)**: *Vulnerability handling*, covering Type B horizontal process requirements under CRA Annex I Part II points 1–8 (vulnerability policy, coordinated disclosure, machine-readable SBOM, security updates; targeted for OJEU citation).
+- **`prEN 40000-1-4` (Lines 2–14 / WI 81344)**: *Generic security requirements*, covering Type B horizontal technical security controls translating CRA Annex I Part I points 2(a)–(m) (delivery deadline 30 October 2027).
+- **`CEN/CLC/TR 40000-1-5`**: *Threats and security objectives* (Technical Report supporting horizontal threat modeling and security objective derivation).
 
 ## Working Group 6 (Product Security)
 WG 6 develops product-specific cybersecurity requirements:
@@ -61,7 +63,9 @@ WG 6 develops product-specific cybersecurity requirements:
 - `standards/harmonised/pren-40000-1-1`
 - `standards/harmonised/pren-40000-1-2`
 - `standards/harmonised/pren-40000-1-3`
+- `standards/harmonised/pren-40000-1-4`
 - `standards/m606/line-01`
+- `standards/m606/line-02`
 - `standards/m606/line-15`
 - `standards/m606/line-40`
 

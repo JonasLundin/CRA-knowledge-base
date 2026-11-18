@@ -15,5 +15,6 @@ ENISA guidance is non-binding and establishes operational, technical, and engine
 - [SRP Glossary](./srp-glossary.md) - Standardized terminology and 43 operational reporting data fields.
 - [CSIRTs Designated as Coordinators](./srp-csirt-coordinators.md) - Directory and coordination roles of national CSIRTs across EU Member States.
 - [Secure-by-Design Guidance](./secure-by-design-guidance.md) - Engineering principles for secure-by-design and secure-by-default products under Annex I.
+- [SBOM Technical Advisory](./sbom-technical-advisory.md) - Operational guidance on the six-phase SBOM lifecycle, declaring known unknowns, and STRIDE threat modeling for software supply chains.
 - [CRA Standards Mapping](./cra-standards-mapping.md) - Authoritative mapping of CRA Annex I requirements to existing international and European standards.
 - [Notified Body Competence](./notified-body-competence.md) - Competence criteria and assessment guidelines for conformity assessment bodies.

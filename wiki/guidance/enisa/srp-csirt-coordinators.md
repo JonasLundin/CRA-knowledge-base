@@ -6,7 +6,7 @@ category: guidance
 tags: [cra, guidance, enisa, srp, csirts, coordinators, article-14, article-16]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-09-07T00:00:00Z }
-stale_after: 2026-12-07T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: enisa-srp-csirts
     resource: https://www.enisa.europa.eu/topics/product-security/single-reporting-platform-srp/list-of-csirts-designated-as-coordinators
@@ -24,7 +24,7 @@ x-cra:
     - Article 16
     - Article 33
   language: en
-  checked_at: 2026-09-07T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary

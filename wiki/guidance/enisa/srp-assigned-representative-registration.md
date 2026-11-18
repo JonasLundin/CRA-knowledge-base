@@ -6,7 +6,7 @@ category: guidance
 tags: [cra, guidance, enisa, srp, registration, assigned-representatives, identity-verification, onboarding]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
-stale_after: 2026-11-21T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: enisa-srp-registration
     resource: https://www.enisa.europa.eu/topics/product-security/single-reporting-platform-srp/cra-srp-guidance-ar-user-registration
@@ -17,7 +17,7 @@ sources:
     resource: https://portal.cra-srp.enisa.europa.eu
     title: Single Reporting Platform (SRP) Production Portal
     author: European Union Agency for Cybersecurity (ENISA)
-    last_modified: 2026-09-11T00:00:00Z
+    last_modified: 2026-10-20T00:00:00Z
 x-cra:
   jurisdiction: EU
   issuing_authority: ENISA
@@ -31,7 +31,7 @@ x-cra:
     - Article 17
     - Article 20
   language: en
-  checked_at: 2026-09-26T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary
@@ -54,11 +54,11 @@ The guidance outlines the account setup lifecycle, authentication, and validatio
   - Individual users access the SRP production portal [^enisa-srp-portal] using their personal EU Login account secured by multi-factor authentication (MFA).
   - Corporate certificates or federated enterprise SSO are not utilized for user onboarding.
 - **Assigned Representative Designation:**
-  - *Primary Assigned Representative (Primary AR):* The individual who initially registers the manufacturer entity on the platform. The Primary AR provides the manufacturer's legal name, registration number (e.g., VAT, EORI, or national commercial registry code), contact details, and country of establishment.
-  - *Secondary Assigned Representatives (Secondary ARs):* Up to 20 additional users whom the Primary AR can invite to collaborate and submit reports.
-- **Invitation Workflow:**
-  - Primary ARs invite Secondary ARs by generating unique invitation links in the platform interface.
-  - Invitation links remain valid for **7 days**.
+  - *Primary Assigned Representative (Primary AR / AR Primary User):* The single individual per manufacturer who initially registers the manufacturer entity on the platform. The Primary AR provides the manufacturer's legal name, registration number (e.g., VAT, EORI, or national commercial registry code), contact details, and country of establishment.
+  - *Secondary Assigned Representatives (Secondary ARs / AR Backup Users):* Up to 20 additional users whom the Primary AR can invite to collaborate and provide out-of-hours or backup reporting coverage.
+- **Invitation Workflow (`v1.2.1` Update):**
+  - Under platform version `v1.2.1` (deployed 20 October 2026), Primary ARs invite Secondary ARs directly through the portal interface once the Primary AR's association with the manufacturer is marked as *Verified* by the coordinating CSIRT (with transitional backward compatibility for earlier invitations).
+  - Invited Secondary ARs authenticate via their personal EU Login and must accept the invitation link within **7 days** before it expires.
 - **Parallel CSIRT Validation Process:**
   - After registration, the relevant CSIRT designated as coordinator (CDaC) validates the manufacturer profile and the legitimacy of the Assigned Representative association.
   - Validation occurs in parallel with operational reporting to avoid blocking urgent incident submissions.
@@ -72,6 +72,7 @@ The guidance outlines the account setup lifecycle, authentication, and validatio
 
 - **First Published:** 3 August 2026.
 - **Operational Availability:** Ahead of the 11 September 2026 reporting deadline.
+- **Platform `v1.2.1` Workflow Update:** 20 October 2026 (updated Secondary AR / backup user invitation process).
 
 # Related concepts
 

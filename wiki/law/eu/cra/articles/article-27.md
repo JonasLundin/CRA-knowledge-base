@@ -19,7 +19,7 @@ x-cra:
   instrument_status: in_force
   provision: Article 27
   applies_from: 2027-12-11
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary
@@ -37,13 +37,13 @@ Applies to manufacturers seeking to demonstrate compliance with Annex I essentia
 # Requirements or coverage
 
 Article 27 sets out three pathways conferring presumption of conformity:
-1. **Harmonised standards**: Products complying with harmonised standards (or parts thereof) whose references have been published in the Official Journal of the European Union (OJEU) pursuant to Regulation (EU) No 1025/2012 enjoy a presumption of conformity with the covered essential requirements.
-2. **European cybersecurity certification schemes**: Products or processes certified under an adopted European cybersecurity certification scheme (Regulation (EU) 2019/881) specified by Commission implementing act enjoy presumption of conformity.
-3. **Common specifications**: Where harmonised standards do not exist, are insufficient, or standardisation requests are delayed, the Commission may adopt common specifications via implementing acts to confer presumption of conformity.
+1. **Harmonised standards (Article 27(1))**: Products complying with harmonised standards (or parts thereof) whose references have been published in the Official Journal of the European Union (OJEU) pursuant to Regulation (EU) No 1025/2012 enjoy a presumption of conformity with the covered essential requirements.
+2. **European cybersecurity certification schemes (Article 27(8)–(9))**: Products or processes certified under an adopted European cybersecurity certification scheme (Regulation (EU) 2019/881) specified by Commission **delegated act** (adopted in accordance with Article 61 pursuant to Article 27(9)) enjoy a presumption of conformity in so far as the EU statement of conformity or certificate covers those requirements.
+3. **Common specifications (Article 27(2)–(7))**: Where harmonised standards do not exist, are insufficient, or standardisation requests are delayed, the Commission may adopt common specifications via **implementing acts** to confer presumption of conformity.
 
 # Dates and transitions
 
-Applies from 11 December 2027. Commission empowerments to adopt common specifications apply from 11 December 2024.
+Applies from 11 December 2027. Commission empowerments to adopt common specifications (Article 27(2)) and delegated acts specifying European cybersecurity certification schemes (Article 27(9)) apply from 11 December 2024.
 
 # Related concepts
 

@@ -6,7 +6,7 @@ category: product
 tags: [cra, product-category, critical, smartcards, secure-elements, crypto-chips, annex-iv]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
-stale_after: 2026-11-20T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: cra-annex-4
     resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#ann_4
@@ -29,7 +29,7 @@ x-cra:
   instrument_status: in_force
   provision: Annex IV point 3, Article 32(4)
   applies_from: 2027-12-11
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary
@@ -50,7 +50,7 @@ Applies to:
 # Requirements or coverage
 
 - **Mandatory certification route:** European cybersecurity certificate issued under an EU Cybersecurity Act scheme (such as EUCC) at assurance level **'high'** (Article 32(4));[^cra-art-32]
-- **Relevant vertical standards:** M/606 line 41 (CEN/TC 224);
+- **Relevant vertical standards:** `prEN 18330` (Application layer, CEN/TC 224 WG 17) and `prEN 50764:2026` (Hardware platforms, CLC/TC 47X WG 3) under M/606 Line 41;
 - **Cryptographic resilience:** Full state-of-the-art protection against side-channel analysis (DPA/CPA), fault injection (light, EM, laser), and physical probing.
 
 # Dates and transitions
@@ -65,5 +65,5 @@ Applies to:
 - [Conformity Assessment Routes](../../obligations/conformity-assessment/conformity-routes.md)
 
 [^cra-annex-4]: Regulation (EU) 2024/2847, Annex IV, http://data.europa.eu/eli/reg/2024/2847/oj/eng#ann_4
-[^cra-art-32]: Regulation (EU) 2024/2847, Article 32, http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_3
+[^cra-art-32]: Regulation (EU) 2024/2847, Article 32, http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_32
 [^reg-2025-2392]: Commission Implementing Regulation (EU) 2025/2392, http://data.europa.eu/eli/reg_impl/2025/2392/oj/eng

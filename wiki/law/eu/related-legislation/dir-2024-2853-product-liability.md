@@ -36,7 +36,7 @@ x-cra:
     - Recital 17
     - Recital 40
   applicability: concurrent_civil_liability_regime
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary

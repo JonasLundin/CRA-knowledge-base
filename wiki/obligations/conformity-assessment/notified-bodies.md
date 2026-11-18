@@ -6,7 +6,7 @@ category: authority
 tags: [cra, notified-bodies, conformity-assessment-bodies, nando, designation]
 status: draft
 generated: { by: opencode/task-coder-smart, at: 2026-08-21T00:00:00Z }
-stale_after: 2026-11-20T00:00:00Z
+stale_after: 2027-05-18T00:00:00Z
 sources:
   - id: cra-art-35
     resource: http://data.europa.eu/eli/reg/2024/2847/oj/eng#art_35
@@ -24,7 +24,7 @@ x-cra:
   instrument_status: in_force
   provision: Chapter IV (Articles 35–51)
   applies_from: 2026-06-11
-  checked_at: 2026-08-21T00:00:00Z
+  checked_at: 2026-11-18T00:00:00Z
 ---
 
 # Summary
